@@ -233,7 +233,7 @@ const FourSeasons = () => {
             de kapsalon klaar is om uit te blinken in de digitale wereld.
           </p>
           <div className="text-center mt-30 mb-10 text-5xl text-black leading-16">
-            Wil Je Ook Een Eigen Afspraak Planner?
+            Wil Jij Ook Een Eigen Afspraak Planner?
           </div>
 
           <div className="flex w-full justify-center text-center">
