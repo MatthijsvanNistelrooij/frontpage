@@ -83,8 +83,17 @@ const FourSeasonsRestaurant = () => {
             keuken. Een platform dat zowel nieuwsgierigheid wekt als uitnodigt
             tot actie.
           </p>
-
-          <div className="mt-20 flex flex-col md:flex-row gap-12 md:p-10 mx-auto border overflow-hidden">
+          <div className="mb-8 mt-20">
+            <div className="w-full h-140 relative">
+              <Image
+                src={concept_5}
+                alt="Image 2"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
+          <div className="mt-20 flex flex-col md:flex-row gap-12 mx-auto overflow-hidden">
             <div className="relative w-140 h-30">
               <Image
                 src={concept_1}
@@ -119,16 +128,8 @@ const FourSeasonsRestaurant = () => {
             </div>
           </div>
 
-          <div className="mt-20 flex flex-col md:flex-row gap-12 md:p-10 mx-auto border">
-            <div className="relative w-full h-140">
-              <Image
-                src={concept_5}
-                alt="Image 1"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="relative w-full h-140">
+          <div className="mb-8 mt-20">
+            <div className="w-full h-140 relative">
               <Image
                 src={concept_6}
                 alt="Image 2"
