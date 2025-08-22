@@ -69,7 +69,7 @@ const FourSeasons = () => {
           <div className="text-start mt-20 mb-10 text-3xl md:text-6xl text-black lg:max-w-6xl mx-auto">
             Een Bouwen-Terwijl-We-Gaan Benadering
           </div>
-          <p className="text-black text-base md:text-[1rem] tracking-wider lg:max-w-6xl mx-auto">
+          <p className="text-black text-base md:text-[1rem] tracking-wider mx-auto lg:max-w-6xl">
             De kapperszaak ontbrak het aan een moderne oplossing voor het
             inplannen van afspraken. Dit project toont onze aanpak van high-end
             design gecombineerd met functionele en creatieve oplossingen. Elk
