@@ -50,8 +50,8 @@ const Services = () => {
           </div>
           <hr className="border-t border-gray-300 my-10" />
 
-          <div className="text-start mt-20 mb-10 text-5xl text-black">
-            Merk- ontwikkeling
+          <div className="text-start mt-20 mb-10 text-5xl text-black break-words">
+            Merkontwikkeling
           </div>
           <div className="text-start mb-10 text-lg text-gray-900">
             Wij bouwen merken verder uit of creëren nieuwe merken vanaf nul, met
