@@ -31,11 +31,7 @@ const Services = () => {
         <p className="text-xl text-center md:text-3xl font-extralight tracking-wider leading-12 text-black mb-20">
           Wij houden van oplossingen bieden waar een uitdaging ligt, met name
           wanneer ze worden beschouwd als moeilijk, nog nooit zijn geprobeerd,
-          of door iedereen als onmogelijk worden bestempeld. Dat is de reden dat
-          we kiezen voor data gestuurde inzichten met zichtbare prestaties in
-          combinatie met een aantal geheime hacking tools die we in kunnen
-          zetten voor onze speciale mix aan recepten voor structurele groei.
-          Noem het onze digitale kookkunst.
+          of door iedereen als onmogelijk worden bestempeld.
         </p>
 
         <hr />

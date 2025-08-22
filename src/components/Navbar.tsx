@@ -11,36 +11,35 @@ export const Navbar = () => {
 
   return (
     <nav
-      className="bg-[#1a1a1a] top-0 left-0 w-full flex items-center justify-between px-8 py-3 z-20 sticky"
+      className="bg-[#1a1a1a] top-0 left-0 sticky w-full px-8 py-2 text-[#f0f0f0] z-10"
       style={{ fontFamily: "var(--font-body)" }}
     >
-      <Link href={"/"} className="cursor-pointer">
-        <Image src={logo} alt="logo" width={30} height={30} />
-      </Link>
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
+        <Link href={"/"} className="cursor-pointer">
+          <Image src={logo} alt="logo" width={30} height={30} />
+        </Link>
 
-      {/* Desktop menu */}
-      <div className="hidden md:flex space-x-8 text-[#f0f0f0] text-lg">
-        <Link href="/#work" className="hover:text-gray-400 transition">
-          Werk
-        </Link>
-        <Link href="/services" className="hover:text-gray-400 transition">
-          Services
-        </Link>
-        <Link href="/contact" className="hover:text-gray-400 transition">
-          Contact
-        </Link>
+        <div className="hidden md:flex space-x-8 text-[#f0f0f0] text-lg">
+          <Link href="/#work" className="hover:text-gray-400 transition">
+            Werk
+          </Link>
+          <Link href="/services" className="hover:text-gray-400 transition">
+            Services
+          </Link>
+          <Link href="/contact" className="hover:text-gray-400 transition">
+            Contact
+          </Link>
+        </div>
+
+        <div className="md:hidden">
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            className="text-[#f0f0f0] text-2xl"
+          >
+            {menuOpen ? <HiX /> : <HiMenu />}
+          </button>
+        </div>
       </div>
-
-      {/* Hamburger menu button */}
-      <div className="md:hidden">
-        <button
-          onClick={() => setMenuOpen(!menuOpen)}
-          className="text-[#f0f0f0] text-2xl"
-        >
-          {menuOpen ? <HiX /> : <HiMenu />}
-        </button>
-      </div>
-
       {menuOpen && (
         <div className="absolute top-full pl-8 left-0 text-white w-full bg-[#1a1a1a] flex flex-col items-start md:hidden py-4 space-y-4">
           <Link
