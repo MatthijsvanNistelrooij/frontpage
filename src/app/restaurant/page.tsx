@@ -138,7 +138,7 @@ const FourSeasonsRestaurant = () => {
               </div>
               <p className="text-black mb-6">
                 Voor Four Seasons hebben we gekozen voor een moderne en
-                schaalbare technologie-stack die snelheid, betrouwbaarheid en
+                schaalbare tech-stack die snelheid, betrouwbaarheid en
                 flexibiliteit garandeert. Door bewust tools slim te combineren,
                 zorgen we dat de website niet alleen vandaag sterk staat, maar
                 ook klaar is voor toekomstige groei.
