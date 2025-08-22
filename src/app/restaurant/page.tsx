@@ -195,16 +195,7 @@ const FourSeasonsRestaurant = () => {
             </div>
           </div>
 
-          <div className="mb-8 rounded-xl shadow">
-            <video
-              src="/restaurant_scroll.mp4"
-              autoPlay
-              muted
-              loop
-              playsInline
-              className="w-full h-full object-cover"
-            />
-          </div>
+
           <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl text-[1.2rem]">
               <div className="text-start mb-10 text-5xl md:text-6xl text-black lg:max-w-6xl mx-auto">
