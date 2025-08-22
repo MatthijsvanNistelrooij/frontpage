@@ -45,7 +45,7 @@ const FourSeasonsRestaurant = () => {
           />
         </div>
 
-        <div className="container mx-auto px-8 py-12">
+        <div className="container mx-auto px-8 md:px-0 py-12 ">
           <div
             className="text-black text-center tracking-widest m-10 text-sm mx-auto lg:max-w-6xl"
             style={{ fontFamily: "var(--font-mono)" }}
@@ -163,23 +163,22 @@ const FourSeasonsRestaurant = () => {
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
-                    <span className="">Vercel:</span> Betrouwbaar
-                    en schaalbaar platform voor hosting en deployen van
-                    Next.js-applicaties
+                    <span className="">Vercel:</span> Betrouwbaar en schaalbaar
+                    platform voor hosting en deployen van Next.js-applicaties
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
-                    <span className="">Appwrite:</span> Open-source
-                    Headless backend voor authenticatie, databases en opslag
+                    <span className="">Appwrite:</span> Open-source Headless
+                    backend voor authenticatie, databases en opslag
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
-                    <span className="">EmailJS:</span> Flexibel
-                    systeem voor het versturen van op maat gemaakte e-mails
+                    <span className="">EmailJS:</span> Flexibel systeem voor het
+                    versturen van op maat gemaakte e-mails
                   </span>
                 </li>
               </ul>

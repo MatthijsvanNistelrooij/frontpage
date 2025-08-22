@@ -4,7 +4,7 @@ import { useState } from "react"
 import Image from "next/image"
 import logo from "../../public/logo.png"
 import Link from "next/link"
-import { HiMenu, HiX } from "react-icons/hi" 
+import { HiMenu, HiX } from "react-icons/hi" // hamburger icons
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
