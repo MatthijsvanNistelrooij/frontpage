@@ -222,7 +222,7 @@ const FourSeasons = () => {
             className="text-black text-center tracking-widest mt-20 mb-10 text-sm lg:max-w-6xl mx-auto"
             style={{ fontFamily: "var(--font-mono)" }}
           >
-            kracht en schoonheid gecombineerd
+            een moderne uitstraling, klaar voor de toekomst
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-gray-800 mb-20 lg:max-w-6xl mx-auto">
             Het resultaat van dit project plaatst de kapsalon in een sterke
