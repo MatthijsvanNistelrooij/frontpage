@@ -11,7 +11,7 @@ export const Navbar = () => {
 
   return (
     <nav
-      className="bg-[#1a1a1a] top-0 left-0 sticky w-full px-8 py-2 text-[#f0f0f0] z-10"
+      className="bg-[#1a1a1a] top-0 left-0 sticky w-full px-8 py-2 text-[#f0f0f0] z-20"
       style={{ fontFamily: "var(--font-body)" }}
     >
       <div className="container mx-auto flex flex-row justify-between items-start gap-12">
