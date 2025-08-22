@@ -69,13 +69,13 @@ const FourSeasons = () => {
           <div className="text-start mt-20 mb-10 text-5xl md:text-6xl text-black lg:max-w-6xl mx-auto">
             Een Build-As-We-Go Benadering
           </div>
-          <p className="text-black text-base md:text-[1.2rem] tracking-wider mx-auto lg:max-w-6xl">
+          <div className="text-black text-xl text-start mt-6 mb-10 lg:max-w-6xl mx-auto">
             De kapperszaak ontbrak het aan een moderne oplossing voor het
             inplannen van afspraken. Dit project toont onze aanpak van high-end
             design gecombineerd met functionele en creatieve oplossingen. Elk
             detail is zorgvuldig uitgewerkt om een samenhangende ervaring te
             creëren. Op een manier die luxe en functionaliteit combineren.
-          </p>
+          </div>
           <div className="mb-8 mt-20">
             <div className="flex">
               <video

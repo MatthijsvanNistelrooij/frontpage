@@ -73,7 +73,7 @@ const FourSeasonsRestaurant = () => {
           <div className="text-start mt-20 mb-10 text-5xl md:text-6xl text-black mx-auto lg:max-w-6xl">
             Een Digitale Eerste Indruk
           </div>
-          <p className="text-black text-base md:text-[1.2rem] tracking-wider mx-auto lg:max-w-6xl">
+          <div className="text-black text-xl text-start mt-6 mb-10 lg:max-w-6xl mx-auto">
             Voor de opening van Restaurant Four Seasons was een sterke online
             aanwezigheid onmisbaar. Het restaurant had nog geen digitale
             identiteit en kwam bij ons met de vraag om dit vanaf de grond op te
@@ -82,7 +82,7 @@ const FourSeasonsRestaurant = () => {
             meteen onderdompelt in de sfeer van de Syrische en Midden-Oosterse
             keuken. Een platform dat zowel nieuwsgierigheid wekt als uitnodigt
             tot actie.
-          </p>
+          </div>
           <div className="mb-8 mt-20">
             <div className="w-full h-140 relative">
               <Image
@@ -293,7 +293,7 @@ const FourSeasonsRestaurant = () => {
           >
             de smaak van succes
           </div>
-          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-gray-800 mb-20 mx-auto lg:max-w-6xl">
+          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-gray-800 mb-20 lg:max-w-5xl mx-auto">
             Met dit project heeft Restaurant Four Seasons een krachtige digitale
             start. Een moderne website die snelheid en gebruiksvriendelijkheid
             combineert. Het online visitekaartje dat nieuwsgierigheid wekt en
