@@ -219,7 +219,7 @@ const FourSeasonsRestaurant = () => {
                 Onze Services
               </div>
 
-              <ul className="space-y-4 text-black">
+              <ul className="space-y-4 text-black p-5">
                 <li className="flex items-start gap-2">
                   <span className="">•</span>
                   <span>

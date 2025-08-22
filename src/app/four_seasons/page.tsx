@@ -148,7 +148,7 @@ const FourSeasons = () => {
               <div className="text-start mb-10 text-5xl md:text-6xl text-black lg:max-w-6xl mx-auto">
                 Onze Services
               </div>
-              <ul className="space-y-4 text-black">
+              <ul className="space-y-4 text-black p-5">
                 <li className="flex items-start gap-2">
                   <span className="">•</span>
                   <span>
