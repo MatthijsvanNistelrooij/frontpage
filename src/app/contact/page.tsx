@@ -43,7 +43,7 @@ const Contact = () => {
           <div className="text-black text-xl text-start mt-6 mb-10">
             Ben je geïnteresseerd in samenwerken? Of wil je gewoon eens een idee
             bespreken? Neem contact op en laten we kijken hoe we samen iets
-            moois kunnen realiseren.
+            moois kunnen maken.
           </div>
         </div>
         <section className="w-full my-20">
