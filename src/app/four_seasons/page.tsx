@@ -93,7 +93,7 @@ const FourSeasons = () => {
             </div>
           </div>
 
-          <div className="flex flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
+          <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl">
               <h2 className="text-black text-5xl mb-6">
                 Een Tech Stack Die Werkt
@@ -146,7 +146,7 @@ const FourSeasons = () => {
               className="w-full h-auto object-contain my-80"
             />
           </div>
-          <div className="flex flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
+          <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl">
               <h2 className="text-black text-5xl mb-6">Onze Services</h2>
               <ul className="space-y-4 text-black">
