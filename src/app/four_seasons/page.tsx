@@ -69,7 +69,7 @@ const FourSeasons = () => {
           <div className="text-start mt-20 mb-10 text-3xl md:text-6xl text-black lg:max-w-6xl mx-auto">
             Een Bouwen-Terwijl-We-Gaan Benadering
           </div>
-          <p className="text-black text-base md:text-[1rem] tracking-wider mx-auto lg:max-w-6xl">
+          <p className="text-black text-base md:text-[1.2rem] tracking-wider mx-auto lg:max-w-6xl">
             De kapperszaak ontbrak het aan een moderne oplossing voor het
             inplannen van afspraken. Dit project toont onze aanpak van high-end
             design gecombineerd met functionele en creatieve oplossingen. Elk
@@ -90,7 +90,7 @@ const FourSeasons = () => {
           </div>
 
           <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
-            <div className="max-w-xl">
+            <div className="max-w-xl text-[1.2rem]">
               <h2 className="text-black text-5xl mb-6">
                 Een Tech Stack Die Werkt
               </h2>
@@ -144,7 +144,7 @@ const FourSeasons = () => {
           </div>
 
           <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
-            <div className="w-full">
+            <div className="w-full text-[1.2rem]">
               <h2 className="text-black text-5xl mb-6">Onze Services</h2>
               <ul className="space-y-4 text-black">
                 <li className="flex items-start gap-2">
