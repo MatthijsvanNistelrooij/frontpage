@@ -85,7 +85,7 @@ const Contact = () => {
               <button
                 type="submit"
                 disabled={loading}
-                className="bg-[#1a1a1a] flex gap-2 w-full justify-center text-center px-8 py-2 hover:text-white text-white transition cursor-pointer font-light"
+                className="bg-[#1a1a1a] flex gap-2 w-full justify-center text-center px-8 py-4 hover:text-white text-white transition cursor-pointer font-light"
                 style={{ fontFamily: "var(--font-mono)" }}
               >
                 NEEM CONTACT OP
