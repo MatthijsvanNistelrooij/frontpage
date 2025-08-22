@@ -35,12 +35,13 @@ const FourSeasonsRestaurant = () => {
   return (
     <>
       <div className="flex flex-col bg-white">
-        <div className="relative w-full min-h-[50vh] max-h-[17vh] md:min-h-[80vh] overflow-hidden">
+        <div className="w-full h-[30vh] md:h-screen overflow-hidden relative">
           <Image
             src={heroImage}
             alt="Four Seasons Hero"
             fill
-            className="object-cover"
+            className="object-cover object-center"
+            priority
           />
         </div>
 
