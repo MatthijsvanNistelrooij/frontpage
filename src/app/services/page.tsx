@@ -6,7 +6,7 @@ import Link from "next/link"
 
 const Services = () => {
   return (
-    <div className="flex flex-col bg-white min-h-screen">
+    <div className="flex flex-col bg-white">
       <div className="relative w-full min-h-[60vh] overflow-hidden">
         <Image
           src={heroImage}
