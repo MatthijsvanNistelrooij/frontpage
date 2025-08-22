@@ -42,7 +42,7 @@ const Services = () => {
           <div className="text-start mb-10 text-lg text-gray-900">
             Wij zijn gedreven Digital Natives die pixels tot in detail verfijnen
             en naadloze oplossingen creëren. Met creativiteit en visie zetten we
-            zakelijke uitdagingen om in kansen die echt impact maken.
+            zakelijke uitdagingen om in kansen die impact maken.
           </div>
           <div>
             Full Stack Development • Front End Development • Content Planning •
