@@ -22,7 +22,7 @@ export default function Home() {
         />
 
         <div className="absolute inset-0 flex items-center justify-center z-10">
-          <h1 className="text-white text-5xl px-8 md:text-8xl lg:text-[6.5rem] text-center drop-shadow-lg max-w-3xl lg:max-w-5xl">
+          <h1 className="text-white text-6xl px-8 md:text-8xl lg:text-[6.5rem] text-center drop-shadow-lg max-w-3xl lg:max-w-5xl">
             A spark of magic in every pixel.
           </h1>
         </div>
