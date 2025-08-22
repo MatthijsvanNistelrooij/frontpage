@@ -19,7 +19,7 @@ export const Footer = () => {
             </p>
           </div>
 
-          <div className="flex space-x-4">
+          <div className="w-full flex space-x-4">
             <a
               href="https://x.com/Mvnistelrooij"
               target="_blank"
@@ -46,22 +46,22 @@ export const Footer = () => {
             </a>
           </div>
 
-          <div className="flex flex-col space-y-4">
-            <div className="flex flex-col space-y-2 text-end">
+          <div className="flex flex-col space-y-4 w-full">
+            <div className="flex flex-col space-y-2">
               <Link href="/#work" className="hover:text-gray-400 transition">
                 Werk
               </Link>
-              <Link href="#services" className="hover:text-gray-400 transition">
+              <Link href="/services" className="hover:text-gray-400 transition">
                 Services
               </Link>
 
-              <Link href="#contact" className="hover:text-gray-400 transition">
+              <Link href="/contact" className="hover:text-gray-400 transition">
                 Contact
               </Link>
             </div>
           </div>
 
-          <Link href="/" className="cursor-pointer md:ml-auto">
+          <Link href="/" className="cursor-pointer md:ml-auto w-full flex justify-end">
             <Image src={logo} alt="logo" width={100} height={100} />
           </Link>
         </div>

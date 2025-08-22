@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useState } from "react"
 import Image from "next/image"
-import heroImage from "/public/assets/kapsalon_four_seaons_1.png"
+import heroImage from "/public/assets/restaurant_hero_1.png"
 import image1 from "/public/assets/restaurant_four_seasons_img_1.png"
 import image2 from "/public/assets/restaurant_four_seasons_img_2.png"
 import image3 from "/public/assets/restaurant_four_seasons_img_3.png"
@@ -9,8 +9,17 @@ import Link from "next/link"
 import tech_logo1 from "/public/next.svg"
 import tech_logo2 from "/public/vercel.png"
 import tech_logo3 from "/public/appwrite.png"
-import tech_logo4 from "/public/twilio.png"
-import logo_header from "/public/logo_header.png"
+import tech_logo4 from "/public/emailjs.png"
+import site_design from "/public/assets/site_design.png"
+import concept_1 from "/public/assets/concept_1.png"
+import concept_2 from "/public/assets/concept_2.png"
+import concept_3 from "/public/assets/concept_3.png"
+import concept_4 from "/public/assets/concept_4.png"
+import concept_5 from "/public/assets/concept_5.png"
+import concept_6 from "/public/assets/concept_6.png"
+import concept_7 from "/public/assets/concept_7.png"
+import welcome from "/public/assets/four_seasons_welcome.png"
+import { Footer } from "@/components/Footer"
 
 const techLogos = [tech_logo1, tech_logo2, tech_logo3, tech_logo4]
 
@@ -27,7 +36,7 @@ const FourSeasonsRestaurant = () => {
   return (
     <>
       <div className="flex flex-col bg-white">
-        <div className="relative w-full max-h-[17vh] md:min-h-[53vh] overflow-hidden">
+        <div className="relative w-full md:min-h-[70vh] overflow-hidden">
           <Image
             src={heroImage}
             alt="Four Seasons Hero"
@@ -38,15 +47,16 @@ const FourSeasonsRestaurant = () => {
 
         <div className="container mx-auto px-8 py-12">
           <div
-            className="text-black text-center tracking-widest m-10 text-sm"
+            className="text-black text-center tracking-widest m-10 text-sm mx-auto lg:max-w-6xl"
             style={{ fontFamily: "var(--font-mono)" }}
           >
             creatief met gerechten
           </div>
-          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-gray-800 mb-20">
-            Four Seasons, nu ook als Restaurant. Een Syrische/middenOostersche
-            keuken. iets wat nog niet bestaat in de omgeving Heerlijke gerechten
-            gemaakt door een ervaren kok.
+          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-gray-800 mb-20 mx-auto lg:max-w-6xl">
+            Toen Four Seasons besloot hun restaurant te openen, wisten ze dat
+            een sterke online presentatie onmisbaar was. Daarom klopten ze bij
+            ons aan voor een website die hun unieke Midden-Oosterse keuken
+            stijlvol en gastvrij vertaalt naar het web.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -60,59 +70,109 @@ const FourSeasonsRestaurant = () => {
               <Image src={image3} alt="Image 3" fill className="object-cover" />
             </div>
           </div>
-          <div className="text-start mt-20 mb-10 text-3xl md:text-6xl text-black">
-            Een Bouwen-Terwijl-We-Gaan Aanpak
+          <div className="text-start mt-20 mb-10 text-3xl md:text-6xl text-black mx-auto lg:max-w-6xl">
+            Een Digitale Eerste Indruk
           </div>
-          <p className="text-black text-base md:text-[1rem] tracking-wider">
-            De kapperszaak ontbrak het aan een moderne oplossing voor het
-            inplannen van afspraken. Dit project toont onze aanpak van high-end
-            design gecombineerd met functionele en creatieve oplossingen. Elk
-            detail is zorgvuldig uitgewerkt om een samenhangende ervaring te
-            creëren. Op een manier die luxe en functionaliteit combineren.
+          <p className="text-black text-base md:text-[1rem] tracking-wider mx-auto lg:max-w-6xl">
+            Voor de opening van Restaurant Four Seasons was een sterke online
+            aanwezigheid onmisbaar. Het restaurant had nog geen digitale
+            identiteit en kwam bij ons met de vraag om dit vanaf de grond op te
+            bouwen. Met een focus op storytelling, visuele beleving en
+            gebruiksvriendelijkheid hebben we een website ontworpen die gasten
+            meteen onderdompelt in de sfeer van de Syrische en Midden-Oosterse
+            keuken. Een platform dat zowel nieuwsgierigheid wekt als uitnodigt
+            tot actie.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 mt-20">
-            <div className="w-full h-140 relative">
-              <Image src={image1} alt="Image 1" fill className="object-cover" />
+
+          <div className="mt-20 flex flex-col md:flex-row gap-12 p-40 md:p-10 mx-auto border">
+            <div className="relative w-140 h-30">
+              <Image
+                src={concept_1}
+                alt="Image 1"
+                fill
+                className="object-cover"
+              />
             </div>
-            <div className="w-full h-140 relative">
-              <Image src={image2} alt="Image 2" fill className="object-cover" />
+            <div className="relative w-140 h-30">
+              <Image
+                src={concept_2}
+                alt="Image 2"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative w-140 h-30">
+              <Image
+                src={concept_3}
+                alt="Image 3"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative w-140 h-30">
+              <Image
+                src={concept_4}
+                alt="Image 4"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
 
-          <div className="flex flex-row mt-20 items-start gap-10">
+          <div className="mt-20 flex flex-col md:flex-row gap-12 p-40 md:p-10 mx-auto border">
+            <div className="relative w-full h-140">
+              <Image
+                src={concept_5}
+                alt="Image 1"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative w-full h-140">
+              <Image
+                src={concept_6}
+                alt="Image 2"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
+
+          <div className="flex flex-row mt-20 items-start gap-10 mx-auto lg:max-w-6xl">
             <div className="max-w-xl">
               <h2 className="text-black text-5xl mb-6">
-                Een Tech Stack Die Werkt
+                Het Bouwen van een Digitale Keuken
               </h2>
+
               <ul className="space-y-4 text-black">
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
-                    <span className="">Next.js:</span> Cutting-edge
+                    <span className="font-semibold">Next.js:</span> Modern
                     JavaScript-framework voor het bouwen van snelle en
-                    betrouwbare websites
+                    gebruiksvriendelijke websites
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
-                    <span className="">Vercel:</span> Schaalbaar platform voor
-                    het betrouwbaar hosten en deployen van Next.js-applicaties
+                    <span className="font-semibold">Vercel:</span> Betrouwbaar
+                    en schaalbaar platform voor hosting en deployen van
+                    Next.js-applicaties
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
-                    <span className="">Appwrite:</span> Open-source volledig
-                    Headless backend server voor authenticatie, databases en
-                    opslag
+                    <span className="font-semibold">Appwrite:</span> Open-source
+                    headless backend voor authenticatie, databases en opslag
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
-                    <span className="">Twilio:</span> Krachtige API voor SMS,
-                    e-mail en andere communicatie-integraties
+                    <span className="font-semibold">EmailJS:</span> Flexibel
+                    systeem voor het versturen van op maat gemaakte e-mails
                   </span>
                 </li>
               </ul>
@@ -125,14 +185,27 @@ const FourSeasonsRestaurant = () => {
               className="transition-opacity duration-700"
             />
           </div>
+
           <div className="mb-8 mt-20">
             <div className="w-full h-140 relative">
-              <Image src={image2} alt="Image 2" fill className="object-cover" />
+              <Image
+                src={welcome}
+                alt="Image 2"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
-          <div className="flex flex-row mt-20 items-start gap-10">
+          <div className="flex flex-row mt-20 items-start gap-10 mx-auto lg:max-w-6xl">
             <div className="max-w-xl">
               <h2 className="text-black text-5xl mb-6">Onze Services</h2>
+              <p className="text-black mb-6">
+                Voor Four Seasons hebben we gekozen voor een moderne en
+                schaalbare technologie-stack die snelheid, betrouwbaarheid en
+                flexibiliteit garandeert. Door bewust tools slim te combineren,
+                zorgen we dat de website niet alleen vandaag sterk staat, maar
+                ook klaar is voor toekomstige groei.
+              </p>
               <ul className="space-y-4 text-black">
                 <li className="flex items-start gap-2">
                   <span className="">•</span>
@@ -159,7 +232,7 @@ const FourSeasonsRestaurant = () => {
               </ul>
             </div>
             <Image
-              src={logo_header}
+              src={site_design}
               alt="tech_logo"
               width={300}
               height={200}
@@ -172,10 +245,10 @@ const FourSeasonsRestaurant = () => {
             </div>
           </div>
 
-          <div className="text-black text-center text-6xl lg:text-8xl mt-20">
-            <div>Een site leveren die écht geknipt is</div>
+          <div className="text-black text-center text-6xl lg:text-8xl mt-20 mx-auto lg:max-w-6xl">
+            <div>Een site die smaakt naar meer</div>
 
-            <div className="flex flex-col md:flex-row justify-center mt-20 gap-10">
+            <div className="flex flex-col md:flex-row justify-center mt-20 gap-10 mx-auto lg:max-w-6xl">
               <div className="text-6xl md:text-8xl lg:text-9xl">
                 +90%
                 <div className="text-lg font-normal mt-5">
@@ -202,21 +275,22 @@ const FourSeasonsRestaurant = () => {
             </div>
           </div>
           <div
-            className="text-black text-center tracking-widest mt-20 mb-10 text-sm"
+            className="text-black text-center tracking-widest mt-20 mb-10 text-sm mx-auto lg:max-w-6xl"
             style={{ fontFamily: "var(--font-mono)" }}
           >
-            kracht en schoonheid samengebracht
+            de smaak van succes
           </div>
-          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-gray-800 mb-20">
-            Het resultaat van dit project plaatst de kapsalon in een sterke
-            positie voor de komende jaren: met een vernieuwde online
-            aanwezigheid, snelle laadtijden en een optimale gebruikerservaring.
-            Dankzij onze oplossingen geniet de klant van een efficiënte en
-            professionele website die precies aansluit bij hun visie, waardoor
-            de kapsalon klaar is om uit te blinken in de digitale wereld.
+          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-gray-800 mb-20 mx-auto lg:max-w-6xl">
+            Met dit project heeft Restaurant Four Seasons een krachtige digitale
+            start. Een moderne website die snelheid en gebruiksvriendelijkheid
+            combineert. Het online visitekaartje dat nieuwsgierigheid wekt en
+            gasten uitnodigt om te reserveren. Dankzij onze oplossingen beschikt
+            het restaurant over een professionele en schaalbare basis die
+            meegroeit met hun ambities, en die de unieke sfeer van hun
+            Midden-Oosterse keuken perfect vertaalt naar de digitale wereld.
           </p>
-          <div className="text-center mt-20 mb-10 text-5xl text-black leading-16">
-            Ook Hulp Nodig Met Je Eigen Afspraak Planner?
+          <div className="text-center mt-20 mb-10 text-5xl text-black leading-16 mx-auto lg:max-w-6xl">
+            Ook Een Restaurant Beginnen?
           </div>
 
           <div className="flex w-full justify-center text-center">
@@ -227,10 +301,11 @@ const FourSeasonsRestaurant = () => {
                 " text-black p-4 mb-10 border border-black hover:text-white hover:bg-black cursor-pointer"
               }
             >
-              Neem Contact Op
+              NEEM CONTACT OP
             </Link>
           </div>
         </div>
+        <Footer />
       </div>
     </>
   )

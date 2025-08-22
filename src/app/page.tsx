@@ -4,7 +4,7 @@ import ProjectCard from "@/components/ProjectCard"
 import four_seasons from "/public/assets/kapsalon_four_seaons_1.png"
 import four_seasons_2 from "/public/assets/kapsalon_four_seaons_2.png"
 import four_seasons_logo from "/public/assets/restaurant_four_seaons_3.png"
-import four_seasons_restaurant from "/public/assets/restaurant_four_seaons_4.png"
+import four_seasons_restaurant from "/public/assets/restaurant_four_seasons_logo.png"
 import { Footer } from "@/components/Footer"
 import Link from "next/link"
 
@@ -28,10 +28,7 @@ export default function Home() {
         </div>
       </div>
 
-      <section
-        id="work"
-        className="bg-white flex items-center justify-center"
-      >
+      <section id="work" className="bg-white flex items-center justify-center">
         <div className="container mx-auto px-6 py-12">
           <div
             className="text-black text-xl md:text-2xl font-medium text-start max-w-md md:max-w-3xl tracking-wider my-20"
@@ -58,7 +55,7 @@ export default function Home() {
             />
             <ProjectCard
               url="restaurant"
-              info="Een modern, fris design met een huisgemaakt style voor Restaurant Four Seasons"
+              info="Een modern, vers design met een huisgemaakt style voor Restaurant Four Seasons"
               title="Four Seasons Restaurant"
               image={four_seasons_restaurant}
               hoverImage={four_seasons_logo}
