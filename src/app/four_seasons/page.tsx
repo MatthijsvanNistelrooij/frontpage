@@ -10,7 +10,6 @@ import tech_logo2 from "/public/vercel.png"
 import tech_logo3 from "/public/appwrite.png"
 import tech_logo4 from "/public/twilio.png"
 import four_seasons_3 from "/public/assets/kapsalon_four_seasons_3.png"
-import four_seasons_4 from "/public/assets/kapsalon_four_seasons_4.png"
 
 import { Footer } from "@/components/Footer"
 
