@@ -6,6 +6,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* * {
-  outline: 1px solid red;
-} */
+::selection {
+  background: #ffcc00;
+  color: #000;
+}
+::-moz-selection {
+  background: #ffcc00;
+  color: #000;
+}
