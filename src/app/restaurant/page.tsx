@@ -155,7 +155,7 @@ const FourSeasonsRestaurant = () => {
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
-                    <span className="font-semibold">Next.js:</span> Modern
+                    <span className="">Next.js:</span> Modern
                     JavaScript-framework voor het bouwen van snelle en
                     gebruiksvriendelijke websites
                   </span>
@@ -163,7 +163,7 @@ const FourSeasonsRestaurant = () => {
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
-                    <span className="font-semibold">Vercel:</span> Betrouwbaar
+                    <span className="">Vercel:</span> Betrouwbaar
                     en schaalbaar platform voor hosting en deployen van
                     Next.js-applicaties
                   </span>
@@ -171,14 +171,14 @@ const FourSeasonsRestaurant = () => {
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
-                    <span className="font-semibold">Appwrite:</span> Open-source
+                    <span className="">Appwrite:</span> Open-source
                     Headless backend voor authenticatie, databases en opslag
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
-                    <span className="font-semibold">EmailJS:</span> Flexibel
+                    <span className="">EmailJS:</span> Flexibel
                     systeem voor het versturen van op maat gemaakte e-mails
                   </span>
                 </li>
