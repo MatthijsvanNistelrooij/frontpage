@@ -4,7 +4,7 @@ import { useState } from "react"
 import Image from "next/image"
 import logo from "../../public/logo.png"
 import Link from "next/link"
-import { HiMenu, HiX } from "react-icons/hi" // hamburger icons
+import { HiMenu, HiX } from "react-icons/hi" 
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -14,7 +14,7 @@ export const Navbar = () => {
       className="bg-[#1a1a1a] top-0 left-0 sticky w-full px-8 py-2 text-[#f0f0f0] z-10"
       style={{ fontFamily: "var(--font-body)" }}
     >
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
+      <div className="container mx-auto flex flex-row justify-between items-start gap-12">
         <Link href={"/"} className="cursor-pointer">
           <Image src={logo} alt="logo" width={30} height={30} />
         </Link>
