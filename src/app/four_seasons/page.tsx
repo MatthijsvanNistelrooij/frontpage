@@ -208,7 +208,7 @@ const FourSeasons = () => {
               <div className="text-start text-9xl md:text-8xl md:text-center lg:text-9xl">
                 +50
                 <div className="text-lg font-normal mt-5">
-                  Succesvolle afspraken sinds livegang
+                  Afspraken sinds livegang
                 </div>
               </div>
             </div>
