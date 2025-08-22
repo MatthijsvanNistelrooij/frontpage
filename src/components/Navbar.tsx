@@ -38,7 +38,7 @@ export const Navbar = () => {
         </div>
       </div>
       {menuOpen && (
-        <div className="absolute top-full pl-8 pb-15 left-0 text-white w-full bg-[#1a1a1a] flex flex-col items-start md:hidden py-4 space-y-8">
+        <div className="absolute top-full pl-8 pb-8 left-0 text-white w-full bg-[#1a1a1a] flex flex-col items-start md:hidden py-4 space-y-8">
           <Link
             href="/#work"
             className="hover:text-gray-400 transition py-2"
