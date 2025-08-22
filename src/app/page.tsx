@@ -38,8 +38,8 @@ export default function Home() {
             kleuren. Design, techniek, strategie – wij pakken het allemaal aan,
             en doen dat op een manier die werkt. Of het nu gaat om een merk dat
             moet knallen, een website die blijft hangen of een app die je écht
-            nodig hebt – wij vinden altijd een slimme en verrassende oplossing.
-            En ja, we hebben er ook nog eens plezier in. 😉🚀
+            nodig hebt – wij vinden een slimme en verrassende oplossing. En ja,
+            we hebben er ook nog eens plezier in. 😉🚀
           </div>
           <h2 className="text-6xl md:text-8xl font-light text-start mb-10 text-black">
             Ons Werk
