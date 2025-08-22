@@ -38,24 +38,24 @@ export const Navbar = () => {
         </div>
       </div>
       {menuOpen && (
-        <div className="absolute top-full pl-8 left-0 text-white w-full bg-[#1a1a1a] flex flex-col items-start md:hidden py-4 space-y-4">
+        <div className="absolute top-full pl-8 pb-15 left-0 text-white w-full bg-[#1a1a1a] flex flex-col items-start md:hidden py-4 space-y-8">
           <Link
             href="/#work"
-            className="hover:text-gray-400 transition"
+            className="hover:text-gray-400 transition py-2"
             onClick={() => setMenuOpen(false)}
           >
             Werk
           </Link>
           <Link
             href="/services"
-            className="hover:text-gray-400 transition"
+            className="hover:text-gray-400 transition py-2"
             onClick={() => setMenuOpen(false)}
           >
             Services
           </Link>
           <Link
             href="/contact"
-            className="hover:text-gray-400 transition"
+            className="hover:text-gray-400 transition py-2"
             onClick={() => setMenuOpen(false)}
           >
             Contact
