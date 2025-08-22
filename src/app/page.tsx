@@ -29,7 +29,7 @@ export default function Home() {
       </div>
 
       <section id="work" className="bg-white flex items-center justify-center">
-        <div className="container mx-auto px-6 py-12">
+        <div className="container mx-auto px-8 py-12">
           <div
             className="text-black text-xl md:text-2xl font-medium text-start max-w-md md:max-w-3xl tracking-wider my-20"
             style={{ fontFamily: "var(--font-mono)" }}
