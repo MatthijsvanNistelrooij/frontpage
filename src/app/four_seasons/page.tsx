@@ -63,7 +63,7 @@ const FourSeasons = () => {
             />
           </div>
           <div className="text-start mt-20 mb-10 text-3xl md:text-6xl text-black lg:max-w-6xl mx-auto">
-            Een Bouwen-Terwijl-We-Gaan Aanpak
+            Een Bouwen-Terwijl-We-Gaan Benadering
           </div>
           <p className="text-black text-base md:text-[1rem] tracking-wider lg:max-w-6xl mx-auto">
             De kapperszaak ontbrak het aan een moderne oplossing voor het
