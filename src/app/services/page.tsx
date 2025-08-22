@@ -15,8 +15,8 @@ const Services = () => {
           className="object-cover"
         />
         <div className="absolute inset-0 flex items-center justify-center bg-black/30">
-          <h1 className="text-white text-4xl md:text-8xl text-center">
-            Duurzame Groei Voeden
+          <h1 className="text-white text-4xl md:text-8xl text-center md:max-w-5xl">
+            Duurzame Groei Bevorderen
           </h1>
         </div>
       </div>

@@ -15,8 +15,8 @@ import concept_1 from "/public/assets/concept_1.png"
 import concept_2 from "/public/assets/concept_2.png"
 import concept_3 from "/public/assets/concept_3.png"
 import concept_4 from "/public/assets/concept_4.png"
-import concept_5 from "/public/assets/concept_5.png"
-import concept_6 from "/public/assets/concept_6.png"
+import concept_5 from "/public/assets/concept_9.png"
+import concept_6 from "/public/assets/concept_8.png"
 import welcome from "/public/assets/four_seasons_welcome.png"
 import { Footer } from "@/components/Footer"
 
@@ -54,8 +54,8 @@ const FourSeasonsRestaurant = () => {
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-gray-800 mb-20 mx-auto lg:max-w-6xl">
             Toen Four Seasons besloot hun restaurant te openen, wisten ze dat
             een sterke online presentatie onmisbaar was. Daarom klopten ze bij
-            ons aan voor een website die hun unieke Midden-Oosterse keuken
-            stijlvol en gastvrij vertaalt naar het web.
+            ons aan voor een krachtige nieuwe website die hun unieke
+            Midden-Oosterse keuken stijlvol en gastvrij vertaalt naar het web.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -201,6 +201,17 @@ const FourSeasonsRestaurant = () => {
               />
             </div>
           </div>
+
+          <div className="mb-8 rounded-xl shadow">
+            <video
+              src="/restaurant_scroll.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full h-full object-cover"
+            />
+          </div>
           <div className="flex flex-row mt-20 items-start gap-10 mx-auto lg:max-w-6xl">
             <div className="max-w-xl">
               <h2 className="text-black text-5xl mb-6">Onze Services</h2>
@@ -289,7 +300,7 @@ const FourSeasonsRestaurant = () => {
             Midden-Oosterse keuken perfect vertaalt naar de digitale wereld.
           </p>
           <div className="text-center mt-20 mb-10 text-5xl text-black leading-16 mx-auto lg:max-w-6xl">
-           Ga Je Ook Een Restaurant Beginnen?
+            Ga Je Ook Een Restaurant Beginnen?
           </div>
 
           <div className="flex w-full justify-center text-center">
