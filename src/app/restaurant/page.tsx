@@ -198,7 +198,7 @@ const FourSeasonsRestaurant = () => {
           <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl text-[1.2rem]">
               <div className="text-start mb-10 text-5xl md:text-6xl text-black lg:max-w-6xl mx-auto">
-                Onze Services
+                Onze Diensten
               </div>
 
               <ul className="space-y-4 text-black p-5">

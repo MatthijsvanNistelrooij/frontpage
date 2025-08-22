@@ -29,7 +29,7 @@ export const Navbar = () => {
             Werk
           </Link>
           <Link href="/services" className="hover:text-gray-400 transition">
-            Services
+            Diensten
           </Link>
           <Link href="/contact" className="hover:text-gray-400 transition">
             Contact
@@ -59,7 +59,7 @@ export const Navbar = () => {
             className="hover:text-gray-400 transition py-2"
             onClick={() => setMenuOpen(false)}
           >
-            Services
+            Diensten
           </Link>
           <Link
             href="/contact"

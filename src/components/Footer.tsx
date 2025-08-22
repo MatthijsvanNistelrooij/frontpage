@@ -50,7 +50,7 @@ export const Footer = () => {
                 Werk
               </Link>
               <Link href="/services" className="hover:text-gray-400 transition">
-                Services
+                Diensten
               </Link>
 
               <Link href="/contact" className="hover:text-gray-400 transition">
