@@ -121,7 +121,7 @@ const FourSeasons = () => {
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
-                    <span className="">Twilio:</span> veelzijdige API voor het
+                    <span className="">Twilio:</span> Veelzijdige API voor het
                     automatiseren van WhatsApp, SMS en andere berichtenstromen.
                   </span>
                 </li>
