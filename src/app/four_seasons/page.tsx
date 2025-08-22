@@ -42,7 +42,7 @@ const FourSeasons = () => {
             className="text-black text-center tracking-widest m-10 text-sm lg:max-w-5xl mx-auto"
             style={{ fontFamily: "var(--font-mono)" }}
           >
-            kracht en schoonheid samengebracht
+            kracht en schoonheid gecombineerd
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-gray-800 mb-20 lg:max-w-5xl mx-auto">
             Four Seasons, een kapsalon die al 20 jaar actief is in Groningen,
@@ -222,7 +222,7 @@ const FourSeasons = () => {
             className="text-black text-center tracking-widest mt-20 mb-10 text-sm lg:max-w-6xl mx-auto"
             style={{ fontFamily: "var(--font-mono)" }}
           >
-            kracht en schoonheid samengebracht
+            kracht en schoonheid gecombineerd
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-gray-800 mb-20 lg:max-w-6xl mx-auto">
             Het resultaat van dit project plaatst de kapsalon in een sterke

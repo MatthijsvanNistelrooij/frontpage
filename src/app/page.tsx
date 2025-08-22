@@ -36,10 +36,10 @@ export default function Home() {
           >
             Wij zijn een creatief team dat niet bang is om buiten de lijntjes te
             kleuren. Design, techniek, strategie – wij pakken het allemaal aan,
-            en doen dat op een manier die werkt. Of het nu gaat om een merk
-            dat moet knallen, een website die blijft hangen of een app die je
-            écht nodig hebt – wij vinden altijd een slimme en verrassende
-            oplossing. En ja, we hebben er ook nog eens plezier in. 😉🚀
+            en doen dat op een manier die werkt. Of het nu gaat om een merk dat
+            moet knallen, een website die blijft hangen of een app die je écht
+            nodig hebt – wij vinden altijd een slimme en verrassende oplossing.
+            En ja, we hebben er ook nog eens plezier in. 😉🚀
           </div>
           <h2 className="text-6xl md:text-8xl font-light text-start mb-10 text-black">
             Ons Werk
@@ -50,13 +50,13 @@ export default function Home() {
               hoverImage={four_seasons_2}
               url="four_seasons"
               info="We halen kapsalon Four Seasons naar het nieuwe tijdperk met een up-to-date landing en custom afspraakplanner."
-              title="Four Seasons"
+              title="Kapsalon Four Seasons"
               image={four_seasons}
             />
             <ProjectCard
               url="restaurant"
-              info="Een modern, vers design met een huisgemaakte style voor Restaurant Four Seasons"
-              title="Four Seasons Restaurant"
+              info="Een modern, fris  design met een huisgemaakte style voor Restaurant Four Seasons"
+              title="Restaurant Four Seasons"
               image={four_seasons_restaurant}
               hoverImage={four_seasons_logo}
             />
