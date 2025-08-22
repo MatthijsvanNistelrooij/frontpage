@@ -83,7 +83,7 @@ const FourSeasonsRestaurant = () => {
             tot actie.
           </p>
 
-          <div className="mt-20 flex flex-col md:flex-row gap-12 md:p-10 mx-auto border">
+          <div className="mt-20 flex flex-col md:flex-row gap-12 md:p-10 mx-auto border overflow-hidden">
             <div className="relative w-140 h-30">
               <Image
                 src={concept_1}
