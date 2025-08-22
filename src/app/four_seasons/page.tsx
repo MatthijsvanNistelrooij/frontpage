@@ -10,6 +10,8 @@ import tech_logo2 from "/public/vercel.png"
 import tech_logo3 from "/public/appwrite.png"
 import tech_logo4 from "/public/twilio.png"
 import four_seasons_3 from "/public/assets/kapsalon_four_seasons_3.png"
+import four_seasons_4 from "/public/assets/kapsalon_four_seasons_4.png"
+
 import { Footer } from "@/components/Footer"
 
 const techLogos = [tech_logo1, tech_logo2, tech_logo3, tech_logo4]
@@ -72,23 +74,15 @@ const FourSeasons = () => {
             detail is zorgvuldig uitgewerkt om een samenhangende ervaring te
             creëren. Op een manier die luxe en functionaliteit combineren.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 mt-20">
-            <div className="w-full aspect-video md:p-20">
+          <div className="mb-8 mt-20">
+            <div className="flex">
               <video
-                src="/fourSeasons_appointment.mp4"
+                src="/four_seasons_appointment.mp4"
                 autoPlay
                 muted
                 loop
                 playsInline
-                className="w-full object-cover rounded-lg"
-              />
-            </div>
-            <div className="w-full aspect-video relative mt-30">
-              <Image
-                src={image2}
-                alt="Image 2"
-                fill
-                className="object-cover rounded-lg"
+                className=""
               />
             </div>
           </div>
@@ -139,15 +133,17 @@ const FourSeasons = () => {
               className="transition-opacity duration-700"
             />
           </div>
-          <div className="w-full my-30">
+
+          <div className="w-full mt-30">
             <Image
               src={image3}
               alt="Image 3"
-              className="w-full h-auto object-contain my-80"
+              className="w-full h-auto object-contain my-40 border border-black p-5"
             />
           </div>
+
           <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
-            <div className="max-w-xl">
+            <div className="w-full">
               <h2 className="text-black text-5xl mb-6">Onze Services</h2>
               <ul className="space-y-4 text-black">
                 <li className="flex items-start gap-2">
@@ -174,24 +170,24 @@ const FourSeasons = () => {
                 </li>
               </ul>
             </div>
-            <Image
-              src={four_seasons_3}
-              alt="tech_logo"
-              width={300}
-              height={200}
-              className="transition-opacity duration-700"
-            />
+            <div className="w-full border p-5 md:p-10">
+              <Image
+                src={four_seasons_3}
+                alt="Image 3"
+                className="w-full h-auto object-contain"
+              />
+            </div>
           </div>
           <div className="w-full my-30">
             <Image
-              src={four_seasons_3}
+              src={image2}
               alt="Image 2"
-              className="w-full h-auto object-contain"
+              className="w-full h-auto object-contain my-40 "
             />
           </div>
 
           <div className="text-black text-center text-6xl lg:text-8xl mt-20 lg:max-w-6xl mx-auto">
-            <div>Een site leveren die écht geknipt is</div>
+            <div>Een site die echt geknipt is</div>
 
             <div className="flex flex-col md:flex-row justify-center mt-20 gap-10 lg:max-w-6xl mx-auto">
               <div className="text-6xl md:text-8xl lg:text-9xl">

@@ -15,7 +15,7 @@ const Services = () => {
           className="object-cover"
         />
         <div className="absolute inset-0 flex items-center justify-center bg-black/30">
-          <h1 className="text-white text-4xl md:text-8xl text-center md:max-w-5xl">
+          <h1 className="text-white text-5xl md:text-8xl text-center max-w-xl md:max-w-5xl">
             Duurzame Groei Bevorderen
           </h1>
         </div>
@@ -84,8 +84,6 @@ const Services = () => {
             Architecture • CI/CD Pipelines • Data Migrations • Shopify
             Fulfillment • SEO Strategy & Optimization
           </div>
-          <hr className="border-t border-gray-300 my-10" />
-
           <hr className="border-t border-gray-300 my-10" />
 
           <div className="text-start mt-20 mb-10 text-5xl text-black">
