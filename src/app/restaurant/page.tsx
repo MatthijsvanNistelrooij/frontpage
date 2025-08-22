@@ -17,7 +17,6 @@ import concept_3 from "/public/assets/concept_3.png"
 import concept_4 from "/public/assets/concept_4.png"
 import concept_5 from "/public/assets/concept_5.png"
 import concept_6 from "/public/assets/concept_6.png"
-import concept_7 from "/public/assets/concept_7.png"
 import welcome from "/public/assets/four_seasons_welcome.png"
 import { Footer } from "@/components/Footer"
 
@@ -84,7 +83,7 @@ const FourSeasonsRestaurant = () => {
             tot actie.
           </p>
 
-          <div className="mt-20 flex flex-col md:flex-row gap-12 p-40 md:p-10 mx-auto border">
+          <div className="mt-20 flex flex-col md:flex-row gap-12 md:p-10 mx-auto border">
             <div className="relative w-140 h-30">
               <Image
                 src={concept_1}
@@ -119,7 +118,7 @@ const FourSeasonsRestaurant = () => {
             </div>
           </div>
 
-          <div className="mt-20 flex flex-col md:flex-row gap-12 p-40 md:p-10 mx-auto border">
+          <div className="mt-20 flex flex-col md:flex-row gap-12 md:p-10 mx-auto border">
             <div className="relative w-full h-140">
               <Image
                 src={concept_5}
