@@ -242,7 +242,7 @@ const FourSeasons = () => {
               href={"/contact"}
               style={{ fontFamily: "var(--font-mono)" }}
               className={
-                " text-black p-4 mb-10 border border-black hover:text-white hover:bg-black cursor-pointer"
+                " text-black p-4 px-8 mb-10 border border-black hover:text-white hover:bg-black cursor-pointer"
               }
             >
               NEEM CONTACT OP
