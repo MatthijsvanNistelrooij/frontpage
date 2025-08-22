@@ -141,9 +141,9 @@ const FourSeasonsRestaurant = () => {
 
           <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl text-[1.2rem]">
-              <h2 className="text-black text-5xl mb-6">
-                Het Bouwen van een Digitale Keuken
-              </h2>
+              <div className="text-start mb-10 text-3xl md:text-6xl text-black lg:max-w-6xl mx-auto">
+                Een Kijkje in de Keuken
+              </div>
               <p className="text-black mb-6 ">
                 Voor Four Seasons hebben we gekozen voor een moderne en
                 schaalbare technologie-stack die snelheid, betrouwbaarheid en
@@ -163,23 +163,22 @@ const FourSeasonsRestaurant = () => {
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
-                    <span className="">Vercel:</span> Betrouwbaar
-                    en schaalbaar platform voor hosting en deployen van
-                    Next.js-applicaties
+                    <span className="">Vercel:</span> Betrouwbaar en schaalbaar
+                    platform voor hosting en deployen van Next.js-applicaties
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
-                    <span className="">Appwrite:</span> Open-source
-                    Headless backend voor authenticatie, databases en opslag
+                    <span className="">Appwrite:</span> Open-source Headless
+                    backend voor authenticatie, databases en opslag
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
-                    <span className="">EmailJS:</span> Flexibel
-                    systeem voor het versturen van op maat gemaakte e-mails
+                    <span className="">EmailJS:</span> Flexibel systeem voor het
+                    versturen van op maat gemaakte e-mails
                   </span>
                 </li>
               </ul>
@@ -216,7 +215,9 @@ const FourSeasonsRestaurant = () => {
           </div>
           <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl text-[1.2rem]">
-              <h2 className="text-black text-5xl mb-6">Onze Services</h2>
+              <div className="text-start mb-10 text-3xl md:text-6xl text-black lg:max-w-6xl mx-auto">
+                Onze Services
+              </div>
 
               <ul className="space-y-4 text-black">
                 <li className="flex items-start gap-2">

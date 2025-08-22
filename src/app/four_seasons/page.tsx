@@ -67,7 +67,7 @@ const FourSeasons = () => {
           </div>
 
           <div className="text-start mt-20 mb-10 text-3xl md:text-6xl text-black lg:max-w-6xl mx-auto">
-            Een Bouwen-Terwijl-We-Gaan Benadering
+            Een Build-As-We-Go Benadering
           </div>
           <p className="text-black text-base md:text-[1.2rem] tracking-wider mx-auto lg:max-w-6xl">
             De kapperszaak ontbrak het aan een moderne oplossing voor het
@@ -89,11 +89,11 @@ const FourSeasons = () => {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
+          <div className="flex flex-col md:flex-row mt-30 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl text-[1.2rem]">
-              <h2 className="text-black text-5xl mb-6">
+              <div className="text-start mb-10 text-3xl md:text-6xl text-black lg:max-w-6xl mx-auto">
                 Een Tech Stack Die Werkt
-              </h2>
+              </div>
               <ul className="space-y-4 text-black">
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
@@ -145,7 +145,9 @@ const FourSeasons = () => {
 
           <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="w-full text-[1.2rem]">
-              <h2 className="text-black text-5xl mb-6">Onze Services</h2>
+              <div className="text-start mb-10 text-3xl md:text-6xl text-black lg:max-w-6xl mx-auto">
+                Onze Services
+              </div>
               <ul className="space-y-4 text-black">
                 <li className="flex items-start gap-2">
                   <span className="">•</span>
