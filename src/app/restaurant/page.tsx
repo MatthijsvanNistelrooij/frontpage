@@ -53,10 +53,10 @@ const FourSeasonsRestaurant = () => {
             creatief met gerechten
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-gray-800 mb-20 mx-auto lg:max-w-6xl">
-            Toen Four Seasons besloot hun restaurant te openen, wisten ze dat
-            een sterke online presentatie onmisbaar was. Daarom klopten ze bij
-            ons aan voor een krachtige nieuwe website die hun unieke
-            Midden-Oosterse keuken stijlvol en gastvrij vertaalt naar het web.
+            Bij de opening van hun restaurant wist Four Seasons dat een sterke
+            online presentatie essentieel was. Ze klopten bij ons aan voor een
+            krachtige website die hun unieke Midden-Oosterse keuken stijlvol en
+            gastvrij online brengt.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -194,7 +194,6 @@ const FourSeasonsRestaurant = () => {
               />
             </div>
           </div>
-
 
           <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl text-[1.2rem]">
