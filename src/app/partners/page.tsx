@@ -179,7 +179,7 @@ const FourSeasons = () => {
 
             <div className="flex flex-col md:flex-row justify-center mt-20 gap-10">
               <div className="text-6xl md:text-8xl lg:text-9xl">
-                +90%
+                90%
                 <div className="text-lg font-normal mt-5">
                   Sneller volgens Google PageSpeed
                 </div>
