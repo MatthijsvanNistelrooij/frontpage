@@ -54,9 +54,9 @@ const Services = () => {
             Merkontwikkeling
           </div>
           <div className="text-start mb-10 text-lg text-gray-900">
-            Wij bouwen merken verder uit of creëren nieuwe merken vanaf nul, met
-            diensten die zorgen voor een samenhangende en overtuigende
-            merkbeleving die het publiek raakt en bijblijft.
+            Wij bouwen merken verder uit of creëren nieuwe merken vanaf nul. Met
+            diensten die zorgen voor een samenhangende merkbeleving die het
+            publiek raakt en bijblijft.
           </div>
           <div>
             Brand Identity • Visual Systems • Voice & Tone • Messaging
