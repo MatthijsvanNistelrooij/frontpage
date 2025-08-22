@@ -34,7 +34,7 @@ export default function Home() {
             className="text-black text-xl md:text-2xl font-medium text-start max-w-md md:max-w-3xl tracking-wider my-20"
             style={{ fontFamily: "var(--font-mono)" }}
           >
-            Wij zijn een creatief team dat niet bang is om buiten de lijntjes te
+            Wij zijn een creatief bedrijf dat niet bang is om buiten de lijntjes te
             kleuren. Design, techniek, strategie – wij pakken het allemaal aan,
             en doen dat op een manier die werkt. Of het nu gaat om een merk dat
             moet knallen, een website die blijft hangen of een app die je écht
