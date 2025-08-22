@@ -83,60 +83,52 @@ const FourSeasonsRestaurant = () => {
             keuken. Een platform dat zowel nieuwsgierigheid wekt als uitnodigt
             tot actie.
           </div>
-          <div className="mb-8 mt-20">
-            <div className="w-full h-140 relative">
-              <Image
-                src={concept_5}
-                alt="Image 2"
-                fill
-                className="object-cover"
-              />
-            </div>
+
+          <div className="my-20 relative border bg-[#1a1a1a]">
+            <Image
+              src={concept_5}
+              alt="Image 4"
+              className="w-auto h-auto max-w-full mx-auto"
+            />
           </div>
-          <div className="mt-20 flex flex-col md:flex-row gap-12 mx-auto overflow-hidden">
-            <div className="relative w-140 h-30">
+
+          <div className="mt-20 flex flex-col md:flex-row gap-12 mx-auto">
+            <div className="relative border">
               <Image
                 src={concept_1}
                 alt="Image 1"
-                fill
-                className="object-cover"
+                className="w-auto h-auto max-w-full mx-auto"
               />
             </div>
-            <div className="relative w-140 h-30">
+            <div className="relative border bg-[#1a1a1a]">
               <Image
                 src={concept_2}
                 alt="Image 2"
-                fill
-                className="object-cover"
+                className="w-auto h-auto max-w-full mx-auto"
               />
             </div>
-            <div className="relative w-140 h-30">
+            <div className="relative border">
               <Image
                 src={concept_3}
                 alt="Image 3"
-                fill
-                className="object-cover"
+                className="w-auto h-auto max-w-full mx-auto"
               />
             </div>
-            <div className="relative w-140 h-30">
+            <div className="relative border bg-[#1a1a1a]">
               <Image
                 src={concept_4}
                 alt="Image 4"
-                fill
-                className="object-cover"
+                className="w-auto h-auto max-w-full mx-auto"
               />
             </div>
           </div>
 
-          <div className="mb-8 mt-20">
-            <div className="w-full h-140 relative">
-              <Image
-                src={concept_6}
-                alt="Image 2"
-                fill
-                className="object-cover"
-              />
-            </div>
+          <div className="my-20 relative border bg-[#1a1a1a]">
+            <Image
+              src={concept_6}
+              alt="Image 4"
+              className="w-auto h-auto max-w-full mx-auto"
+            />
           </div>
 
           <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
