@@ -69,8 +69,8 @@ const Services = () => {
             Groei Versnellen
           </div>
           <div className="text-start mb-10 text-lg text-gray-900">
-            Zoals jonge racers die hun wagen tunen, willen wij je business
-            sneller, efficiënter en sterker maken. Als er een kans is om te
+            Zoals jonge racers hun wagen tunen, willen wij je business
+            sneller en efficiënter maken. Als er een kans is om te
             optimaliseren, zorgen wij dat je op het juiste spoor zit.
           </div>
           <div>
