@@ -40,8 +40,8 @@ const Services = () => {
             Digitale Beleving
           </div>
           <div className="text-start mb-10 text-lg text-gray-900">
-            Wij zijn gedreven Digital Natives die pixels tot in detail verfijnen
-            en naadloze oplossingen creëren. Met creativiteit en visie zetten we
+            Wij zijn gedreven Digital Natives die elke pixel tot in detail verfijnen
+            om een naadloze oplossingen te creëren. Met creativiteit en visie zetten we
             zakelijke uitdagingen om in kansen die impact maken.
           </div>
           <div>
