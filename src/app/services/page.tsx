@@ -29,9 +29,8 @@ const Services = () => {
           Het Is Wat We Doen
         </div>
         <p className="text-xl text-center md:text-3xl font-extralight tracking-wider leading-12 text-black mb-20">
-          Wij houden van oplossingen bieden waar een uitdaging ligt, met name
-          wanneer ze worden beschouwd als moeilijk, nog nooit zijn geprobeerd,
-          of als onmogelijk worden bestempeld.
+          Onze focus ligt op duurzame groei: slimme oplossingen die resultaten
+          opleveren en meegroeien met je bedrijf.
         </p>
 
         <hr />
@@ -40,9 +39,10 @@ const Services = () => {
             Digitale Beleving
           </div>
           <div className="text-start mb-10 text-lg text-gray-900">
-            Wij zijn gedreven Digital Natives die elke pixel tot in detail verfijnen
-            om een naadloze oplossingen te creëren. Met creativiteit en visie zetten we
-            zakelijke uitdagingen om in kansen die impact maken.
+            Wij zijn gedreven Digital Natives die elke pixel tot in detail
+            verfijnen om een naadloze oplossingen te creëren. Met creativiteit
+            en visie zetten we zakelijke uitdagingen om in kansen die impact
+            maken.
           </div>
           <div>
             Full Stack Development • Front End Development • Content Planning •
@@ -69,9 +69,9 @@ const Services = () => {
             Groei Versnellen
           </div>
           <div className="text-start mb-10 text-lg text-gray-900">
-            Zoals jonge racers hun wagen tunen, willen wij je business
-            sneller en efficiënter maken. Als er een kans is om te
-            optimaliseren, zorgen wij dat je op het juiste spoor zit.
+            Zoals jonge racers hun wagen tunen, willen wij je business sneller
+            en efficiënter maken. Als er een kans is om te optimaliseren, zorgen
+            wij dat je op het juiste spoor zit.
           </div>
           <div>
             Conversion Optimization • Ecosystem Audit • Shopify E-commerce •
@@ -85,8 +85,8 @@ const Services = () => {
             Digitale Marketing
           </div>
           <div className="text-start mb-10 text-lg text-gray-900">
-            Succesvolle marketing houdt merken relevant en authentiek.
-            Wij creëren strategieën die jouw doelgroep bereiken op de kanalen die
+            Succesvolle marketing houdt merken relevant en authentiek. Wij
+            creëren strategieën die jouw doelgroep bereiken op de kanalen die
             bij hen passen.
           </div>
           <div>
