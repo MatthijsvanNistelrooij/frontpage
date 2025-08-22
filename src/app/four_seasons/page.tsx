@@ -227,7 +227,7 @@ const FourSeasons = () => {
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-gray-800 mb-20 lg:max-w-6xl mx-auto">
             Het resultaat van dit project plaatst de kapsalon in een sterke
-            positie voor de komende jaren: met een vernieuwde online
+            positie voor de komende jaren: een vernieuwde online
             aanwezigheid, snelle laadtijden en een optimale gebruikerservaring.
             Dankzij onze oplossingen geniet de klant van een efficiënte en
             professionele website die precies aansluit bij hun visie, waardoor
