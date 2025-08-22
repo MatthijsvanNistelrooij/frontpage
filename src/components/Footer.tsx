@@ -12,7 +12,8 @@ export const Footer = () => {
           <div className="flex flex-col space-y-3 max-w-56">
             <p className="text-gray-100">
               Wij bouwen digitale ervaringen die impact maken. Samenwerken of
-              meer weten? Neem gerust contact op.
+              meer weten? Neem gerust <Link href={"/contact"}>contact </Link>
+              op.
             </p>
           </div>
 

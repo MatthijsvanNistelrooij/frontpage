@@ -89,39 +89,40 @@ const FourSeasons = () => {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row mt-30 items-start gap-10 lg:max-w-6xl mx-auto">
+          <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl text-[1.2rem]">
               <div className="text-start mb-10 text-5xl md:text-6xl text-black lg:max-w-6xl mx-auto">
                 Een Tech Stack Die Werkt
               </div>
+
               <ul className="space-y-4 text-black p-5">
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
-                    <span className="">Next.js:</span> Cutting-edge
+                    <span className="">Next.js:</span> Modern
                     JavaScript-framework voor het bouwen van snelle en
-                    betrouwbare websites
+                    gebruiksvriendelijke websites
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
-                    <span className="">Vercel:</span> Schaalbaar platform voor
-                    het betrouwbaar hosten en deployen van Next.js-applicaties
+                    <span className="">Vercel:</span> Betrouwbaar en schaalbaar
+                    platform voor hosting en deployen van Next.js-applicaties
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
                     <span className="">Appwrite:</span> Open-source Headless
-                    backend server voor authenticatie, databases en opslag
+                    backend voor authenticatie, databases en opslag
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
-                    <span className="">Twilio:</span> Krachtige API voor SMS,
-                    e-mail en andere communicatie-integraties
+                    <span className="">EmailJS:</span> Flexibel systeem voor het
+                    versturen van op maat gemaakte e-mails
                   </span>
                 </li>
               </ul>
@@ -129,8 +130,8 @@ const FourSeasons = () => {
             <Image
               src={techLogos[currentLogo]}
               alt="tech_logo"
-              width={200}
-              height={200}
+              width={300}
+              height={300}
               className="transition-opacity duration-700"
             />
           </div>
