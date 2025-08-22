@@ -106,8 +106,7 @@ const FourSeasons = () => {
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
-                    <span className="">Appwrite:</span> Open-source volledig
-                    Headless backend server voor authenticatie, databases en
+                    <span className="">Appwrite:</span> Open-source Headless backend server voor authenticatie, databases en
                     opslag
                   </span>
                 </li>

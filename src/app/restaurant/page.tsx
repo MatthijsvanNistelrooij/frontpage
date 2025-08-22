@@ -170,7 +170,7 @@ const FourSeasonsRestaurant = () => {
                   <span className="list-disc">•</span>
                   <span>
                     <span className="font-semibold">Appwrite:</span> Open-source
-                    headless backend voor authenticatie, databases en opslag
+                    Headless backend voor authenticatie, databases en opslag
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
