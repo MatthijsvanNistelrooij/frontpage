@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useState } from "react"
 import Image from "next/image"
-import heroImage from "/public/assets/kapsalon_four_seaons_1.png"
+import heroImage from "/public/assets/kapsalon_four_seasons_1.png"
 import image1 from "/public/assets/restaurant_four_seasons_img_1.png"
 import image2 from "/public/assets/restaurant_four_seasons_img_2.png"
 import image3 from "/public/assets/restaurant_four_seasons_img_3.png"

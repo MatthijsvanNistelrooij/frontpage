@@ -142,7 +142,13 @@ const FourSeasonsRestaurant = () => {
               <h2 className="text-black text-5xl mb-6">
                 Het Bouwen van een Digitale Keuken
               </h2>
-
+              <p className="text-black mb-6">
+                Voor Four Seasons hebben we gekozen voor een moderne en
+                schaalbare technologie-stack die snelheid, betrouwbaarheid en
+                flexibiliteit garandeert. Door bewust tools slim te combineren,
+                zorgen we dat de website niet alleen vandaag sterk staat, maar
+                ook klaar is voor toekomstige groei.
+              </p>
               <ul className="space-y-4 text-black">
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
@@ -198,13 +204,7 @@ const FourSeasonsRestaurant = () => {
           <div className="flex flex-row mt-20 items-start gap-10 mx-auto lg:max-w-6xl">
             <div className="max-w-xl">
               <h2 className="text-black text-5xl mb-6">Onze Services</h2>
-              <p className="text-black mb-6">
-                Voor Four Seasons hebben we gekozen voor een moderne en
-                schaalbare technologie-stack die snelheid, betrouwbaarheid en
-                flexibiliteit garandeert. Door bewust tools slim te combineren,
-                zorgen we dat de website niet alleen vandaag sterk staat, maar
-                ook klaar is voor toekomstige groei.
-              </p>
+
               <ul className="space-y-4 text-black">
                 <li className="flex items-start gap-2">
                   <span className="">•</span>
@@ -233,7 +233,7 @@ const FourSeasonsRestaurant = () => {
             <Image
               src={site_design}
               alt="tech_logo"
-              width={300}
+              width={200}
               height={200}
               className="transition-opacity duration-700"
             />
@@ -289,7 +289,7 @@ const FourSeasonsRestaurant = () => {
             Midden-Oosterse keuken perfect vertaalt naar de digitale wereld.
           </p>
           <div className="text-center mt-20 mb-10 text-5xl text-black leading-16 mx-auto lg:max-w-6xl">
-            Ook Een Restaurant Beginnen?
+           Ga Je Ook Een Restaurant Beginnen?
           </div>
 
           <div className="flex w-full justify-center text-center">
