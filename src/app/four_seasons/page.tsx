@@ -73,7 +73,7 @@ const FourSeasons = () => {
             creëren. Op een manier die luxe en functionaliteit combineren.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 mt-20">
-            <div className="w-full aspect-video p-20">
+            <div className="w-full aspect-video md:p-20">
               <video
                 src="/fourSeasons_appointment.mp4"
                 autoPlay
