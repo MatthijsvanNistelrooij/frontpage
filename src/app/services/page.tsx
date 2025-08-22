@@ -21,7 +21,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-8 md:px-0 py-12 ">
+      <div className="container mx-auto px-8 py-12">
         <div
           className="text-black text-center tracking-widest m-10 text-sm"
           style={{ fontFamily: "var(--font-mono)" }}

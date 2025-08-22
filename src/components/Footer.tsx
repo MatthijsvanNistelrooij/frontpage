@@ -7,11 +7,8 @@ import Link from "next/link"
 export const Footer = () => {
   return (
     <>
-      <footer
-        className="bg-[#1a1a1a] w-full px-8 py-10 text-[#f0f0f0]"
-        style={{ fontFamily: "var(--font-mono)" }}
-      >
-        <div className="container mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
+      <footer className="bg-[#1a1a1a] sticky top-0 left-0 w-full text-[#f0f0f0] z-20">
+        <div className="container mx-auto flex flex-col md:flex-row justify-between items-start px-8 py-10 gap-12">
           <div className="flex flex-col space-y-3 max-w-56">
             <p className="text-gray-100">
               Wij bouwen digitale ervaringen die impact maken. Samenwerken of
@@ -61,7 +58,10 @@ export const Footer = () => {
             </div>
           </div>
 
-          <Link href="/" className="cursor-pointer md:ml-auto w-full flex md:justify-end">
+          <Link
+            href="/"
+            className="cursor-pointer md:ml-auto w-full flex md:justify-end"
+          >
             <Image src={logo} alt="logo" width={100} height={100} />
           </Link>
         </div>

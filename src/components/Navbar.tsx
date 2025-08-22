@@ -10,11 +10,8 @@ export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <nav
-      className="bg-[#1a1a1a] top-0 left-0 sticky w-full px-8 py-2 text-[#f0f0f0] z-20"
-      style={{ fontFamily: "var(--font-body)" }}
-    >
-      <div className="container mx-auto flex flex-row justify-between items-start gap-12">
+    <nav className="bg-[#1a1a1a] sticky top-0 left-0 w-full text-[#f0f0f0] z-20">
+      <div className="container mx-auto flex justify-between items-center px-8 py-2">
         <Link href={"/"} className="cursor-pointer">
           <Image src={logo} alt="logo" width={30} height={30} />
         </Link>
