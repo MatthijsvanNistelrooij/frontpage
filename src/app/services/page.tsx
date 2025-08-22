@@ -29,13 +29,13 @@ const Services = () => {
           Het Is Wat We Doen
         </div>
         <p className="text-xl text-center md:text-3xl font-extralight tracking-wider leading-12 text-black mb-20">
-          Wij houden van oplossingen bieden waar een uitdaging ligt,
-          met name wanneer ze worden beschouwd als moeilijk, nog nooit zijn
-          geprobeerd, of door iedereen als onmogelijk worden bestempeld. Dat
-          is de reden dat we kiezen voor data gestuurde inzichten met zichtbare
-          prestaties in combinatie met een aantal geheime hacking tools die we
-          in kunnen zetten voor onze speciale mix aan recepten voor structurele
-          groei. Noem het onze digitale kookkunst.
+          Wij houden van oplossingen bieden waar een uitdaging ligt, met name
+          wanneer ze worden beschouwd als moeilijk, nog nooit zijn geprobeerd,
+          of door iedereen als onmogelijk worden bestempeld. Dat is de reden dat
+          we kiezen voor data gestuurde inzichten met zichtbare prestaties in
+          combinatie met een aantal geheime hacking tools die we in kunnen
+          zetten voor onze speciale mix aan recepten voor structurele groei.
+          Noem het onze digitale kookkunst.
         </p>
 
         <hr />
@@ -56,7 +56,7 @@ const Services = () => {
           <hr className="border-t border-gray-300 my-10" />
 
           <div className="text-start mt-20 mb-10 text-5xl text-black">
-            Merkontwikkeling
+            Merk- ontwikkeling
           </div>
           <div className="text-start mb-10 text-lg text-gray-900">
             Wij bouwen merken verder uit of creëren nieuwe merken vanaf nul, met
