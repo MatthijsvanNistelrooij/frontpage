@@ -85,8 +85,8 @@ const Services = () => {
             Digitale Marketing
           </div>
           <div className="text-start mb-10 text-lg text-gray-900">
-            Succesvolle digitale marketing houdt merken relevant en authentiek.
-            Wij creëren strategieën die je doelgroep bereiken op de kanalen die
+            Succesvolle marketing houdt merken relevant en authentiek.
+            Wij creëren strategieën die jouw doelgroep bereiken op de kanalen die
             bij hen passen.
           </div>
           <div>
