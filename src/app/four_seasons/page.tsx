@@ -54,16 +54,19 @@ const FourSeasons = () => {
             prestaties.
           </p>
 
-          <div className="mb-8 p-10 rounded-xl shadow">
-            <video
-              src="/fourSeasons_demo.mp4"
-              autoPlay
-              muted
-              loop
-              playsInline
-              className="w-full h-full object-cover"
-            />
+          <div className="mb-8 mt-20">
+            <div className="flex">
+              <video
+                src="/fourSeasons_demo.mp4"
+                autoPlay
+                muted
+                loop
+                playsInline
+                className=""
+              />
+            </div>
           </div>
+
           <div className="text-start mt-20 mb-10 text-3xl md:text-6xl text-black lg:max-w-6xl mx-auto">
             Een Bouwen-Terwijl-We-Gaan Benadering
           </div>
