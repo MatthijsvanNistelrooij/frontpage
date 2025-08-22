@@ -34,7 +34,7 @@ export default function Home() {
             className="text-black text-xl md:text-2xl font-medium text-start max-w-md md:max-w-3xl tracking-wider my-20"
             style={{ fontFamily: "var(--font-mono)" }}
           >
-            Wij zijn een creatief team dat graag buiten de lijntjes denkt. We
+            Wij zijn een creatief bedrijf dat graag buiten de lijntjes denkt. We
             combineren design, techniek en strategie om oplossingen te maken die
             echt werken. Of het nu gaat om een merk dat zich moet onderscheiden,
             een website die prettig in gebruik is, of een app die echt iets
