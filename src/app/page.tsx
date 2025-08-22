@@ -39,7 +39,7 @@ export default function Home() {
             echt werken. Of het nu gaat om een merk dat zich moet onderscheiden,
             een website die prettig in gebruik is, of een app die echt iets
             toevoegt – wij vinden een slimme en verrassende aanpak. En dat doen
-            we altijd met plezier. 😉
+            we altijd met plezier.  😉
           </div>
           <h2 className="text-6xl md:text-8xl font-light text-start mb-10 text-black">
             Ons Werk
