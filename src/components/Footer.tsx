@@ -70,7 +70,7 @@ export const Footer = () => {
           © {new Date().getFullYear()} Matthijs. Alle rechten voorbehouden.
         </div>
       </footer>
-      <div className="bg-[#1a1a1a] flex justify-center">
+      <div className="bg-[#1a1a1a] p-5 flex justify-center">
         <Image src={logo} alt="logo" width={800} height={800} />
       </div>
       <div className="bg-[#1a1a1a] h-80"></div>
