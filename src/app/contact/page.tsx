@@ -37,7 +37,7 @@ const Contact = () => {
       <div className="container flex flex-col lg:flex-row justify-center mx-auto gap-10 md:py-28 px-8">
         <div className="container flex flex-col items-center justify-center mx-auto mt-5 md:mt-20">
           <div className="text-black text-5xl sm:text-6xl md:text-8xl text-start">
-            Elke samenwerking als katalysator voor groei
+            Elke Samenwerking als Katalysator voor Groei
           </div>
 
           <div className="text-black text-xl text-start mt-6 mb-10">

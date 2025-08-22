@@ -69,7 +69,7 @@ export default function Home() {
               href={"/services"}
               style={{ fontFamily: "var(--font-mono)" }}
               className={
-                " text-black p-4 mb-10 border border-black hover:text-white hover:bg-black cursor-pointer"
+                " text-[#1a1a1a] p-4 mb-10 border border-[#1a1a1a] hover:text-white hover:bg-[#1a1a1a] cursor-pointer"
               }
             >
               BEKIJK ONZE SERVICES
