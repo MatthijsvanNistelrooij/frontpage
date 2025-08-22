@@ -191,19 +191,19 @@ const FourSeasons = () => {
             <div>Een site die echt geknipt is</div>
 
             <div className="flex flex-col md:flex-row justify-center mt-20 gap-10 lg:max-w-6xl mx-auto">
-              <div className="text-6xl md:text-8xl lg:text-9xl">
+              <div className="text-start text-9xl md:text-8xl md:text-center lg:text-9xl">
                 +90%
                 <div className="text-lg font-normal mt-5">
                   Sneller volgens Google PageSpeed
                 </div>
               </div>
-              <div className="text-6xl md:text-8xl lg:text-9xl">
+              <div className="text-start text-9xl md:text-8xl md:text-center lg:text-9xl">
                 1.2s
                 <div className="text-lg font-normal mt-5">
                   Verbeterde laadtijd
                 </div>
               </div>
-              <div className="text-6xl md:text-8xl lg:text-9xl">
+              <div className="text-start text-9xl md:text-8xl md:text-center lg:text-9xl">
                 +50
                 <div className="text-lg font-normal mt-5">
                   Succesvolle afspraken sinds livegang

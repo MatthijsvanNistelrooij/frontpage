@@ -260,20 +260,20 @@ const FourSeasonsRestaurant = () => {
           <div className="text-black text-center text-6xl lg:text-8xl mt-20 mx-auto lg:max-w-6xl">
             <div>Een site die smaakt naar meer</div>
 
-            <div className="flex flex-col md:flex-row justify-center mt-20 gap-10 mx-auto lg:max-w-6xl">
-              <div className="text-6xl md:text-8xl lg:text-9xl">
+            <div className="flex flex-col md:flex-row justify-center mt-20 gap-10 lg:max-w-6xl mx-auto">
+              <div className="text-start text-9xl md:text-8xl md:text-center lg:text-9xl">
                 +90%
                 <div className="text-lg font-normal mt-5">
                   Sneller volgens Google PageSpeed
                 </div>
               </div>
-              <div className="text-6xl md:text-8xl lg:text-9xl">
+              <div className="text-start text-9xl md:text-8xl md:text-center lg:text-9xl">
                 1.2s
                 <div className="text-lg font-normal mt-5">
                   Verbeterde laadtijd
                 </div>
               </div>
-              <div className="text-6xl md:text-8xl lg:text-9xl">
+              <div className="text-start text-9xl md:text-8xl md:text-center lg:text-9xl">
                 +50
                 <div className="text-lg font-normal mt-5">
                   Succesvolle afspraken sinds livegang
