@@ -61,7 +61,7 @@ export const Footer = () => {
             </div>
           </div>
 
-          <Link href="/" className="cursor-pointer md:ml-auto w-full flex justify-end">
+          <Link href="/" className="cursor-pointer md:ml-auto w-full flex md:justify-end">
             <Image src={logo} alt="logo" width={100} height={100} />
           </Link>
         </div>
