@@ -41,7 +41,7 @@ export default function Home() {
             écht nodig hebt – wij vinden altijd een slimme en verrassende
             oplossing. En ja, we hebben er ook nog eens plezier in. 😉🚀
           </div>
-          <h2 className="text-3xl md:text-8xl font-light text-start mb-10 text-black">
+          <h2 className="text-6xl md:text-8xl font-light text-start mb-10 text-black">
             Ons Werk
           </h2>
 
