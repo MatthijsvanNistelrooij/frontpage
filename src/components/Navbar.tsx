@@ -11,7 +11,7 @@ export const Navbar = () => {
 
   return (
     <nav className="bg-[#1a1a1a] sticky top-0 left-0 w-full text-[#f0f0f0] z-20">
-      <div className="container mx-auto flex justify-between items-center px-8 py-2">
+      <div className="container mx-auto flex justify-between items-center px-8 py-4">
         <Link href={"/"} className="cursor-pointer">
           <Image src={logo} alt="logo" width={30} height={30} />
         </Link>
