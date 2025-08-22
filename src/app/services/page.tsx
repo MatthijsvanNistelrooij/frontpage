@@ -31,7 +31,7 @@ const Services = () => {
         <p className="text-xl text-center md:text-3xl font-extralight tracking-wider leading-12 text-black mb-20">
           Wij houden van oplossingen bieden waar een uitdaging ligt, met name
           wanneer ze worden beschouwd als moeilijk, nog nooit zijn geprobeerd,
-          of door iedereen als onmogelijk worden bestempeld.
+          of als onmogelijk worden bestempeld.
         </p>
 
         <hr />
