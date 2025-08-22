@@ -36,7 +36,7 @@ const Contact = () => {
     <div className="bg-white min-h-screen">
       <div className="container flex flex-col lg:flex-row justify-center mx-auto gap-10 py-18 px-6">
         <div className="container flex flex-col items-center justify-center mx-auto mt-20">
-          <div className="text-black text-6xl md:text-8xl text-start">
+          <div className="text-black text-4xl sm:text-6xl md:text-8xl text-start">
             Elke samenwerking als katalysator voor groei
           </div>
 
