@@ -66,7 +66,7 @@ const FourSeasons = () => {
             </div>
           </div>
 
-          <div className="text-start mt-20 mb-10 text-3xl md:text-6xl text-black lg:max-w-6xl mx-auto">
+          <div className="text-start mt-20 mb-10 text-5xl md:text-6xl text-black lg:max-w-6xl mx-auto">
             Een Build-As-We-Go Benadering
           </div>
           <p className="text-black text-base md:text-[1.2rem] tracking-wider mx-auto lg:max-w-6xl">
@@ -91,10 +91,10 @@ const FourSeasons = () => {
 
           <div className="flex flex-col md:flex-row mt-30 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl text-[1.2rem]">
-              <div className="text-start mb-10 text-3xl md:text-6xl text-black lg:max-w-6xl mx-auto">
+              <div className="text-start mb-10 text-5xl md:text-6xl text-black lg:max-w-6xl mx-auto">
                 Een Tech Stack Die Werkt
               </div>
-              <ul className="space-y-4 text-black">
+              <ul className="space-y-4 text-black p-5">
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
@@ -145,7 +145,7 @@ const FourSeasons = () => {
 
           <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="w-full text-[1.2rem]">
-              <div className="text-start mb-10 text-3xl md:text-6xl text-black lg:max-w-6xl mx-auto">
+              <div className="text-start mb-10 text-5xl md:text-6xl text-black lg:max-w-6xl mx-auto">
                 Onze Services
               </div>
               <ul className="space-y-4 text-black">
@@ -232,7 +232,7 @@ const FourSeasons = () => {
             professionele website die precies aansluit bij hun visie, waardoor
             de kapsalon klaar is om uit te blinken in de digitale wereld.
           </p>
-          <div className="text-center mt-20 mb-10 text-5xl text-black leading-16">
+          <div className="text-center mt-30 mb-10 text-5xl text-black leading-16">
             Wil Je Ook Een Eigen Afspraak Planner?
           </div>
 

@@ -70,7 +70,7 @@ const FourSeasonsRestaurant = () => {
               <Image src={image3} alt="Image 3" fill className="object-cover" />
             </div>
           </div>
-          <div className="text-start mt-20 mb-10 text-3xl md:text-6xl text-black mx-auto lg:max-w-6xl">
+          <div className="text-start mt-20 mb-10 text-5xl md:text-6xl text-black mx-auto lg:max-w-6xl">
             Een Digitale Eerste Indruk
           </div>
           <p className="text-black text-base md:text-[1.2rem] tracking-wider mx-auto lg:max-w-6xl">
@@ -141,17 +141,17 @@ const FourSeasonsRestaurant = () => {
 
           <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl text-[1.2rem]">
-              <div className="text-start mb-10 text-3xl md:text-6xl text-black lg:max-w-6xl mx-auto">
+              <div className="text-start mb-10 text-5xl md:text-6xl text-black lg:max-w-6xl mx-auto">
                 Een Kijkje in de Keuken
               </div>
-              <p className="text-black mb-6 ">
+              <p className="text-black mb-6">
                 Voor Four Seasons hebben we gekozen voor een moderne en
                 schaalbare technologie-stack die snelheid, betrouwbaarheid en
                 flexibiliteit garandeert. Door bewust tools slim te combineren,
                 zorgen we dat de website niet alleen vandaag sterk staat, maar
                 ook klaar is voor toekomstige groei.
               </p>
-              <ul className="space-y-4 text-black">
+              <ul className="space-y-4 text-black p-5">
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
@@ -215,7 +215,7 @@ const FourSeasonsRestaurant = () => {
           </div>
           <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl text-[1.2rem]">
-              <div className="text-start mb-10 text-3xl md:text-6xl text-black lg:max-w-6xl mx-auto">
+              <div className="text-start mb-10 text-5xl md:text-6xl text-black lg:max-w-6xl mx-auto">
                 Onze Services
               </div>
 
@@ -302,7 +302,7 @@ const FourSeasonsRestaurant = () => {
             meegroeit met hun ambities, en die de unieke sfeer van hun
             Midden-Oosterse keuken perfect vertaalt naar de digitale wereld.
           </p>
-          <div className="text-center mt-20 mb-10 text-5xl text-black leading-16 mx-auto lg:max-w-6xl">
+          <div className="text-center mt-30 mb-10 text-5xl text-black leading-16 mx-auto lg:max-w-6xl">
             Ga Je Ook Een Restaurant Beginnen?
           </div>
 
