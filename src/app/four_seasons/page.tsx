@@ -139,7 +139,7 @@ const FourSeasons = () => {
             <Image
               src={image3}
               alt="Image 3"
-              className="w-full h-auto object-contain my-40 border border-black p-5"
+              className="w-full h-auto object-contain my-40"
             />
           </div>
 
@@ -173,19 +173,19 @@ const FourSeasons = () => {
                 </li>
               </ul>
             </div>
-            <div className="w-full border p-5 md:p-10">
+            <div className="w-full">
               <Image
-                src={four_seasons_3}
+                src={image2}
                 alt="Image 3"
                 className="w-full h-auto object-contain"
               />
             </div>
           </div>
-          <div className="w-full my-30">
+          <div className="w-full my-30 border p-5">
             <Image
-              src={image2}
+              src={four_seasons_3}
               alt="Image 2"
-              className="w-full h-auto object-contain my-40 "
+              className="w-full h-auto object-contain"
             />
           </div>
 
