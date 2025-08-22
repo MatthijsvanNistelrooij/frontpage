@@ -53,7 +53,7 @@ const FourSeasons = () => {
             prestaties.
           </p>
 
-          <div className="mb-8 mt-20">
+          <div className="mb-8 mt-20 shadow">
             <div className="flex">
               <video
                 src="/fourSeasons_demo.mp4"
@@ -66,17 +66,17 @@ const FourSeasons = () => {
             </div>
           </div>
 
-          <div className="text-start mt-20 mb-10 text-5xl md:text-6xl text-black lg:max-w-6xl mx-auto">
+          <div className="text-start mt-30 mb-10 text-5xl md:text-6xl text-black lg:max-w-6xl mx-auto">
             Een Build-As-We-Go Benadering
           </div>
-          <div className="text-black text-xl text-start mt-6 mb-10 lg:max-w-6xl mx-auto">
+          <div className="text-black text-xl text-start mt-6 mb-30 lg:max-w-6xl mx-auto">
             De kapperszaak ontbrak het aan een moderne oplossing voor het
             inplannen van afspraken. Dit project toont onze aanpak van high-end
             design gecombineerd met functionele en creatieve oplossingen. Elk
             detail is zorgvuldig uitgewerkt om een samenhangende ervaring te
             creëren. Op een manier die luxe en functionaliteit combineren.
           </div>
-          <div className="mb-8 mt-20">
+          <div className="mb-8 mt-20 shadow">
             <div className="flex">
               <video
                 src="/four_seasons_appointment.mp4"
@@ -181,7 +181,7 @@ const FourSeasons = () => {
               />
             </div>
           </div>
-          <div className="w-full my-30 border p-5">
+          <div className="w-full my-30 shadow p-5">
             <Image
               src={four_seasons_3}
               alt="Image 2"
