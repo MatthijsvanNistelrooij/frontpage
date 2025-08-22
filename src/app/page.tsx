@@ -36,7 +36,7 @@ export default function Home() {
           >
             Wij zijn een creatief team dat niet bang is om buiten de lijntjes te
             kleuren. Design, techniek, strategie – wij pakken het allemaal aan,
-            en doen dat op een manier die wél werkt. Of het nu gaat om een merk
+            en doen dat op een manier die werkt. Of het nu gaat om een merk
             dat moet knallen, een website die blijft hangen of een app die je
             écht nodig hebt – wij vinden altijd een slimme en verrassende
             oplossing. En ja, we hebben er ook nog eens plezier in. 😉🚀
