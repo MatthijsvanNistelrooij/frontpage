@@ -51,10 +51,10 @@ const BreinoptimaalProject = () => {
             focus op resultaat
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-black mb-20 mx-auto lg:max-w-6xl">
-            Voor Breinoptimaal hebben we een moderne webshop ontwikkeld die
-            gezondheid en technologie samenbrengt. Met een intuïtieve checkout
-            via Stripe en een schaalbare infrastructuur, is Breinoptimaal klaar
-            om klanten een veilige en snelle online ervaring te bieden.
+            Breinoptimaal zocht een moderne manier om online af te rekenen. Met
+            een intuïtieve checkout via Stripe en een schaalbare backend
+            infrastructuur van Sanity biedt de webshop klanten een veilige en
+            snelle online ervaring.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -123,8 +123,8 @@ const BreinoptimaalProject = () => {
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
-                    <span className="">Vercel:</span> Betrouwbaar platform voor
-                    het hosten en deployen van de website, met automatische
+                    <span className="">Vercel:</span> Robuust platform voor het
+                    hosten en deployen van de website, met automatische
                     optimalisaties voor snelheid en schaalbaarheid.
                   </span>
                 </li>
@@ -133,8 +133,8 @@ const BreinoptimaalProject = () => {
                   <span>
                     <span className="">Sanity:</span> Headless CMS dat het team
                     in staat stelt om producten, teksten en afbeeldingen
-                    eenvoudig te beheren en flexibel uit te rollen naar de
-                    webshop zonder ontwikkelaars in te schakelen.
+                    eenvoudig te beheren en flexibel uit te rollen zonder
+                    tussenkomst van ontwikkelaars.
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
@@ -142,8 +142,7 @@ const BreinoptimaalProject = () => {
                   <span>
                     <span className="">Stripe:</span> Betrouwbare en veilige
                     betaaloplossing waarmee klanten eenvoudig online kunnen
-                    afrekenen, met ondersteuning voor verschillende
-                    betalingsmethoden.
+                    afrekenen
                   </span>
                 </li>
               </ul>
