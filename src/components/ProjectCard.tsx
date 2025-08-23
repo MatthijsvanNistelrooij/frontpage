@@ -38,7 +38,7 @@ const ProjectCard = ({
         {title}
       </p>
       <h2
-        className="mt-2 text-xl font-light text-black"
+        className="mt-2 text-lg font-light text-black"
         style={{ fontFamily: "var(--font-body)" }}
       >
         {info}

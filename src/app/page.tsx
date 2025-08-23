@@ -54,7 +54,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
             <ProjectCard
               url="breinoptimaal"
-              info="We maakten een Healthy Webshop met veel potentie & Easy Checkout voor Breinoptimaal."
+              info="Een Healthy Webshop met veel potentie voor groei & een Easy Checkout System voor Breinoptimaal."
               title="Breinoptimaal"
               image={breinoptimaal2}
               hoverImage={breinoptimaal}
@@ -63,7 +63,7 @@ export default function Home() {
               image={four_seasons_2}
               hoverImage={four_seasons}
               url="four_seasons"
-              info="We haalden kapsalon Four Seasons naar het nieuwe tijdperk met een up-to-date landing en custom afspraakplanner."
+              info="We haalden Kapsalon Four Seasons naar het nieuwe tijdperk met een up-to-date landing en custom afspraakplanner met CMS."
               title="Kapsalon Four Seasons"
             />
             <ProjectCard
