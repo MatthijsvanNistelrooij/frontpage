@@ -136,13 +136,7 @@ const FourSeasonsRestaurant = () => {
               <div className="text-start mb-10 text-5xl md:text-6xl text-black lg:max-w-6xl mx-auto">
                 Een Kijkje in de Keuken
               </div>
-              <p className="text-black mb-6">
-                Voor Four Seasons hebben we gekozen voor een moderne en
-                schaalbare tech-stack die snelheid, betrouwbaarheid en
-                flexibiliteit garandeert. Door bewust tools slim te combineren,
-                zorgen we dat de website niet alleen vandaag sterk staat, maar
-                ook klaar is voor de toekomst.
-              </p>
+
               <ul className="space-y-4 text-black p-5">
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
