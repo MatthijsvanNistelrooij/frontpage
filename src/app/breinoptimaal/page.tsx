@@ -188,7 +188,7 @@ const BreinoptimaalProject = () => {
             className="text-black text-center tracking-widest mt-40 mb-10 text-sm lg:max-w-6xl mx-auto"
             style={{ fontFamily: "var(--font-mono)" }}
           >
-            scherp, helder, optimaal
+            Werken aan een optimaal resultaat
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-black mb-20 lg:max-w-6xl mx-auto">
             Met dit project heeft Breinoptimaal een slimme en moderne webshop
