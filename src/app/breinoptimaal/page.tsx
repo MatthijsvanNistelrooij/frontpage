@@ -15,7 +15,7 @@ import concept_2 from "/public/assets/breinoptimaal_bottle.png"
 import concept_3 from "/public/assets/breinoptimaal_bottle.png"
 import concept_4 from "/public/assets/breinoptimaal_bottle.png"
 import concept_5 from "/public/assets/breinoptimaal_bottle.png"
-import concept_6 from "/public/assets/breinoptimaal_bottle.png"
+import concept_6 from "/public/assets/breinoptimaal2.png"
 import { Footer } from "@/components/Footer"
 
 const techLogos = [tech_logo1, tech_logo2, tech_logo3, tech_logo4]
@@ -104,10 +104,6 @@ const BreinoptimaalProject = () => {
             </div>
           </div>
 
-          <div className="my-20 relative border bg-[#1a1a1a]">
-            <Image src={concept_6} alt="Image 4" className="mx-auto" />
-          </div>
-
           <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl text-[1.2rem]">
               <div className="text-start mb-10 text-5xl md:text-6xl text-black">
@@ -135,6 +131,10 @@ const BreinoptimaalProject = () => {
               height={300}
               className="transition-opacity duration-700"
             />
+          </div>
+
+          <div className="my-20 relative border bg-[#1a1a1a]">
+            <Image src={concept_6} alt="Image 4" className="mx-auto" />
           </div>
 
           <div className="text-black text-center text-6xl lg:text-8xl mt-20">
@@ -167,7 +167,7 @@ const BreinoptimaalProject = () => {
           </p>
 
           <div className="text-center mt-30 mb-10 text-5xl text-black leading-16">
-            Ook Een Webshop bouwen?
+            Ook Een Webshop Bouwen?
           </div>
           <div className="flex w-full justify-center text-center">
             <Link
