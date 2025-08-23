@@ -100,13 +100,7 @@ const Contact = () => {
         </section>
       </div>
       <Footer />
-      {/* <div className="bg-[#1a1a1a] h-80"></div>
-      <div className="bg-[#1a1a1a] h-80"></div>
-      <div className="bg-[#1a1a1a] h-80"></div>
-      <div className="bg-[#1a1a1a] h-80"></div>
-      <div className="bg-[#1a1a1a] h-80"></div>
-      <div className="bg-[#1a1a1a] h-80"></div>
-      <div className="bg-[#1a1a1a] h-80"></div> */}
+
     </div>
   )
 }
