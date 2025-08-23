@@ -6,7 +6,7 @@ import Link from "next/link"
 
 const Services = () => {
   return (
-    <div className="flex flex-col bg-white">
+    <div className="flex flex-col bg-[#fffffb]">
       <div className="relative w-full min-h-[60vh] overflow-hidden">
         <Image
           src={heroImage}
@@ -85,7 +85,7 @@ const Services = () => {
           <hr className="border-t border-gray-300 my-10" />
 
           <div className="text-start mt-20 mb-10 text-5xl text-black">
-            Marketing 
+            Marketing
           </div>
           <div className="text-start mb-10 text-lg text-gray-900">
             Succesvolle marketing houdt merken relevant en authentiek. Wij

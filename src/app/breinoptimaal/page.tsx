@@ -32,7 +32,7 @@ const BreinoptimaalProject = () => {
   }, [])
   return (
     <>
-      <div className="flex flex-col bg-white">
+      <div className="flex flex-col bg-[#fffffb]">
         <div className="w-full h-[30vh] md:h-screen overflow-hidden relative">
           <Image
             src={heroImage}
