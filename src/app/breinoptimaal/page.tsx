@@ -191,9 +191,10 @@ const BreinoptimaalProject = () => {
             Werken aan een gezond resultaat
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-black mb-20 lg:max-w-6xl mx-auto">
-            Met dit project heeft Breinoptimaal een slimme en moderne webshop
-            die professioneel oogt en klaar is voor de toekomst. Zo kan het merk
-            groeien en klanten de optimale ervaring blijven bieden
+            Met dit project heeft Breinoptimaal een moderne en
+            gebruiksvriendelijke webshop die klaar is voor de toekomst. Dankzij
+            onze innovatieve aanpak kan het merk blijven groeien en klanten de
+            beste ervaring bieden – of ze nu in Amsterdam of in Dubai shoppen.
           </p>
 
           <div className="text-center mt-30 mb-10 text-5xl text-black leading-16">
