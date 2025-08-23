@@ -18,8 +18,8 @@ const ProjectCard = ({
   url,
 }: ProjectCardProps) => {
   return (
-    <Link href={url} className="group text-black w-[300px] cursor-pointer">
-      <div className="w-full h-[200px] relative overflow-hidden">
+    <Link href={url} className="group text-black w-full cursor-pointer">
+      <div className="relative overflow-hidden aspect-[3/4]">
         <Image
           src={image}
           alt={title}

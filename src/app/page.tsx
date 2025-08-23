@@ -4,7 +4,10 @@ import ProjectCard from "@/components/ProjectCard"
 import four_seasons from "/public/assets/kapsalon_four_seasons_1.png"
 import four_seasons_2 from "/public/assets/kapsalon_four_seasons_2.png"
 import four_seasons_logo from "/public/assets/restaurant_four_seasons_3.png"
-import four_seasons_restaurant from "/public/assets/restaurant_four_seasons_logo.png"
+import four_seasons_restaurant from "/public/assets/restaurant_four_seasons_logo_2.png"
+import breinoptimaal from "/public/assets/breinoptimaal.png"
+import breinoptimaal2 from "/public/assets/breinoptimaal_bottle.png"
+
 import { Footer } from "@/components/Footer"
 import Link from "next/link"
 
@@ -39,23 +42,30 @@ export default function Home() {
             echt werken. Of het nu gaat om een merk dat zich moet onderscheiden,
             een website die prettig in gebruik is, of een app die echt iets
             toevoegt – wij vinden een slimme en verrassende aanpak. En dat doen
-            we met veel plezier.  😉
+            we met veel plezier. 😉
           </div>
           <h2 className="text-6xl md:text-8xl font-light text-start mb-10 text-black">
             Ons Werk
           </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+            <ProjectCard
+              url="breinoptimaal"
+              info="We maakten een Healthy webshop met veel potentie & easy Checkout voor Breinoptimaal."
+              title="Breinoptimaal"
+              image={breinoptimaal}
+              hoverImage={breinoptimaal2}
+            />
             <ProjectCard
               hoverImage={four_seasons_2}
               url="four_seasons"
-              info="We halen kapsalon Four Seasons naar het nieuwe tijdperk met een up-to-date landing en custom afspraakplanner."
+              info="We haalden kapsalon Four Seasons naar het nieuwe tijdperk met een up-to-date landing en custom afspraakplanner."
               title="Kapsalon Four Seasons"
               image={four_seasons}
             />
             <ProjectCard
               url="restaurant"
-              info="Een modern, fris  design met een huisgemaakte style voor Restaurant Four Seasons"
+              info="Een moderne, frisse landing met een huisgemaakte design om Restaurant Four Seasons op de kaart te zetten."
               title="Restaurant Four Seasons"
               image={four_seasons_restaurant}
               hoverImage={four_seasons_logo}
