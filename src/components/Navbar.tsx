@@ -5,17 +5,9 @@ import Image from "next/image"
 import logo from "../../public/logo.png"
 import Link from "next/link"
 import { HiMenu, HiX } from "react-icons/hi" // hamburger icons
-import { usePathname } from "next/navigation"
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
-  const pathname = usePathname()
-
-  const links = [
-    { href: "/#work", label: "Werk" },
-    { href: "/services", label: "Services" },
-    { href: "/contact", label: "Contact" },
-  ]
 
   return (
     <nav className="bg-[#1a1a1a] sticky top-0 left-0 w-full text-[#f0f0f0] z-20">
@@ -46,7 +38,7 @@ export const Navbar = () => {
         </div>
       </div>
       {menuOpen && (
-        <div className="absolute top-full pl-8 pb-8 left-0 text-white w-full bg-[#1a1a1a] flex flex-col items-start md:hidden py-4 space-y-8">
+        <div className="absolute top-full pl-8 pb-8 left-0 text-white w-full bg-[#1a1a1a] flex flex-col items-start md:hidden py-4 space-y-2">
           <Link
             href="/#work"
             className="hover:text-gray-400 transition py-2"
