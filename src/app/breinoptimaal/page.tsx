@@ -162,7 +162,7 @@ const BreinoptimaalProject = () => {
           </div>
 
           <div className="text-black text-center text-6xl lg:text-8xl mt-20">
-            <div>Klaar Voor Groei</div>
+            <div>Klaar Voor de Start</div>
             <div className="flex flex-col md:flex-row justify-center mt-20 gap-10">
               <div className="text-start text-9xl md:text-center">
                 100%
