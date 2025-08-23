@@ -70,10 +70,10 @@ const FourSeasons = () => {
             Een Build-As-We-Go Benadering
           </div>
           <div className="text-black text-xl text-start mt-6 mb-30 lg:max-w-6xl mx-auto">
-            De kapperszaak ontbrak het aan een moderne oplossing voor het plannen van
-            afspraken. Met dit project laten we zien hoe we high-end design
-            combineren met functionele en creatieve oplossingen, waarbij elk
-            detail bijdraagt aan een vloeiende en samenhangende
+            De kapperszaak ontbrak het aan een moderne oplossing voor het
+            plannen van afspraken. Met dit project laten we zien hoe we high-end
+            design combineren met functionele en creatieve oplossingen, waarbij
+            elk detail bijdraagt aan een vloeiende en samenhangende
             gebruikerservaring.
           </div>
           <div className="mb-8 mt-20 shadow">
@@ -227,14 +227,14 @@ const FourSeasons = () => {
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-black mb-20 lg:max-w-6xl mx-auto">
             Het resultaat van dit project plaatst de kapsalon in een sterke
-            positie: een vernieuwde online aanwezigheid,
-            snelle laadtijden en een optimale gebruikerservaring. Dankzij onze
-            oplossingen geniet de klant van een efficiënte en professionele
-            website die precies aansluit bij hun visie, waardoor de kapsalon
-            klaar is om uit te blinken in de digitale wereld.
+            positie: een vernieuwde online aanwezigheid, snelle laadtijden en
+            een optimale gebruikerservaring. Dankzij onze oplossingen geniet de
+            klant van een efficiënte en professionele website die precies
+            aansluit bij hun visie, waardoor de kapsalon klaar is om uit te
+            blinken in de digitale wereld.
           </p>
           <div className="text-center mt-30 mb-10 text-5xl text-black leading-16">
-            Wil Jij Ook Een Eigen Afspraak Planner?
+            Ook Een Eigen Afspraak Planner?
           </div>
 
           <div className="flex w-full justify-center text-center">

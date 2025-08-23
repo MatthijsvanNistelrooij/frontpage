@@ -285,7 +285,7 @@ const FourSeasonsRestaurant = () => {
             Midden-Oosterse keuken perfect vertaalt naar de digitale wereld.
           </p>
           <div className="text-center mt-30 mb-10 text-5xl text-black leading-16 mx-auto lg:max-w-6xl">
-            Ga Je Ook Een Restaurant Beginnen?
+            Ook Een Restaurant Beginnen?
           </div>
 
           <div className="flex w-full justify-center text-center">
