@@ -50,7 +50,7 @@ const BreinoptimaalProject = () => {
           >
             focus op resultaat
           </div>
-          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-gray-800 mb-20 mx-auto lg:max-w-6xl">
+          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-black mb-20 mx-auto lg:max-w-6xl">
             Voor Breinoptimaal hebben we een moderne webshop ontwikkeld die
             gezondheid en technologie samenbrengt. Met een intuïtieve checkout
             via Stripe en een schaalbare infrastructuur, is Breinoptimaal klaar
@@ -186,7 +186,7 @@ const BreinoptimaalProject = () => {
             </div>
           </div>
 
-          <p className="text-xl text-center md:text-3xl font-light tracking-wider text-gray-800 my-20 lg:max-w-5xl mx-auto">
+          <p className="text-xl text-center md:text-3xl font-light tracking-wider text-black my-20 lg:max-w-5xl mx-auto">
             Met dit project heeft Breinoptimaal een moderne webshop die niet
             alleen professioneel oogt, maar ook klaar is voor de toekomst.
           </p>
