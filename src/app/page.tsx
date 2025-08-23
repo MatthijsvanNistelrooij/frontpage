@@ -54,7 +54,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
             <ProjectCard
               url="breinoptimaal"
-              info="Een Healthy Webshop met veel potentie voor groei & een Easy Checkout System voor Breinoptimaal."
+              info="Een Healthy Webshop met veel potentie voor groei & een easy checkout system voor Breinoptimaal."
               title="Breinoptimaal"
               image={breinoptimaal2}
               hoverImage={breinoptimaal}
