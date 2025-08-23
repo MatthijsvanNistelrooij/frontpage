@@ -186,7 +186,7 @@ const BreinoptimaalProject = () => {
           </div>
 
           <p className="text-xl text-center md:text-3xl font-light tracking-wider text-black my-20 lg:max-w-5xl mx-auto">
-            Met dit project heeft Breinoptimaal een slimme webshop die niet
+            Met dit project heeft Breinoptimaal een moderne webshop die niet
             alleen professioneel oogt, maar ook klaar is voor de toekomst.
           </p>
 
