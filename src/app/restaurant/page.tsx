@@ -241,7 +241,7 @@ const FourSeasonsRestaurant = () => {
           </div>
 
           <div className="text-black text-center text-6xl lg:text-8xl mt-20 mx-auto lg:max-w-6xl">
-            <div>Een site die smaakt naar meer</div>
+            <div>Een Site Die Smaakt Naar Meer</div>
 
             <div className="flex flex-col md:flex-row justify-center mt-20 gap-10 lg:max-w-6xl mx-auto">
               <div className="text-start text-9xl md:text-8xl md:text-center lg:text-9xl">

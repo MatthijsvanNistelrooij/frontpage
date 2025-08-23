@@ -162,7 +162,7 @@ const BreinoptimaalProject = () => {
           </div>
 
           <div className="text-black text-center text-6xl lg:text-8xl mt-20">
-            <div>Klaar voor Groei</div>
+            <div>Klaar Voor Groei</div>
             <div className="flex flex-col md:flex-row justify-center mt-20 gap-10">
               <div className="text-start text-9xl md:text-center">
                 100%
@@ -186,8 +186,9 @@ const BreinoptimaalProject = () => {
           </div>
 
           <p className="text-xl text-center md:text-3xl font-light tracking-wider text-black my-20 lg:max-w-5xl mx-auto">
-            Met dit project heeft Breinoptimaal een slimme webshop die niet
-            alleen professioneel oogt, maar ook klaar is voor de toekomst.
+            Met dit project heeft Breinoptimaal een moderne webshop die niet
+            alleen professioneel oogt, maar ook klaar is voor de toekomst. Wel
+            zo slim.
           </p>
 
           <div className="text-center mt-30 mb-10 text-5xl text-black leading-16">
