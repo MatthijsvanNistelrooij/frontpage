@@ -44,7 +44,7 @@ export const Footer = () => {
             </a>
           </div>
 
-          <div className="flex flex-col space-y-4 w-full">
+          <div className="flex flex-col space-y-4">
             <div className="flex flex-col space-y-2">
               <Link href="/#work" className="hover:text-gray-400 transition">
                 Werk
