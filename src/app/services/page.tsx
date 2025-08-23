@@ -69,7 +69,7 @@ const Services = () => {
           <hr className="border-t border-gray-300 my-10" />
 
           <div className="text-start mt-20 mb-10 text-5xl text-black">
-            Groei Versnellen
+            Duurzaam Versnellen
           </div>
           <div className="text-start mb-10 text-lg text-gray-900">
             Zoals jonge racers hun wagen tunen, willen wij je business sneller

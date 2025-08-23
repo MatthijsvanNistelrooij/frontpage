@@ -141,7 +141,7 @@ const FourSeasonsRestaurant = () => {
                 schaalbare tech-stack die snelheid, betrouwbaarheid en
                 flexibiliteit garandeert. Door bewust tools slim te combineren,
                 zorgen we dat de website niet alleen vandaag sterk staat, maar
-                ook klaar is voor toekomstige groei.
+                ook klaar is voor de toekomst.
               </p>
               <ul className="space-y-4 text-black p-5">
                 <li className="flex items-start gap-2">
