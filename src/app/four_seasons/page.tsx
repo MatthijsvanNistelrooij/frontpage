@@ -28,7 +28,7 @@ const FourSeasons = () => {
   return (
     <>
       <div className="flex flex-col bg-[#fffffb]">
-        <div className="relative w-full min-h-[50vh] max-h-[17vh] md:min-h-[80vh] overflow-hidden">
+        <div className="relative w-full min-h-[50vh] max-h-[17vh] md:min-h-[100vh] overflow-hidden">
           <Image
             src={heroImage}
             alt="Four Seasons Hero"
