@@ -68,7 +68,7 @@ export default function Home() {
             />
             <ProjectCard
               url="restaurant"
-              info="Een moderne, frisse landing met een huisgemaakte design om Restaurant Four Seasons op de kaart te zetten."
+              info="Een moderne, frisse landing met een nieuw design om Restaurant Four Seasons op de kaart te zetten."
               title="Restaurant Four Seasons"
               image={four_seasons_restaurant}
               hoverImage={four_seasons_logo}
