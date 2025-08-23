@@ -51,9 +51,9 @@ const BreinoptimaalProject = () => {
             focus op resultaat
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-black mb-20 mx-auto lg:max-w-6xl">
-            Breinoptimaal zocht onze expertise om op een moderne manier online
-            af te kunnen rekenen. Met een intuïtieve checkout via Stripe en een
-            schaalbare backend infrastructuur van Sanity biedt de Webshop een
+            Breinoptimaal raadpleegde onze expertise om op een moderne manier online
+            te kunnen betalen. Met een intuïtieve checkout via Stripe en een
+            schaalbare infrastructuur van Sanity bieden we de klant een
             veilige en snelle online ervaring.
           </p>
 
@@ -76,8 +76,8 @@ const BreinoptimaalProject = () => {
             Breinoptimaal wilde meer dan een standaard webshop: een digitale
             omgeving die professionaliteit en vertrouwen uitstraalt. Door onze
             aanpak is er een platform ontstaan dat schaalbaar is, eenvoudig in
-            beheer en optimaal gericht op conversie. Met een checkout via Stripe
-            en naadloze integratie met betaalproviders, kunnen klanten zonder
+            beheer en helemaal gericht op conversie. Met een checkout via Stripe
+            en naadloze integratie met betaalproviders kunnen klanten zonder
             drempels hun bestelling plaatsen.
           </div>
 
@@ -193,7 +193,7 @@ const BreinoptimaalProject = () => {
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-black mb-20 lg:max-w-6xl mx-auto">
             Met dit project heeft Breinoptimaal een moderne en
             gebruiksvriendelijke webshop die klaar is voor de toekomst. Dankzij
-            onze innovatieve aanpak kan het merk blijven groeien en klanten de
+            onze innovatieve oplossingen kan het merk blijven groeien en klanten de
             beste ervaring bieden – of ze nu in Amsterdam of in Dubai shoppen.
           </p>
 
