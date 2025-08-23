@@ -133,8 +133,8 @@ const BreinoptimaalProject = () => {
                   <span>
                     <span className="">Sanity:</span> Headless CMS dat het team
                     in staat stelt om producten, teksten en afbeeldingen
-                    eenvoudig te beheren en flexibel uit te rollen zonder
-                    tussenkomst van ontwikkelaars.
+                    eenvoudig te beheren en flexibel uit te rollen zonder, waar
+                    ook ter wereld.
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
@@ -142,7 +142,7 @@ const BreinoptimaalProject = () => {
                   <span>
                     <span className="">Stripe:</span> Betrouwbare en veilige
                     betaaloplossing waarmee klanten eenvoudig online kunnen
-                    afrekenen
+                    afrekenen.
                   </span>
                 </li>
               </ul>
