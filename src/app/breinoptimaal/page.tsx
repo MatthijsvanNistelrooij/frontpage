@@ -70,7 +70,7 @@ const BreinoptimaalProject = () => {
           </div>
 
           <div className="text-start mt-20 mb-10 text-5xl md:text-6xl text-black mx-auto lg:max-w-6xl">
-            Een Digitale Basis voor Groei
+            Een Digitale Basis
           </div>
           <div className="text-black text-xl text-start mt-6 mb-10 lg:max-w-6xl mx-auto">
             Breinoptimaal wilde meer dan een standaard webshop: een digitale
