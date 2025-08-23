@@ -44,26 +44,24 @@ export const Footer = () => {
             </a>
           </div>
 
-          <div className="flex flex-col space-y-4">
-            <div className="flex flex-col space-y-2">
-              <Link href="/#work" className="hover:text-gray-400 transition">
-                Werk
-              </Link>
-              <Link href="/services" className="hover:text-gray-400 transition">
-                Diensten
-              </Link>
+          <div className="flex flex-col space-y-3">
+            <Link href="/#work" className="hover:text-gray-400 transition">
+              Werk
+            </Link>
+            <Link href="/services" className="hover:text-gray-400 transition">
+              Diensten
+            </Link>
 
-              <Link href="/contact" className="hover:text-gray-400 transition">
-                Contact
-              </Link>
-            </div>
+            <Link href="/contact" className="hover:text-gray-400 transition">
+              Contact
+            </Link>
           </div>
 
           <Link
             href="/"
             className="cursor-pointer md:ml-auto flex md:justify-end"
           >
-            <Image src={logo} alt="logo" width={100} height={100} />
+            <Image src={logo} alt="logo" width={200} height={200} />
           </Link>
         </div>
 
