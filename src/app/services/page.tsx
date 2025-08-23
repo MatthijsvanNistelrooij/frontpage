@@ -47,7 +47,7 @@ const Services = () => {
             en visie zetten we zakelijke uitdagingen om in kansen die impact
             maken.
           </div>
-          <div>
+          <div className="text-gray-900">
             Full Stack Development • Front End Development • Content Planning •
             UX Wireframing • UI Design • Prototyping • QA Testing
           </div>
@@ -61,7 +61,7 @@ const Services = () => {
             diensten die zorgen voor een samenhangende merkbeleving die het
             publiek raakt en bijblijft.
           </div>
-          <div>
+          <div className="text-gray-900">
             Brand Identity • Visual Systems • Voice & Tone • Messaging
             Frameworks • Brand Strategy • Brand Extension • Art Direction •
             Design
@@ -76,7 +76,7 @@ const Services = () => {
             en efficiënter maken. Als er een kans is om te optimaliseren, zorgen
             wij dat je op het juiste spoor zit.
           </div>
-          <div>
+          <div className="text-gray-900">
             Conversion Optimization • Ecosystem Audit • Shopify E-commerce •
             Data Analytics • A/B Testing • Performance Tracking • Solutions
             Architecture • CI/CD Pipelines • Data Migrations • Shopify
@@ -92,7 +92,7 @@ const Services = () => {
             creëren strategieën die jouw doelgroep bereiken op de kanalen die
             bij hen passen.
           </div>
-          <div>
+          <div className="text-gray-900">
             Social Media Strategy • Social Media Management • Email Marketing •
             Paid Media Management • Digital Strategy • Ad Strategy • Content
             Creation • Community Management
