@@ -109,21 +109,46 @@ const BreinoptimaalProject = () => {
               <div className="text-start mb-10 text-5xl md:text-6xl text-black">
                 De Tech-Stack
               </div>
-              <p className="text-black mb-6">
-                Voor Breinoptimaal hebben we gekozen voor bewezen technologieën
-                die veiligheid, snelheid en schaalbaarheid garanderen.
-              </p>
-              <ul className="space-y-4 text-black p-5">
-                <li>• Next.js – voor performance en SEO</li>
-                <li>• Vercel – voor snelle en stabiele hosting</li>
-                <li>
-                  • Sanity – headless CMS voor makkelijk en schaalbaar
-                  contentbeheer
-                </li>
 
-                <li>• Stripe – voor betrouwbare betalingen</li>
+              <ul className="space-y-4 text-black p-5">
+                <li className="flex items-start gap-2">
+                  <span className="list-disc">•</span>
+                  <span>
+                    <span className="">Next.js:</span> Modern
+                    JavaScript-framework dat zorgt voor hoge performance,
+                    SEO-optimalisatie en een snelle, interactieve
+                    webshopervaring.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="list-disc">•</span>
+                  <span>
+                    <span className="">Vercel:</span> Betrouwbaar platform voor
+                    het hosten en deployen van de website, met automatische
+                    optimalisaties voor snelheid en schaalbaarheid.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="list-disc">•</span>
+                  <span>
+                    <span className="">Sanity:</span> Headless CMS dat het team
+                    in staat stelt om producten, teksten en afbeeldingen
+                    eenvoudig te beheren en flexibel uit te rollen naar de
+                    webshop zonder ontwikkelaars in te schakelen.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="list-disc">•</span>
+                  <span>
+                    <span className="">Stripe:</span> Betrouwbare en veilige
+                    betaaloplossing waarmee klanten eenvoudig online kunnen
+                    afrekenen, met ondersteuning voor verschillende
+                    betalingsmethoden.
+                  </span>
+                </li>
               </ul>
             </div>
+
             <Image
               src={techLogos[currentLogo]}
               alt="tech_logo"
