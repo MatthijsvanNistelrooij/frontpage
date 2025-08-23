@@ -182,7 +182,8 @@ const FourSeasons = () => {
               />
             </div>
           </div>
-          <div className="w-full my-30 shadow p-5">
+
+          <div className="w-full my-30 shadow rounded-xl p-5">
             <Image
               src={four_seasons_3}
               alt="Image 2"
