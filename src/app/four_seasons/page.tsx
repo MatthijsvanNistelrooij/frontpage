@@ -53,7 +53,7 @@ const FourSeasons = () => {
             prestaties.
           </p>
 
-          <div className="mb-8 mt-20 shadow">
+          <div className="mb-8 mt-20 shadow rounded-xl">
             <div className="flex">
               <video
                 src="/fourSeasons_demo.mp4"
@@ -61,7 +61,7 @@ const FourSeasons = () => {
                 muted
                 loop
                 playsInline
-                className=""
+                className="rounded-xl shadow"
               />
             </div>
           </div>
@@ -76,7 +76,7 @@ const FourSeasons = () => {
             elk detail bijdraagt aan een vloeiende en samenhangende
             gebruikerservaring.
           </div>
-          <div className="mb-8 mt-20 shadow">
+          <div className="mb-8 mt-20 shadow rounded-xl">
             <div className="flex">
               <video
                 src="/four_seasons_appointment.mp4"
@@ -84,7 +84,7 @@ const FourSeasons = () => {
                 muted
                 loop
                 playsInline
-                className=""
+                className="shadow rounded-xl"
               />
             </div>
           </div>
