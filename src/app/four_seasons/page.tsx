@@ -242,7 +242,7 @@ const FourSeasons = () => {
             positie: een vernieuwde online aanwezigheid, snelle laadtijden en
             een optimale gebruikerservaring. Dankzij onze oplossingen geniet de
             klant van een efficiënte en professionele website die perfect
-            aansluit bij de visie en daarmee klaar is om uit te blinken in de
+            aansluit bij de visie en klaar is om uit te blinken in de
             digitale wereld.
           </p>
           <div className="text-center mt-30 mb-10 text-5xl text-[#1a1a1a] leading-16">
