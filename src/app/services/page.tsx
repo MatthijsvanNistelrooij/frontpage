@@ -31,7 +31,7 @@ const Services = () => {
         <p className="text-xl text-center md:text-3xl font-extralight tracking-wider leading-12 text-black mb-20">
           Onze focus ligt op duurzame groei: slimme oplossingen die resultaten
           opleveren en meegroeien met je bedrijf. We combineren strategie,
-          design en technologie om producten en diensten te creëren die niet
+          design en technologie om producten te creëren die niet
           alleen vandaag werken, maar ook klaar zijn voor de uitdagingen van
           morgen.
         </p>
