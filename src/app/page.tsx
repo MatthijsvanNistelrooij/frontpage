@@ -63,12 +63,12 @@ export default function Home() {
               image={four_seasons_2}
               hoverImage={four_seasons}
               url="four_seasons"
-              info="We brachten Kapsalon Four Seasons het digitale tijdperk in met een up-to-date landing en custom afspraakplanner."
+              info="We brachten Kapsalon Four Seasons naar het digitale tijdperk met een up-to-date landing en custom afspraakplanner."
               title="Kapsalon Four Seasons"
             />
             <ProjectCard
               url="restaurant"
-              info="Een nieuwe moderne website met custom design & eigen huisstijl zet Restaurant Four Seasons op de kaart."
+              info="Een frisse moderne website met custom design & eigen huisstijl zet Restaurant Four Seasons op de kaart."
               title="Restaurant Four Seasons"
               image={four_seasons_restaurant}
               hoverImage={four_seasons_logo}
