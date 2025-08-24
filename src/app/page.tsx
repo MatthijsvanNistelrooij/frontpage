@@ -68,7 +68,7 @@ export default function Home() {
             />
             <ProjectCard
               url="restaurant"
-              info="Een frisse moderne website met custom design & eigen huisstijl zet Restaurant Four Seasons op de kaart."
+              info="Een frisse moderne website met custom design & eigen huisstijl om Restaurant Four Seasons op de kaart te zetten."
               title="Restaurant Four Seasons"
               image={four_seasons_restaurant}
               hoverImage={four_seasons_logo}
