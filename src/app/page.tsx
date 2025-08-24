@@ -3,7 +3,7 @@
 import ProjectCard from "@/components/ProjectCard"
 
 import four_seasons from "/public/assets/four_seasons_kapsalon/four_season.jpg"
-import four_seasons_2 from "/public/assets/four_seasons_restaurant/kapsalon_four_seasons_2.png"
+import four_seasons_2 from "/public/assets/four_seasons_kapsalon/kapsalon_four_seasons_2.png"
 import four_seasons_logo from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_3.png"
 import four_seasons_restaurant from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_logo_2.png"
 import breinoptimaal from "/public/assets/breinoptimaal/health_4.jpg"

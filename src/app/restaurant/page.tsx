@@ -15,8 +15,8 @@ import concept_1 from "/public/assets/four_seasons_restaurant/concept_1.png"
 import concept_2 from "/public/assets/four_seasons_restaurant/concept_2.png"
 import concept_3 from "/public/assets/four_seasons_restaurant/concept_3.png"
 import concept_4 from "/public/assets/four_seasons_restaurant/concept_4.png"
-import concept_5 from "/public/assets/four_seasons_restaurant/concept_9.png"
-import concept_6 from "/public/assets/four_seasons_restaurant/concept_8.png"
+import food_2 from "/public/assets/four_seasons_restaurant/food_2.jpg"
+import food from "/public/assets/four_seasons_restaurant/food.jpg"
 import welcome from "/public/assets/four_seasons_restaurant/four_seasons_welcome.png"
 import overlayImage from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_logo.png"
 
@@ -93,51 +93,12 @@ const FourSeasonsRestaurant = () => {
             de Syrische en Midden-Oosterse keuken.
           </div>
 
-          {/* <div className="my-10 relative border bg-[#1a1a1a]">
+          <div className="my-10 relative bg-[#1a1a1a]">
             <Image
-              src={concept_5}
+              src={food}
               alt="Image 4"
               className="w-auto h-auto max-w-full mx-auto"
             />
-          </div> */}
-
-          <div className="my-10 relative border bg-[#1a1a1a]">
-            <Image
-              src={concept_6}
-              alt="Image 4"
-              className="w-auto h-auto max-w-full mx-auto"
-            />
-          </div>
-
-          <div className="mt-20 flex flex-col md:flex-row gap-12 mx-auto">
-            <div className="relative border">
-              <Image
-                src={concept_1}
-                alt="Image 1"
-                className="w-auto h-auto max-w-full mx-auto"
-              />
-            </div>
-            <div className="relative border bg-[#1a1a1a]">
-              <Image
-                src={concept_2}
-                alt="Image 2"
-                className="w-auto h-auto max-w-full mx-auto"
-              />
-            </div>
-            <div className="relative border">
-              <Image
-                src={concept_3}
-                alt="Image 3"
-                className="w-auto h-auto max-w-full mx-auto"
-              />
-            </div>
-            <div className="relative border bg-[#1a1a1a]">
-              <Image
-                src={concept_4}
-                alt="Image 4"
-                className="w-auto h-auto max-w-full mx-auto"
-              />
-            </div>
           </div>
 
           <div className="flex flex-col lg:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
@@ -243,9 +204,9 @@ const FourSeasonsRestaurant = () => {
             </div>
           </div>
 
-          <div className="text-[#1a1a1a] text-center text-6xl lg:text-8xl mt-20">
+          <div className="text-[#1a1a1a] text-center text-6xl lg:text-8xl my-40">
             <div>Een Site Die Smaakt Naar Meer</div>
-            <div className="flex flex-col md:flex-row justify-between mt-20 gap-10">
+            <div className="flex flex-col md:flex-row justify-between mt-40 gap-10">
               <div className="text-start text-9xl md:text-center">
                 90%
                 <div className="text-lg md:text-xl lg:text-2xl font-normal mt-5">
@@ -267,13 +228,13 @@ const FourSeasonsRestaurant = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mb-8 mt-20">
-            <div className="w-full relative">
-              <Image src={image2} alt="Image 2" fill className="object-cover" />
+          <div className="mb-8 mt-20">
+            <div className="w-full h-180 relative">
+              <Image src={food_2} alt="Image 2" fill className="object-cover" />
             </div>
           </div>
           <div
-            className="text-[#1a1a1a] text-center tracking-widest mt-20 mb-10 text-sm mx-auto lg:max-w-6xl"
+            className="text-[#1a1a1a] text-center tracking-widest mt-30 mb-10 text-sm mx-auto lg:max-w-6xl"
             style={{ fontFamily: "var(--font-mono)" }}
           >
             de smaak van succes

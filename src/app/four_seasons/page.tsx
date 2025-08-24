@@ -10,7 +10,9 @@ import tech_logo4 from "/public/assets/tech_logo/twilio.png"
 
 import heroImage from "/public/assets/four_seasons_kapsalon/barber.jpg"
 import image2 from "/public/assets/four_seasons_kapsalon/logo_header.png"
-import image3 from "/public/assets/four_seasons_kapsalon/four_seasons_logo.png"
+import barber_5 from "/public/assets/four_seasons_kapsalon/barber_5.jpg"
+import barber_6 from "/public/assets/four_seasons_kapsalon/barber_6.jpg"
+import barber_7 from "/public/assets/four_seasons_kapsalon/barber_7.jpg"
 
 import four_seasons_3 from "/public/assets/four_seasons_kapsalon/barber_3.jpg"
 import four_seasons_4 from "/public/assets/four_seasons_kapsalon/barber_4.jpg"
@@ -94,12 +96,23 @@ const FourSeasons = () => {
             samenhangende gebruikerservaring.
           </div>
 
-          <div className="w-full my-30">
-            <Image
-              src={four_seasons_4}
-              alt="Image 2"
-              className="w-full h-auto object-contain"
-            />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 mt-30">
+            <div className="w-full h-140 relative">
+              <Image
+                src={barber_5}
+                alt="Image 1"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="w-full h-140 relative">
+              <Image
+                src={barber_6}
+                alt="Image 2"
+                fill
+                className="object-cover"
+              />
+            </div>
           </div>
 
           <div className="flex flex-col lg:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
@@ -148,15 +161,15 @@ const FourSeasons = () => {
             </div>
           </div>
 
-          <div className="w-full mt-30">
+          <div className="w-full my-30">
             <Image
-              src={image3}
-              alt="Image 3"
-              className="w-full h-auto object-contain my-40"
+              src={four_seasons_4}
+              alt="Image 2"
+              className="w-full h-auto object-contain"
             />
           </div>
 
-          <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
+          <div className="flex flex-col md:flex-row mt-30 mb-30 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="w-full text-[1.2rem]">
               <div className="text-start mb-10 text-5xl md:text-6xl text-[#1a1a1a] lg:max-w-6xl mx-auto">
                 Onze Diensten
@@ -226,11 +239,15 @@ const FourSeasons = () => {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mb-8 mt-20">
-            <div className="w-full relative">
-              <Image src={image2} alt="Image 2" fill className="object-cover" />
-            </div>
+
+          <div className="w-full my-30">
+            <Image
+              src={barber_7}
+              alt="Image 2"
+              className="w-full h-auto object-contain"
+            />
           </div>
+
           <div
             className="text-[#1a1a1a] text-center tracking-widest mt-20 mb-10 text-sm lg:max-w-6xl mx-auto"
             style={{ fontFamily: "var(--font-mono)" }}

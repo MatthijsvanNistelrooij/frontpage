@@ -116,36 +116,6 @@ const BreinoptimaalProject = () => {
             />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
-            <div className="w-full h-140 relative">
-              <Image
-                src={health_5}
-                alt="Image 1"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="w-full h-140 relative">
-              <Image
-                src={health_9}
-                alt="Image 2"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="w-full h-140 relative">
-              <Image src={oats} alt="Image 3" fill className="object-cover" />
-            </div>
-            <div className="w-full h-140 relative">
-              <Image
-                src={health_2}
-                alt="Image 3"
-                fill
-                className="object-cover"
-              />
-            </div>
-          </div>
-
           <div className="flex flex-col lg:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl text-[1.2rem]">
               <div className="text-start mb-10 text-5xl md:text-6xl text-[#1a1a1a]">
@@ -202,7 +172,7 @@ const BreinoptimaalProject = () => {
             <Image src={health_4} alt="Image 4" className="mx-auto" />
           </div>
 
-          <div className="text-[#1a1a1a] text-center text-6xl lg:text-8xl mt-20">
+          <div className="text-[#1a1a1a] text-center text-6xl lg:text-8xl mt-30">
             <div>Klaar Voor de Start</div>
             <div className="flex flex-col md:flex-row justify-between mt-20 gap-10">
               <div className="text-start text-9xl md:text-center">
@@ -225,8 +195,39 @@ const BreinoptimaalProject = () => {
               </div>
             </div>
           </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8 mt-30">
+            <div className="w-full h-140 relative">
+              <Image
+                src={health_5}
+                alt="Image 1"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="w-full h-140 relative">
+              <Image
+                src={health_9}
+                alt="Image 2"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="w-full h-140 relative">
+              <Image src={oats} alt="Image 3" fill className="object-cover" />
+            </div>
+            <div className="w-full h-140 relative">
+              <Image
+                src={health_2}
+                alt="Image 3"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
+
           <div
-            className="text-[#1a1a1a] text-center tracking-widest mt-40 mb-10 text-sm lg:max-w-6xl mx-auto"
+            className="text-[#1a1a1a] text-center tracking-widest mt-20 mb-10 text-sm lg:max-w-6xl mx-auto"
             style={{ fontFamily: "var(--font-mono)" }}
           >
             Werken aan een gezond resultaat
