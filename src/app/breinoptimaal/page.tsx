@@ -54,8 +54,8 @@ const BreinoptimaalProject = () => {
             Breinoptimaal kwam bij ons voor een moderne oplossing in online
             betalingen. We maakten een systeem dat flexibel is en mee kan
             groeien in elke gewenste richting. Met een intuïtieve
-            Stripe-checkout en een schaalbare Sanity-infrastructuur bieden een
-            veilige, snelle en betrouwbare ervaring.
+            Stripe-checkout en een schaalbare Sanity-infrastructuur bieden we een
+            veilige en betrouwbare ervaring.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
