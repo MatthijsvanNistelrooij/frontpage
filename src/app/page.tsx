@@ -42,9 +42,9 @@ export default function Home() {
           >
             Wij zijn een creatief bedrijf dat vernieuwende techniek combineert
             met design om projecten te realiseren die werken. Of
-            het nu gaat om een merk dat zich duidelijk wil onderscheiden, een
+            het nu gaat om een merk dat zich wil onderscheiden, een
             website die intuïtief is, of een app die echt iets toevoegt – wij
-            vinden de slimme, doordachte aanpak. En dat doen we met liefde.😉
+            brengen de slimme, doordachte aanpak. En dat doen we met liefde.😉
           </div>
           <h2 className="text-6xl md:text-8xl font-light text-start mb-10 text-[#1a1a1a]">
             Ons Werk
