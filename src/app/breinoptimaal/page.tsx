@@ -36,7 +36,7 @@ const BreinoptimaalProject = () => {
         <div className="w-full h-[30vh] md:h-screen overflow-hidden relative">
           <Image
             src={heroImage}
-            alt="Breinoptimaal Hero"
+            alt="Breinoptimaal"
             fill
             className="object-cover object-center"
             priority
