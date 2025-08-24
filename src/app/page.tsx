@@ -58,8 +58,8 @@ export default function Home() {
               hoverImage={breinoptimaal2}
             />
             <ProjectCard
-              image={four_seasons}
-              hoverImage={four_seasons_2}
+              image={four_seasons_2}
+              hoverImage={four_seasons}
               url="four_seasons"
               info="We brachten Kapsalon Four Seasons naar het digitale tijdperk met een up-to-date landing + custom afspraakplanner."
               title="Kapsalon Four Seasons"
