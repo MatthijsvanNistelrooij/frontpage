@@ -41,10 +41,10 @@ export default function Home() {
             style={{ fontFamily: "var(--font-mono)" }}
           >
             Wij zijn een creatief bedrijf dat vernieuwende techniek combineert
-            met design om projecten te realiseren die werken. Of
-            het nu gaat om een merk dat zich wil onderscheiden, een
-            website die intuïtief is, of een app die echt iets toevoegt – wij
-            brengen de slimme, doordachte aanpak. En dat doen we met liefde.😉
+            met design om projecten te realiseren die werken. Of het nu gaat om
+            een merk dat zich wil onderscheiden, een website die intuïtief is,
+            of een app die echt iets toevoegt – wij brengen de slimme,
+            doordachte aanpak. En dat doen we met liefde.😉
           </div>
           <h2 className="text-6xl md:text-8xl font-light text-start mb-10 text-[#1a1a1a]">
             Ons Werk
@@ -53,7 +53,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-28 md:gap-8">
             <ProjectCard
               url="breinoptimaal"
-              info="Een gezonde webshop met de flexibiliteit en kracht van Stripe + Sanity voor Breinoptimaal."
+              info="Een gezonde flexibele webshop gebouwd op de kracht van Stripe en Sanity voor Breinoptimaal."
               title="Breinoptimaal"
               image={breinoptimaal2}
               hoverImage={breinoptimaal}
@@ -67,7 +67,7 @@ export default function Home() {
             />
             <ProjectCard
               url="restaurant"
-              info="We maakten een frisse moderne website met custom design & eigen huisstijl om Restaurant Four Seasons op de kaart te zetten."
+              info="Met een frisse moderne website en een eigen design & huisstijl zetten we Restaurant Four Seasons op de kaart."
               title="Restaurant Four Seasons"
               image={four_seasons_restaurant}
               hoverImage={four_seasons_logo}
