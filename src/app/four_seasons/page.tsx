@@ -41,16 +41,17 @@ const FourSeasons = () => {
             fill
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-black/30" />
+
+          <div className="absolute inset-0 bg-black/50" />
 
           <div className="absolute inset-0 flex items-center justify-center">
-            <Image
-              src={overlayImage}
-              alt="Overlay"
-              width={400}
-              height={400}
-              className="object-contain"
-            />
+            <div className="w-2/4 md:w-2/6">
+              <Image
+                src={overlayImage}
+                alt="Overlay"
+                className="object-contain w-full h-auto"
+              />
+            </div>
           </div>
         </div>
 
