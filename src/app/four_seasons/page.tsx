@@ -48,7 +48,7 @@ const FourSeasons = () => {
             Four Seasons, een kapsalon die al 20 jaar actief is in Groningen,
             had een high-end front-end nodig waar gasten moeiteloos een afspraak
             in kunnen plannen. Ons team heeft gewerkt aan een visuele ervaring
-            die zowel indrukwekkend als gebruiksvriendelijk is. Met een robuuste
+            die zowel indrukwekkend als gebruiksvriendelijk is. Met een bewezen
             tech stack die zorgt voor snelheid, betrouwbaarheid en optimale
             prestaties.
           </p>
