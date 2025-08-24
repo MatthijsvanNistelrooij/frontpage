@@ -54,9 +54,9 @@ const FourSeasonsRestaurant = () => {
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-30 mx-auto lg:max-w-6xl">
             Bij de opening van hun restaurant wist Four Seasons dat een sterke
-            online presentatie essentieel was. Ze kozen voor ons voor een
-            krachtige website die hun unieke Midden-Oosterse keuken stijlvol en
-            gastvrij online brengt.
+            online presentatie essentieel was. Ze benaderden ons om een
+            krachtige website te bouwen die hun unieke Midden-Oosterse keuken
+            stijlvol en gastvrij online brengt.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -74,13 +74,11 @@ const FourSeasonsRestaurant = () => {
             Een Digitale Eerste Indruk
           </div>
           <div className="text-[#1a1a1a] text-xl text-start mt-6 mb-10 lg:max-w-6xl mx-auto">
-            Voor de opening van Restaurant Four Seasons was een sterke online
-            aanwezigheid onmisbaar. Het restaurant had nog geen digitale
-            identiteit en kwam bij ons met de vraag om dit vanaf de grond op te
-            bouwen. Met een focus op storytelling, visuele beleving en
-            gebruiksvriendelijkheid hebben we een website ontworpen die gasten
-            meteen onderdompelt in de sfeer van de Syrische en Midden-Oosterse
-            keuken.
+            Het restaurant had nog geen digitale identiteit en kwam bij ons met
+            de vraag om dit vanaf de grond op te bouwen. Met een focus op
+            storytelling, visuele beleving en gebruiksvriendelijkheid hebben we
+            een website ontworpen die gasten meteen onderdompelt in de sfeer van
+            de Syrische en Midden-Oosterse keuken.
           </div>
 
           <div className="my-20 relative border bg-[#1a1a1a]">

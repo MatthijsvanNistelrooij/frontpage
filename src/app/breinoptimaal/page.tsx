@@ -52,7 +52,7 @@ const BreinoptimaalProject = () => {
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-30 mx-auto lg:max-w-6xl">
             Breinoptimaal kwam bij ons voor een moderne oplossing in online
-            betalingen. We maakten een systeem dat flexibel is en mee kan
+            betalingsverkeer. We maakten een systeem dat flexibel is en mee kan
             groeien in elke gewenste richting. Met een intuïtieve
             Stripe-checkout en een schaalbare Sanity-infrastructuur bieden we
             een veilige en betrouwbare ervaring.
