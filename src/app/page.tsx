@@ -40,8 +40,8 @@ export default function Home() {
             className="text-black text-xl md:text-2xl font-medium text-start max-w-md md:max-w-3xl tracking-wider my-20"
             style={{ fontFamily: "var(--font-mono)" }}
           >
-            Wij zijn een creatief bedrijf dat vernieuwende oplossingen combineert
-            met design, techniek en strategie om projecten te realiseren die
+            Wij zijn een creatief bedrijf dat vernieuwende techniek combineert
+            met design en strategie om projecten te realiseren die
             werken en vertrouwen uitstralen. Of het nu gaat om een merk dat zich
             duidelijk wil onderscheiden, een website die intuïtief is, of een
             app die echt iets toevoegt – wij vinden de slimme, doordachte
