@@ -45,12 +45,12 @@ const BreinoptimaalProject = () => {
 
         <div className="container mx-auto px-8 py-12">
           <div
-            className="text-black text-center tracking-widest m-10 text-sm mx-auto lg:max-w-6xl"
+            className="text-[#1a1a1a] text-center tracking-widest m-10 text-sm mx-auto lg:max-w-6xl"
             style={{ fontFamily: "var(--font-mono)" }}
           >
             focus op resultaat
           </div>
-          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-black mb-30 mx-auto lg:max-w-6xl">
+          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-30 mx-auto lg:max-w-6xl">
             Breinoptimaal kwam bij ons voor een moderne oplossing in online
             betalingen. We maakten een systeem dat flexibel is en mee kan
             groeien in elke gewenste richting. Met een intuïtieve
@@ -70,10 +70,10 @@ const BreinoptimaalProject = () => {
             </div>
           </div>
 
-          <div className="text-start mt-20 mb-10 text-5xl md:text-6xl text-black mx-auto lg:max-w-6xl">
+          <div className="text-start mt-20 mb-10 text-5xl md:text-6xl text-[#1a1a1a] mx-auto lg:max-w-6xl">
             Een Sterke Basis
           </div>
-          <div className="text-black text-xl text-start mt-6 mb-10 lg:max-w-6xl mx-auto">
+          <div className="text-[#1a1a1a] text-xl text-start mt-6 mb-10 lg:max-w-6xl mx-auto">
             Breinoptimaal zocht meer dan een standaard webshop: een digitale
             omgeving die professionaliteit en vertrouwen uitstraalt. Door onze
             aanpak is er een platform ontstaan dat schaalbaar is, eenvoudig in
@@ -107,11 +107,11 @@ const BreinoptimaalProject = () => {
 
           <div className="flex flex-col lg:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl text-[1.2rem]">
-              <div className="text-start mb-10 text-5xl md:text-6xl text-black">
+              <div className="text-start mb-10 text-5xl md:text-6xl text-[#1a1a1a]">
                 Onder de Motorkap
               </div>
 
-              <ul className="space-y-4 text-black p-5">
+              <ul className="space-y-4 text-[#1a1a1a] p-5">
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
@@ -162,7 +162,7 @@ const BreinoptimaalProject = () => {
             <Image src={concept_6} alt="Image 4" className="mx-auto" />
           </div>
 
-          <div className="text-black text-center text-6xl lg:text-8xl mt-20">
+          <div className="text-[#1a1a1a] text-center text-6xl lg:text-8xl mt-20">
             <div>Klaar Voor de Start</div>
             <div className="flex flex-col md:flex-row justify-between mt-20 gap-10">
               <div className="text-start text-9xl md:text-center">
@@ -186,26 +186,26 @@ const BreinoptimaalProject = () => {
             </div>
           </div>
           <div
-            className="text-black text-center tracking-widest mt-40 mb-10 text-sm lg:max-w-6xl mx-auto"
+            className="text-[#1a1a1a] text-center tracking-widest mt-40 mb-10 text-sm lg:max-w-6xl mx-auto"
             style={{ fontFamily: "var(--font-mono)" }}
           >
             Werken aan een gezond resultaat
           </div>
-          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-black mb-20 lg:max-w-6xl mx-auto">
+          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-20 lg:max-w-6xl mx-auto">
             Met dit project heeft Breinoptimaal een moderne en
             gebruiksvriendelijke webshop die klaar is voor de toekomst. Dankzij
             onze innovatieve oplossingen kan het merk blijven groeien en klanten
             de beste ervaring bieden – of ze nu shoppen in Amsterdam of Dubai.
           </p>
 
-          <div className="text-center mt-30 mb-10 text-5xl text-black leading-16">
+          <div className="text-center mt-30 mb-10 text-5xl text-[#1a1a1a] leading-16">
             Ook Een Webshop Bouwen?
           </div>
           <div className="flex w-full justify-center text-center">
             <Link
               href={"/contact"}
               style={{ fontFamily: "var(--font-mono)" }}
-              className=" text-black p-4 px-8 mb-12 border border-black hover:text-white hover:bg-black cursor-pointer"
+              className=" text-[#1a1a1a] p-4 px-8 mb-12 border border-[#1a1a1a] hover:text-white hover:bg-[#1a1a1a] cursor-pointer"
             >
               NEEM CONTACT OP
             </Link>

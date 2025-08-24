@@ -36,11 +36,10 @@ const Contact = () => {
     <div className="bg-[#fffffb]">
       <div className="container flex flex-col lg:flex-row justify-center mx-auto gap-20 py-28 px-8">
         <div className="container flex flex-col items-center justify-center mx-auto mt-5 md:mt-20">
-          <div className="text-black text-5xl sm:text-6xl md:text-8xl text-start">
+          <div className="text-[#1a1a1a] text-5xl sm:text-6xl md:text-8xl text-start">
             Elke Samenwerking als Katalysator.
           </div>
-          <div></div>
-          <div className="text-black text-xl text-start mt-6">
+          <div className="text-[#1a1a1a] text-xl text-start mt-6">
             Ben je geïnteresseerd in samenwerken? Of wil je gewoon eens een idee
             bespreken? Neem contact op en laten we kijken hoe we samen iets
             moois kunnen maken.
@@ -59,7 +58,7 @@ const Contact = () => {
                 name="from_name"
                 required
                 placeholder="NAAM"
-                className="w-full border border-black text-black px-2 py-2"
+                className="w-full border border-[#1a1a1a] text-[#1a1a1a] px-2 py-2"
               />
             </div>
             <div>
@@ -68,7 +67,7 @@ const Contact = () => {
                 name="from_email"
                 required
                 placeholder="EMAIL"
-                className="w-full border border-black text-black px-2 py-2"
+                className="w-full border border-[#1a1a1a] text-[#1a1a1a] px-2 py-2"
               />
             </div>
 
@@ -78,7 +77,7 @@ const Contact = () => {
                 rows={5}
                 required
                 placeholder="JE BERICHT"
-                className="w-full border border-black text-black px-2 py-2"
+                className="w-full border border-[#1a1a1a] text-[#1a1a1a] px-2 py-2"
               />
             </div>
             <div className="flex w-full justify-end">

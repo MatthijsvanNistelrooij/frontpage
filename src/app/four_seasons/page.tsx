@@ -39,12 +39,12 @@ const FourSeasons = () => {
 
         <div className="container mx-auto px-8 py-12 ">
           <div
-            className="text-black text-center tracking-widest m-10 text-sm lg:max-w-5xl mx-auto"
+            className="text-[#1a1a1a] text-center tracking-widest m-10 text-sm lg:max-w-5xl mx-auto"
             style={{ fontFamily: "var(--font-mono)" }}
           >
             kracht en schoonheid gecombineerd
           </div>
-          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-black mb-30 lg:max-w-5xl mx-auto">
+          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-30 lg:max-w-5xl mx-auto">
             Four Seasons, een kapsalon die al 20 jaar actief is in Groningen,
             had een high-end front-end nodig waar gasten moeiteloos een afspraak
             in kunnen plannen. Ons team heeft gewerkt aan een visuele ervaring
@@ -66,10 +66,10 @@ const FourSeasons = () => {
             </div>
           </div>
 
-          <div className="text-start mt-30 mb-10 text-5xl md:text-6xl text-black lg:max-w-6xl mx-auto">
+          <div className="text-start mt-30 mb-10 text-5xl md:text-6xl text-[#1a1a1a] lg:max-w-6xl mx-auto">
             Een Build-As-We-Go Benadering
           </div>
-          <div className="text-black text-xl text-start mt-6 mb-30 lg:max-w-6xl mx-auto">
+          <div className="text-[#1a1a1a] text-xl text-start mt-6 mb-30 lg:max-w-6xl mx-auto">
             De kapperszaak zocht een moderne manier om afspraken in te plannen.
             Voor dit project combineerden we een high-end design met functionele
             oplossingen, waarbij elk detail bijdraagt aan een vloeiende en
@@ -90,10 +90,10 @@ const FourSeasons = () => {
 
           <div className="flex flex-col lg:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl text-[1.2rem]">
-              <div className="text-start mb-10 text-5xl md:text-6xl text-black lg:max-w-6xl mx-auto">
+              <div className="text-start mb-10 text-5xl md:text-6xl text-[#1a1a1a] lg:max-w-6xl mx-auto">
                 Een Tech Stack Die Werkt
               </div>
-              <ul className="space-y-4 text-black p-5">
+              <ul className="space-y-4 text-[#1a1a1a] p-5">
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
@@ -144,10 +144,10 @@ const FourSeasons = () => {
 
           <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="w-full text-[1.2rem]">
-              <div className="text-start mb-10 text-5xl md:text-6xl text-black lg:max-w-6xl mx-auto">
+              <div className="text-start mb-10 text-5xl md:text-6xl text-[#1a1a1a] lg:max-w-6xl mx-auto">
                 Onze Diensten
               </div>
-              <ul className="space-y-4 text-black p-5">
+              <ul className="space-y-4 text-[#1a1a1a] p-5">
                 <li className="flex items-start gap-2">
                   <span className="">•</span>
                   <span>
@@ -189,7 +189,7 @@ const FourSeasons = () => {
             />
           </div>
 
-          <div className="text-black text-center text-6xl lg:text-8xl mt-20 lg:max-w-6xl mx-auto">
+          <div className="text-[#1a1a1a] text-center text-6xl lg:text-8xl mt-20 lg:max-w-6xl mx-auto">
             <div>Een Site Die Geknipt Is</div>
 
             <div className="flex flex-col md:flex-row justify-between mt-20 gap-10 lg:max-w-6xl mx-auto">
@@ -219,12 +219,12 @@ const FourSeasons = () => {
             </div>
           </div>
           <div
-            className="text-black text-center tracking-widest mt-20 mb-10 text-sm lg:max-w-6xl mx-auto"
+            className="text-[#1a1a1a] text-center tracking-widest mt-20 mb-10 text-sm lg:max-w-6xl mx-auto"
             style={{ fontFamily: "var(--font-mono)" }}
           >
             een moderne uitstraling, klaar voor de toekomst
           </div>
-          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-black mb-20 lg:max-w-6xl mx-auto">
+          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-20 lg:max-w-6xl mx-auto">
             Het resultaat van dit project plaatst de kapsalon in een sterke
             positie: een vernieuwde online aanwezigheid, snelle laadtijden en
             een optimale gebruikerservaring. Dankzij onze oplossingen geniet de
@@ -232,7 +232,7 @@ const FourSeasons = () => {
             aansluit bij hun visie, waardoor ze klaar is om uit te blinken in de
             digitale wereld.
           </p>
-          <div className="text-center mt-30 mb-10 text-5xl text-black leading-16">
+          <div className="text-center mt-30 mb-10 text-5xl text-[#1a1a1a] leading-16">
             Ook Een Eigen Afspraak Planner?
           </div>
 
@@ -241,7 +241,7 @@ const FourSeasons = () => {
               href={"/contact"}
               style={{ fontFamily: "var(--font-mono)" }}
               className={
-                " text-black p-4 px-8 mb-10 border border-black hover:text-white hover:bg-black cursor-pointer"
+                " text-[#1a1a1a] p-4 px-8 mb-10 border border-[#1a1a1a] hover:text-white hover:bg-[#1a1a1a] cursor-pointer"
               }
             >
               NEEM CONTACT OP

@@ -18,7 +18,7 @@ const ProjectCard = ({
   url,
 }: ProjectCardProps) => {
   return (
-    <Link href={url} className="group text-black w-full cursor-pointer">
+    <Link href={url} className="group text-[#1a1a1a] w-full cursor-pointer">
       <div className="relative overflow-hidden aspect-[3/4]">
         <Image
           src={image}
@@ -38,7 +38,7 @@ const ProjectCard = ({
         {title}
       </p>
       <h2
-        className="mt-2 text-lg font-light text-black"
+        className="mt-2 text-lg font-light text-[#1a1a1a]"
         style={{ fontFamily: "var(--font-body)" }}
       >
         {info}

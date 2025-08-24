@@ -37,17 +37,16 @@ export default function Home() {
       >
         <div className="container mx-auto px-8 py-12">
           <div
-            className="text-black text-xl md:text-2xl font-medium text-start max-w-md md:max-w-3xl tracking-wider my-20"
+            className="text-[#1a1a1a] text-xl md:text-2xl font-medium text-start max-w-md md:max-w-3xl tracking-wider my-20"
             style={{ fontFamily: "var(--font-mono)" }}
           >
             Wij zijn een creatief bedrijf dat vernieuwende techniek combineert
-            met design en strategie om projecten te realiseren die
-            werken. Of het nu gaat om een merk dat zich
-            duidelijk wil onderscheiden, een website die intuïtief is, of een
-            app die echt iets toevoegt – wij vinden de slimme, doordachte
-            aanpak. En dat doen we met liefde.😉
+            met design en strategie om projecten te realiseren die werken. Of
+            het nu gaat om een merk dat zich duidelijk wil onderscheiden, een
+            website die intuïtief is, of een app die echt iets toevoegt – wij
+            vinden de slimme, doordachte aanpak. En dat doen we met liefde.😉
           </div>
-          <h2 className="text-6xl md:text-8xl font-light text-start mb-10 text-black">
+          <h2 className="text-6xl md:text-8xl font-light text-start mb-10 text-[#1a1a1a]">
             Ons Werk
           </h2>
 
@@ -74,7 +73,7 @@ export default function Home() {
               hoverImage={four_seasons_logo}
             />
           </div>
-          <div className="text-center mt-42 mb-10 text-4xl md:text-5xl text-black">
+          <div className="text-center mt-42 mb-10 text-4xl md:text-5xl text-[#1a1a1a]">
             We volgen de data, en laten ons leiden door nieuwsgierigheid.
           </div>
           <div className="flex w-full justify-center text-center">

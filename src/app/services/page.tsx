@@ -23,22 +23,21 @@ const Services = () => {
 
       <div className="container mx-auto px-8 py-12">
         <div
-          className="text-black text-center tracking-widest m-10 text-sm"
+          className="text-[#1a1a1a] text-center tracking-widest m-10 text-sm"
           style={{ fontFamily: "var(--font-mono)" }}
         >
           Het Is Wat We Doen
         </div>
-        <p className="text-xl text-center md:text-3xl font-extralight tracking-wider leading-12 text-black mb-20">
+        <p className="text-xl text-center md:text-3xl font-extralight tracking-wider leading-12 text-[#1a1a1a] mb-20">
           Onze focus ligt op duurzame groei: slimme oplossingen die resultaten
           opleveren en meegroeien met je bedrijf. We combineren strategie,
-          design en technologie om producten te creëren die niet
-          alleen vandaag werken, maar ook klaar zijn voor de uitdagingen van
-          morgen.
+          design en technologie om producten te creëren die niet alleen vandaag
+          werken, maar ook klaar zijn voor de uitdagingen van morgen.
         </p>
 
         <hr />
         <div className="md:max-w-3xl flex flex-col mx-auto justify-center">
-          <div className="text-start mt-20 mb-10 text-5xl text-black">
+          <div className="text-start mt-20 mb-10 text-5xl text-[#1a1a1a]">
             Digitale Beleving
           </div>
           <div className="text-start mb-10 text-lg text-gray-900">
@@ -53,25 +52,25 @@ const Services = () => {
           </div>
           <hr className="border-t border-gray-300 my-10" />
 
-          <div className="text-start mt-20 mb-10 text-5xl text-black break-words">
+          <div className="text-start mt-20 mb-10 text-5xl text-[#1a1a1a] break-words">
             Merkontwikkeling
           </div>
-          <div className="text-start mb-10 text-lg text-gray-900">
+          <div className="text-start mb-10 text-lg text-[#1a1a1a]">
             Wij bouwen merken verder uit of creëren nieuwe merken vanaf nul. Met
             diensten die zorgen voor een samenhangende merkbeleving die het
             publiek raakt en bijblijft.
           </div>
-          <div className="text-gray-900">
+          <div className="text-[#1a1a1a]">
             Brand Identity • Visual Systems • Voice & Tone • Messaging
             Frameworks • Brand Strategy • Brand Extension • Art Direction •
             Design
           </div>
           <hr className="border-t border-gray-300 my-10" />
 
-          <div className="text-start mt-20 mb-10 text-5xl text-black">
+          <div className="text-start mt-20 mb-10 text-5xl text-[#1a1a1a]">
             Duurzaam Versnellen
           </div>
-          <div className="text-start mb-10 text-lg text-gray-900">
+          <div className="text-start mb-10 text-lg text-[#1a1a1a]">
             Zoals jonge racers hun wagen tunen, willen wij je business sneller
             en efficiënter maken. Als er een kans is om te optimaliseren, zorgen
             wij dat je op het juiste spoor zit.
@@ -84,15 +83,15 @@ const Services = () => {
           </div>
           <hr className="border-t border-gray-300 my-10" />
 
-          <div className="text-start mt-20 mb-10 text-5xl text-black">
+          <div className="text-start mt-20 mb-10 text-5xl text-[#1a1a1a]">
             Marketing
           </div>
-          <div className="text-start mb-10 text-lg text-gray-900">
+          <div className="text-start mb-10 text-lg text-[#1a1a1a]">
             Succesvolle marketing houdt merken relevant en authentiek. Wij
             creëren strategieën die jouw doelgroep bereiken op de kanalen die
             bij hen passen.
           </div>
-          <div className="text-gray-900">
+          <div className="text-[#1a1a1a]">
             Social Media Strategy • Social Media Management • Email Marketing •
             Paid Media Management • Digital Strategy • Ad Strategy • Content
             Creation • Community Management
@@ -100,7 +99,7 @@ const Services = () => {
           <hr className="border-t border-gray-300 my-10" />
         </div>
 
-        <div className="text-center mt-20 mb-10 text-5xl text-black">
+        <div className="text-center mt-20 mb-10 text-5xl text-[#1a1a1a]">
           Het Bewijs is Hier.
         </div>
 

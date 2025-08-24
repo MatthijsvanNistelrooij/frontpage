@@ -47,12 +47,12 @@ const FourSeasonsRestaurant = () => {
 
         <div className="container mx-auto px-8 py-12">
           <div
-            className="text-black text-center tracking-widest m-10 text-sm mx-auto lg:max-w-6xl"
+            className="text-[#1a1a1a] text-center tracking-widest m-10 text-sm mx-auto lg:max-w-6xl"
             style={{ fontFamily: "var(--font-mono)" }}
           >
             creatief met gerechten
           </div>
-          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-black mb-30 mx-auto lg:max-w-6xl">
+          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-30 mx-auto lg:max-w-6xl">
             Bij de opening van hun restaurant wist Four Seasons dat een sterke
             online presentatie essentieel was. Ze kozen voor ons voor een
             krachtige website die hun unieke Midden-Oosterse keuken stijlvol en
@@ -70,10 +70,10 @@ const FourSeasonsRestaurant = () => {
               <Image src={image3} alt="Image 3" fill className="object-cover" />
             </div>
           </div>
-          <div className="text-start mt-20 mb-10 text-5xl md:text-6xl text-black mx-auto lg:max-w-6xl">
+          <div className="text-start mt-20 mb-10 text-5xl md:text-6xl text-[#1a1a1a] mx-auto lg:max-w-6xl">
             Een Digitale Eerste Indruk
           </div>
-          <div className="text-black text-xl text-start mt-6 mb-10 lg:max-w-6xl mx-auto">
+          <div className="text-[#1a1a1a] text-xl text-start mt-6 mb-10 lg:max-w-6xl mx-auto">
             Voor de opening van Restaurant Four Seasons was een sterke online
             aanwezigheid onmisbaar. Het restaurant had nog geen digitale
             identiteit en kwam bij ons met de vraag om dit vanaf de grond op te
@@ -132,11 +132,11 @@ const FourSeasonsRestaurant = () => {
 
           <div className="flex flex-col lg:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl text-[1.2rem]">
-              <div className="text-start mb-10 text-5xl md:text-6xl text-black lg:max-w-6xl mx-auto">
+              <div className="text-start mb-10 text-5xl md:text-6xl text-[#1a1a1a] lg:max-w-6xl mx-auto">
                 Een Kijkje in de Keuken
               </div>
 
-              <ul className="space-y-4 text-black p-5">
+              <ul className="space-y-4 text-[#1a1a1a] p-5">
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
                   <span>
@@ -190,11 +190,11 @@ const FourSeasonsRestaurant = () => {
 
           <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl text-[1.2rem]">
-              <div className="text-start mb-10 text-5xl md:text-6xl text-black lg:max-w-6xl mx-auto">
+              <div className="text-start mb-10 text-5xl md:text-6xl text-[#1a1a1a] lg:max-w-6xl mx-auto">
                 Onze Diensten
               </div>
 
-              <ul className="space-y-4 text-black p-5">
+              <ul className="space-y-4 text-[#1a1a1a] p-5">
                 <li className="flex items-start gap-2">
                   <span className="">•</span>
                   <span>
@@ -233,7 +233,7 @@ const FourSeasonsRestaurant = () => {
             </div>
           </div>
 
-          <div className="text-black text-center text-6xl lg:text-8xl mt-20 mx-auto lg:max-w-6xl">
+          <div className="text-[#1a1a1a] text-center text-6xl lg:text-8xl mt-20 mx-auto lg:max-w-6xl">
             <div>Een Site Die Smaakt Naar Meer</div>
 
             <div className="flex flex-col md:flex-row justify-between mt-20 gap-10 lg:max-w-6xl mx-auto">
@@ -263,12 +263,12 @@ const FourSeasonsRestaurant = () => {
             </div>
           </div>
           <div
-            className="text-black text-center tracking-widest mt-20 mb-10 text-sm mx-auto lg:max-w-6xl"
+            className="text-[#1a1a1a] text-center tracking-widest mt-20 mb-10 text-sm mx-auto lg:max-w-6xl"
             style={{ fontFamily: "var(--font-mono)" }}
           >
             de smaak van succes
           </div>
-          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-black mb-20 lg:max-w-5xl mx-auto">
+          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-20 lg:max-w-5xl mx-auto">
             Met dit project heeft Restaurant Four Seasons een krachtige digitale
             start. Een moderne website die snelheid en gebruiksvriendelijkheid
             combineert. Het online visitekaartje dat nieuwsgierigheid wekt en
@@ -277,7 +277,7 @@ const FourSeasonsRestaurant = () => {
             meegroeit met hun ambities, en die de unieke sfeer van hun
             Midden-Oosterse keuken perfect vertaalt naar de digitale wereld.
           </p>
-          <div className="text-center mt-30 mb-10 text-5xl text-black leading-16 mx-auto lg:max-w-6xl">
+          <div className="text-center mt-30 mb-10 text-5xl text-[#1a1a1a] leading-16 mx-auto lg:max-w-6xl">
             Ook Een Restaurant Beginnen?
           </div>
 
@@ -286,7 +286,7 @@ const FourSeasonsRestaurant = () => {
               href={"/contact"}
               style={{ fontFamily: "var(--font-mono)" }}
               className={
-                " text-black p-4 px-8 mb-12 border border-black hover:text-white hover:bg-black cursor-pointer"
+                " text-[#1a1a1a] p-4 px-8 mb-12 border border-[#1a1a1a] hover:text-white hover:bg-[#1a1a1a] cursor-pointer"
               }
             >
               NEEM CONTACT OP
