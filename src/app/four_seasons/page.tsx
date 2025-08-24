@@ -71,8 +71,8 @@ const FourSeasons = () => {
           </div>
           <div className="text-black text-xl text-start mt-6 mb-30 lg:max-w-6xl mx-auto">
             De kapperszaak ontbrak het aan een moderne oplossing voor het
-            plannen van afspraken. Met dit project laten we zien hoe we high-end
-            design combineren met functionele en creatieve oplossingen, waarbij
+            plannen van afspraken. Met dit project brachten we een high-end
+            design gecombineerd met functionele en creatieve oplossingen, waarbij
             elk detail bijdraagt aan een vloeiende en samenhangende
             gebruikerservaring.
           </div>
