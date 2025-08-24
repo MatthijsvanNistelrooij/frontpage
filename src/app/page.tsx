@@ -26,7 +26,7 @@ export default function Home() {
 
         <div className="absolute inset-0 flex items-center justify-center z-10">
           <h1 className="text-white text-5xl px-8 md:text-7xl lg:text-[6rem] text-center drop-shadow-lg max-w-3xl lg:max-w-5xl mb-10">
-            A turbo-charged digital powerhouse.
+            A turbo-charged creative powerhouse.
           </h1>
         </div>
       </div>
@@ -40,7 +40,7 @@ export default function Home() {
             className="text-[#1a1a1a] text-xl md:text-2xl font-medium text-start max-w-md md:max-w-3xl tracking-wider my-20"
             style={{ fontFamily: "var(--font-mono)" }}
           >
-            Wij zijn een creatief bedrijf dat vernieuwende techniek combineert
+            Wij zijn een innovatief bedrijf dat vernieuwende techniek combineert
             met design om projecten te realiseren die werken. Of het nu gaat om
             een merk dat zich wil onderscheiden, een website die intuïtief is,
             of een app die echt iets toevoegt – wij brengen de slimme,
