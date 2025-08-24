@@ -88,12 +88,11 @@ const FourSeasons = () => {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
+          <div className="flex flex-col lg:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl text-[1.2rem]">
               <div className="text-start mb-10 text-5xl md:text-6xl text-black lg:max-w-6xl mx-auto">
                 Een Tech Stack Die Werkt
               </div>
-
               <ul className="space-y-4 text-black p-5">
                 <li className="flex items-start gap-2">
                   <span className="list-disc">•</span>
@@ -126,13 +125,13 @@ const FourSeasons = () => {
                 </li>
               </ul>
             </div>
-            <Image
-              src={techLogos[currentLogo]}
-              alt="tech_logo"
-              width={300}
-              height={300}
-              className="transition-opacity duration-700"
-            />
+            <div className="flex-1 flex justify-center items-center">
+              <Image
+                src={techLogos[currentLogo]}
+                alt="tech_logo"
+                className="transition-opacity duration-700 w-48 md:w-64 lg:w-96 xl:w-[400px] h-auto"
+              />
+            </div>
           </div>
 
           <div className="w-full mt-30">
@@ -230,8 +229,8 @@ const FourSeasons = () => {
             positie: een vernieuwde online aanwezigheid, snelle laadtijden en
             een optimale gebruikerservaring. Dankzij onze oplossingen geniet de
             klant van een efficiënte en professionele website die precies
-            aansluit bij hun visie, waardoor ze klaar is om uit te
-            blinken in de digitale wereld.
+            aansluit bij hun visie, waardoor ze klaar is om uit te blinken in de
+            digitale wereld.
           </p>
           <div className="text-center mt-30 mb-10 text-5xl text-black leading-16">
             Ook Een Eigen Afspraak Planner?

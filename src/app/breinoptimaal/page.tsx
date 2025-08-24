@@ -105,7 +105,7 @@ const BreinoptimaalProject = () => {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
+          <div className="flex flex-col lg:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl text-[1.2rem]">
               <div className="text-start mb-10 text-5xl md:text-6xl text-black">
                 Onder de Motorkap
@@ -149,13 +149,13 @@ const BreinoptimaalProject = () => {
               </ul>
             </div>
 
-            <Image
-              src={techLogos[currentLogo]}
-              alt="tech_logo"
-              width={300}
-              height={300}
-              className="transition-opacity duration-700"
-            />
+            <div className="flex-1 flex justify-center items-center">
+              <Image
+                src={techLogos[currentLogo]}
+                alt="tech_logo"
+                className="transition-opacity duration-700 w-48 md:w-64 lg:w-96 xl:w-[400px] h-auto"
+              />
+            </div>
           </div>
 
           <div className="my-20 relative border bg-[#1a1a1a]">
