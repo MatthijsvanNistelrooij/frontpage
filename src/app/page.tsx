@@ -53,7 +53,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-28 md:gap-8">
             <ProjectCard
               url="breinoptimaal"
-              info="Een gezonde webshop met de kracht van Stripe en Sanity voor Breinoptimaal."
+              info="Een gezonde webshop met de flexibiliteit en kracht van Stripe + Sanity voor Breinoptimaal."
               title="Breinoptimaal"
               image={breinoptimaal2}
               hoverImage={breinoptimaal}
@@ -67,7 +67,7 @@ export default function Home() {
             />
             <ProjectCard
               url="restaurant"
-              info="Een frisse moderne website met custom design & eigen huisstijl om Restaurant Four Seasons op de kaart te zetten."
+              info="We maakten een frisse moderne website met custom design & eigen huisstijl om Restaurant Four Seasons op de kaart te zetten."
               title="Restaurant Four Seasons"
               image={four_seasons_restaurant}
               hoverImage={four_seasons_logo}
