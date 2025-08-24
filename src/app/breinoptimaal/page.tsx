@@ -164,22 +164,22 @@ const BreinoptimaalProject = () => {
 
           <div className="text-black text-center text-6xl lg:text-8xl mt-20">
             <div>Klaar Voor de Start</div>
-            <div className="flex flex-col md:flex-row justify-center mt-20 gap-10">
+            <div className="flex flex-col md:flex-row justify-between mt-20 gap-10">
               <div className="text-start text-9xl md:text-center">
                 100%
-                <div className="text-lg font-normal mt-5">
+                <div className="text-lg md:text-xl lg:text-2xl font-normal mt-5">
                   Veilige checkout met Stripe
                 </div>
               </div>
               <div className="text-start text-9xl md:text-center">
                 1s
-                <div className="text-lg font-normal mt-5">
+                <div className="text-lg md:text-xl lg:text-2xl font-normal mt-5">
                   Gemiddelde laadtijd
                 </div>
               </div>
               <div className="text-start text-9xl md:text-center">
                 +200
-                <div className="text-lg font-normal mt-5">
+                <div className="text-lg md:text-xl lg:text-2xl font-normal mt-5">
                   Bestellingen sinds lancering
                 </div>
               </div>
