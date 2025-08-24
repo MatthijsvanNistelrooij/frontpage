@@ -54,7 +54,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-28 md:gap-8">
             <ProjectCard
               url="breinoptimaal"
-              info="Een Brainy Webshop met veel kracht en een solide Checkout voor Breinoptimaal."
+              info="Een Brainy Webshop met de kracht van Stripe en een robuuste Sanity backend voor Breinoptimaal."
               title="Breinoptimaal"
               image={breinoptimaal2}
               hoverImage={breinoptimaal}
@@ -63,12 +63,12 @@ export default function Home() {
               image={four_seasons_2}
               hoverImage={four_seasons}
               url="four_seasons"
-              info="We helpen Kapsalon Four Seasons naar het digitale tijdperk met een up-to-date landing en custom afspraakplanner."
+              info="We brengen Kapsalon Four Seasons naar het digitale tijdperk met een up-to-date landing en custom afspraakplanner."
               title="Kapsalon Four Seasons"
             />
             <ProjectCard
               url="restaurant"
-              info="Een strakke moderne landing met een nieuw custom design om Restaurant Four Seasons op de kaart te zetten."
+              info="Een strakke moderne landing met een nieuw & custom design zet Restaurant Four Seasons op de kaart."
               title="Restaurant Four Seasons"
               image={four_seasons_restaurant}
               hoverImage={four_seasons_logo}
