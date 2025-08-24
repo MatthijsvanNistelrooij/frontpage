@@ -26,7 +26,7 @@ export default function Home() {
 
         <div className="absolute inset-0 flex items-center justify-center z-10">
           <h1 className="text-white text-5xl px-8 md:text-8xl lg:text-[7rem] text-center drop-shadow-lg max-w-3xl lg:max-w-5xl mb-10">
-            A spark of magic with every pixel.
+            A turbo-charged creative powerhouse.
           </h1>
         </div>
       </div>
@@ -53,7 +53,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-28 md:gap-8">
             <ProjectCard
               url="breinoptimaal"
-              info="Een gezonde flexibele webshop gebouwd op de kracht van Stripe en Sanity voor Breinoptimaal."
+              info="Een healthy & flexibele Webshop gebouwd op de kracht van Stripe en Sanity voor Breinoptimaal."
               title="Breinoptimaal"
               image={breinoptimaal2}
               hoverImage={breinoptimaal}
@@ -62,12 +62,12 @@ export default function Home() {
               image={four_seasons_2}
               hoverImage={four_seasons}
               url="four_seasons"
-              info="We brachten Kapsalon Four Seasons naar het digitale tijdperk met een up-to-date landing en custom afspraakplanner."
+              info="We brachten Kapsalon Four Seasons naar het digitale tijdperk met een up-to-date landing + custom afspraakplanner."
               title="Kapsalon Four Seasons"
             />
             <ProjectCard
               url="restaurant"
-              info="Met een frisse moderne website en een eigen design & huisstijl zetten we Restaurant Four Seasons op de kaart."
+              info="Met een frisse, moderne website zetten we Restaurant Four Seasons op de kaart."
               title="Restaurant Four Seasons"
               image={four_seasons_restaurant}
               hoverImage={four_seasons_logo}
