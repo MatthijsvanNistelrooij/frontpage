@@ -51,10 +51,10 @@ const BreinoptimaalProject = () => {
             focus op resultaat
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-black mb-20 mx-auto lg:max-w-6xl">
-            Breinoptimaal schakelde onze expertise in om op een moderne manier online
-            te kunnen betalen. Met een intuïtieve checkout via Stripe en een
-            schaalbare infrastructuur van Sanity bieden we de klant een
-            veilige en snelle online ervaring.
+            Breinoptimaal vroeg ons om een moderne oplossing voor online
+            betalingen. Met een intuïtieve Stripe-checkout en een schaalbare
+            Sanity-infrastructuur bieden we elke klant een veilige, snelle en
+            betrouwbare ervaring.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -193,8 +193,8 @@ const BreinoptimaalProject = () => {
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-black mb-20 lg:max-w-6xl mx-auto">
             Met dit project heeft Breinoptimaal een moderne en
             gebruiksvriendelijke webshop die klaar is voor de toekomst. Dankzij
-            onze innovatieve oplossingen kan het merk blijven groeien en klanten de
-            beste ervaring bieden – of ze nu shoppen in Amsterdam of Dubai.
+            onze innovatieve oplossingen kan het merk blijven groeien en klanten
+            de beste ervaring bieden – of ze nu shoppen in Amsterdam of Dubai.
           </p>
 
           <div className="text-center mt-30 mb-10 text-5xl text-black leading-16">
