@@ -85,7 +85,7 @@ const FourSeasonsRestaurant = () => {
           <div className="text-start mt-20 mb-10 text-5xl md:text-6xl text-[#1a1a1a] mx-auto lg:max-w-6xl">
             Een Digitale Eerste Indruk
           </div>
-          <div className="text-[#1a1a1a] text-xl text-start mt-6 mb-10 lg:max-w-6xl mx-auto">
+          <div className="text-[#1a1a1a] text-xl text-start mt-6 mb-30 lg:max-w-6xl mx-auto">
             Het restaurant had nog geen digitale identiteit en kwam bij ons met
             de vraag om dit vanaf de grond op te bouwen. Met een focus op
             storytelling, visuele beleving en gebruiksvriendelijkheid hebben we
@@ -93,9 +93,17 @@ const FourSeasonsRestaurant = () => {
             de Syrische en Midden-Oosterse keuken.
           </div>
 
-          <div className="my-20 relative border bg-[#1a1a1a]">
+          {/* <div className="my-10 relative border bg-[#1a1a1a]">
             <Image
               src={concept_5}
+              alt="Image 4"
+              className="w-auto h-auto max-w-full mx-auto"
+            />
+          </div> */}
+
+          <div className="my-10 relative border bg-[#1a1a1a]">
+            <Image
+              src={concept_6}
               alt="Image 4"
               className="w-auto h-auto max-w-full mx-auto"
             />
@@ -130,14 +138,6 @@ const FourSeasonsRestaurant = () => {
                 className="w-auto h-auto max-w-full mx-auto"
               />
             </div>
-          </div>
-
-          <div className="my-20 relative border bg-[#1a1a1a]">
-            <Image
-              src={concept_6}
-              alt="Image 4"
-              className="w-auto h-auto max-w-full mx-auto"
-            />
           </div>
 
           <div className="flex flex-col lg:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
