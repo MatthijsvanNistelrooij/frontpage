@@ -39,7 +39,7 @@ const Contact = () => {
           <div className="text-black text-5xl sm:text-6xl md:text-8xl text-start">
             Elke Samenwerking als Katalysator.
           </div>
-
+          <div></div>
           <div className="text-black text-xl text-start mt-6">
             Ben je geïnteresseerd in samenwerken? Of wil je gewoon eens een idee
             bespreken? Neem contact op en laten we kijken hoe we samen iets
