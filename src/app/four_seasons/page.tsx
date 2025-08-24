@@ -191,7 +191,7 @@ const FourSeasons = () => {
           </div>
 
           <div className="text-black text-center text-6xl lg:text-8xl mt-20 lg:max-w-6xl mx-auto">
-            <div>Een Site Die Echt Geknipt Is</div>
+            <div>Een Site Die Geknipt Is</div>
 
             <div className="flex flex-col md:flex-row justify-center mt-20 gap-10 lg:max-w-6xl mx-auto">
               <div className="text-start text-9xl md:text-8xl md:text-center lg:text-9xl">

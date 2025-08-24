@@ -42,7 +42,7 @@ export default function Home() {
           >
             Wij zijn een creatief bedrijf dat graag buiten de lijntjes denkt. We
             combineren design, techniek en strategie om oplossingen te maken die
-            echt werken. Of het nu gaat om een merk dat zich moet onderscheiden,
+            werken. Of het nu gaat om een merk dat zich moet onderscheiden,
             een website die prettig in gebruik is, of een app die echt iets
             toevoegt – wij vinden een slimme en verrassende aanpak. En dat doen
             we met liefde.😉
