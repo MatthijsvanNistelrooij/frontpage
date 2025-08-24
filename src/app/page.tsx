@@ -40,12 +40,12 @@ export default function Home() {
             className="text-black text-xl md:text-2xl font-medium text-start max-w-md md:max-w-3xl tracking-wider my-20"
             style={{ fontFamily: "var(--font-mono)" }}
           >
-            Wij zijn een creatief bedrijf dat graag buiten de lijntjes denkt. We
-            combineren design, techniek en strategie om oplossingen te maken die
-            werken. Of het nu gaat om een merk dat zich moet onderscheiden, een
-            website die prettig in gebruik is, of een app die echt iets toevoegt
-            – wij vinden een slimme en verrassende aanpak. En dat doen we met
-            liefde.😉
+            Wij zijn een creatief bedrijf dat vernieuwende oplossingen inzet in
+            combinatie met design, techniek en strategie om projecten te
+            realiseren die werken en vertrouwen uitstralen. Of het nu gaat om
+            een merk dat zich duidelijk wil onderscheiden, een website die
+            intuïtief is, of een app die echt iets toevoegt – wij vinden de
+            slimme, doordachte aanpak. En dat doen we met aandacht en liefde.😉
           </div>
           <h2 className="text-6xl md:text-8xl font-light text-start mb-10 text-black">
             Ons Werk
