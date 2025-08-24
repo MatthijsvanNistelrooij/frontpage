@@ -80,8 +80,7 @@ const FourSeasonsRestaurant = () => {
             bouwen. Met een focus op storytelling, visuele beleving en
             gebruiksvriendelijkheid hebben we een website ontworpen die gasten
             meteen onderdompelt in de sfeer van de Syrische en Midden-Oosterse
-            keuken. Een platform dat zowel nieuwsgierigheid wekt als uitnodigt
-            tot actie.
+            keuken.
           </div>
 
           <div className="my-20 relative border bg-[#1a1a1a]">
