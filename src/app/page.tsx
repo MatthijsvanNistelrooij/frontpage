@@ -1,12 +1,13 @@
 "use client"
 
 import ProjectCard from "@/components/ProjectCard"
-import four_seasons from "/public/assets/kapsalon_four_seasons_1.png"
-import four_seasons_2 from "/public/assets/kapsalon_four_seasons_2.png"
-import four_seasons_logo from "/public/assets/restaurant_four_seasons_3.png"
-import four_seasons_restaurant from "/public/assets/restaurant_four_seasons_logo_2.png"
-import breinoptimaal from "/public/assets/breinoptimaal.png"
-import breinoptimaal2 from "/public/assets/breinoptimaal_bottle.png"
+
+import four_seasons from "/public/assets/four_seasons_kapsalon/four_season.jpg"
+import four_seasons_2 from "/public/assets/four_seasons_restaurant/kapsalon_four_seasons_2.png"
+import four_seasons_logo from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_3.png"
+import four_seasons_restaurant from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_logo_2.png"
+import breinoptimaal from "/public/assets/breinoptimaal/health_4.jpg"
+import breinoptimaal2 from "/public/assets/breinoptimaal/breinoptimaal_bottle.png"
 
 import { Footer } from "@/components/Footer"
 import Link from "next/link"
@@ -25,8 +26,8 @@ export default function Home() {
         />
 
         <div className="absolute inset-0 flex items-center justify-center z-10">
-          <h1 className="text-white text-5xl px-8 md:text-7xl lg:text-[6rem] text-center drop-shadow-lg max-w-3xl lg:max-w-5xl mb-10">
-            A turbo-charged creative powerhouse.
+          <h1 className="text-white text-5xl px-8 md:text-7xl lg:text-[6rem] text-center drop-shadow-lg max-w-3xl lg:max-w-5xl mb-10 tracking-wide">
+            A turbo-charged digital powerhouse.
           </h1>
         </div>
       </div>
@@ -53,12 +54,12 @@ export default function Home() {
               url="breinoptimaal"
               info="Een healthy & flexibele Webshop gebouwd op de kracht van Stripe en Sanity voor Breinoptimaal."
               title="Breinoptimaal"
-              image={breinoptimaal2}
-              hoverImage={breinoptimaal}
+              image={breinoptimaal}
+              hoverImage={breinoptimaal2}
             />
             <ProjectCard
-              image={four_seasons_2}
-              hoverImage={four_seasons}
+              image={four_seasons}
+              hoverImage={four_seasons_2}
               url="four_seasons"
               info="We brachten Kapsalon Four Seasons naar het digitale tijdperk met een up-to-date landing + custom afspraakplanner."
               title="Kapsalon Four Seasons"

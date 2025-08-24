@@ -1,6 +1,6 @@
 import React from "react"
 import Image from "next/image"
-import heroImage from "/public/service.jpg"
+import heroImage from "/public/assets/service.jpg"
 import { Footer } from "@/components/Footer"
 import Link from "next/link"
 

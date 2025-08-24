@@ -1,15 +1,21 @@
 "use client"
 import React, { useEffect, useState } from "react"
 import Image from "next/image"
-import heroImage from "/public/assets/kapsalon_four_seasons_1.png"
-import image2 from "/public/logo_header.png"
-import image3 from "/public/kapsalon-four-seasons-groningen.png"
 import Link from "next/link"
+
 import tech_logo1 from "/public/next.svg"
-import tech_logo2 from "/public/vercel.png"
-import tech_logo3 from "/public/appwrite.png"
-import tech_logo4 from "/public/twilio.png"
-import four_seasons_3 from "/public/assets/kapsalon_four_seasons_3.png"
+import tech_logo2 from "/public/assets/tech_logo/vercel.png"
+import tech_logo3 from "/public/assets/tech_logo/appwrite.png"
+import tech_logo4 from "/public/assets/tech_logo/twilio.png"
+
+import heroImage from "/public/assets/four_seasons_kapsalon/barber.jpg"
+import image2 from "/public/assets/four_seasons_kapsalon/logo_header.png"
+import image3 from "/public/assets/four_seasons_kapsalon/four_seasons_logo.png"
+
+import four_seasons_3 from "/public/assets/four_seasons_kapsalon/barber_3.jpg"
+import four_seasons_4 from "/public/assets/four_seasons_kapsalon/barber_4.jpg"
+
+import overlayImage from "/public/assets/four_seasons_kapsalon/four_seasons_logo.png"
 
 import { Footer } from "@/components/Footer"
 
@@ -35,6 +41,17 @@ const FourSeasons = () => {
             fill
             className="object-cover"
           />
+          <div className="absolute inset-0 bg-black/30" />
+
+          <div className="absolute inset-0 flex items-center justify-center">
+            <Image
+              src={overlayImage}
+              alt="Overlay"
+              width={600}
+              height={600}
+              className="object-contain"
+            />
+          </div>
         </div>
 
         <div className="container mx-auto px-8 py-12 ">
@@ -75,17 +92,13 @@ const FourSeasons = () => {
             oplossingen, waarbij elk detail bijdraagt aan een vloeiende en
             samenhangende gebruikerservaring.
           </div>
-          <div className="mb-8 mt-20 shadow rounded-xl">
-            <div className="flex">
-              <video
-                src="/four_seasons_appointment.mp4"
-                autoPlay
-                muted
-                loop
-                playsInline
-                className="shadow rounded-xl"
-              />
-            </div>
+
+          <div className="w-full my-30">
+            <Image
+              src={four_seasons_4}
+              alt="Image 2"
+              className="w-full h-auto object-contain"
+            />
           </div>
 
           <div className="flex flex-col lg:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
@@ -181,7 +194,7 @@ const FourSeasons = () => {
             </div>
           </div>
 
-          <div className="w-full my-30 shadow rounded-xl p-5">
+          <div className="w-full my-30">
             <Image
               src={four_seasons_3}
               alt="Image 2"

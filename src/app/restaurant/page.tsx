@@ -1,24 +1,27 @@
 "use client"
 import React, { useEffect, useState } from "react"
 import Image from "next/image"
-import heroImage from "/public/assets/restaurant_hero_1.png"
-import image1 from "/public/assets/restaurant_four_seasons_img_1.png"
-import image2 from "/public/assets/restaurant_four_seasons_img_2.png"
-import image3 from "/public/assets/restaurant_four_seasons_img_3.png"
+import heroImage from "/public/assets/four_seasons_restaurant/four_seasons_Hero.jpg"
+import image1 from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_img_1.png"
+import image2 from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_img_2.png"
+import image3 from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_img_3.png"
 import Link from "next/link"
 import tech_logo1 from "/public/next.svg"
-import tech_logo2 from "/public/vercel.png"
-import tech_logo3 from "/public/appwrite.png"
-import tech_logo4 from "/public/emailjs.png"
-import site_design from "/public/assets/site_design.png"
-import concept_1 from "/public/assets/concept_1.png"
-import concept_2 from "/public/assets/concept_2.png"
-import concept_3 from "/public/assets/concept_3.png"
-import concept_4 from "/public/assets/concept_4.png"
-import concept_5 from "/public/assets/concept_9.png"
-import concept_6 from "/public/assets/concept_8.png"
-import welcome from "/public/assets/four_seasons_welcome.png"
+import tech_logo2 from "/public/assets/tech_logo/vercel.png"
+import tech_logo3 from "/public/assets/tech_logo/appwrite.png"
+import tech_logo4 from "/public/assets/tech_logo/emailjs.png"
+import site_design from "/public/assets/four_seasons_restaurant/site_design.png"
+import concept_1 from "/public/assets/four_seasons_restaurant/concept_1.png"
+import concept_2 from "/public/assets/four_seasons_restaurant/concept_2.png"
+import concept_3 from "/public/assets/four_seasons_restaurant/concept_3.png"
+import concept_4 from "/public/assets/four_seasons_restaurant/concept_4.png"
+import concept_5 from "/public/assets/four_seasons_restaurant/concept_9.png"
+import concept_6 from "/public/assets/four_seasons_restaurant/concept_8.png"
+import welcome from "/public/assets/four_seasons_restaurant/four_seasons_welcome.png"
+import overlayImage from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_logo.png"
+
 import { Footer } from "@/components/Footer"
+
 
 const techLogos = [tech_logo1, tech_logo2, tech_logo3, tech_logo4]
 
@@ -35,14 +38,24 @@ const FourSeasonsRestaurant = () => {
   return (
     <>
       <div className="flex flex-col bg-[#fffffb]">
-        <div className="w-full h-[30vh] md:h-screen overflow-hidden relative">
+        <div className="relative w-full min-h-[50vh] max-h-[17vh] md:min-h-[100vh] overflow-hidden">
           <Image
             src={heroImage}
             alt="Four Seasons Hero"
             fill
-            className="object-cover object-center"
-            priority
+            className="object-cover"
           />
+          <div className="absolute inset-0 bg-black/50" />
+
+          <div className="absolute inset-0 flex items-center justify-center">
+            <Image
+              src={overlayImage}
+              alt="Overlay"
+              width={100}
+              height={100}
+              className="object-contain"
+            />
+          </div>
         </div>
 
         <div className="container mx-auto px-8 py-12">

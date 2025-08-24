@@ -1,22 +1,22 @@
 "use client"
 import React, { useEffect, useState } from "react"
 import Image from "next/image"
-import heroImage from "/public/assets/breinoptimaal.png"
-import image1 from "/public/assets/breinoptimaal_bottle.png"
-import image2 from "/public/assets/breinoptimaal_bottle.png"
-import image3 from "/public/assets/breinoptimaal_bottle.png"
 import Link from "next/link"
-import tech_logo1 from "/public/next.svg"
-import tech_logo2 from "/public/vercel.png"
-import tech_logo3 from "/public/sanity.png"
-import tech_logo4 from "/public/stripe.png"
-import concept_1 from "/public/assets/breinoptimaal_bottle.png"
-import concept_2 from "/public/assets/breinoptimaal_bottle.png"
-import concept_3 from "/public/assets/breinoptimaal_bottle.png"
-import concept_4 from "/public/assets/breinoptimaal_bottle.png"
-import concept_5 from "/public/assets/breinoptimaal_bottle.png"
-import concept_6 from "/public/assets/breinoptimaal2.png"
 import { Footer } from "@/components/Footer"
+
+import tech_logo1 from "/public/next.svg"
+import tech_logo2 from "/public/assets/tech_logo/vercel.png"
+import tech_logo3 from "/public/assets/tech_logo/sanity.png"
+import tech_logo4 from "/public/assets/tech_logo/stripe.png"
+import concept_1 from "/public/assets/breinoptimaal/breinoptimaal_bottle.png"
+import health_9 from "/public/assets/breinoptimaal/health_9.jpg"
+import health_5 from "/public/assets/breinoptimaal/health_5.jpg"
+import oats from "/public/assets/breinoptimaal/oats.jpg"
+import health_1 from "/public/assets/breinoptimaal/health_1.jpg"
+import health_2 from "/public/assets/breinoptimaal/health_2.jpg"
+import heroImage from "/public/assets/breinoptimaal/health_3.jpg"
+import health_4 from "/public/assets/breinoptimaal/health_4.jpg"
+import overlayImage from "/public/assets/breinoptimaal/logo.webp"
 
 const techLogos = [tech_logo1, tech_logo2, tech_logo3, tech_logo4]
 
@@ -33,14 +33,24 @@ const BreinoptimaalProject = () => {
   return (
     <>
       <div className="flex flex-col bg-[#fffffb]">
-        <div className="w-full h-[30vh] md:h-screen overflow-hidden relative">
+        <div className="relative w-full min-h-[50vh] max-h-[17vh] md:min-h-[100vh] overflow-hidden">
           <Image
             src={heroImage}
-            alt="Breinoptimaal"
+            alt="Four Seasons Hero"
             fill
-            className="object-cover object-center"
-            priority
+            className="object-cover"
           />
+
+          <div className="absolute inset-0 bg-white/50" />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <Image
+              src={overlayImage}
+              alt="Overlay"
+              width={150}
+              height={150}
+              className="object-contain"
+            />
+          </div>
         </div>
 
         <div className="container mx-auto px-8 py-12">
@@ -51,22 +61,37 @@ const BreinoptimaalProject = () => {
             focus op resultaat
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-30 mx-auto lg:max-w-6xl">
-            Breinoptimaal kwam bij ons voor een moderne oplossing in online
-            betalingsverkeer. We maakten een systeem dat flexibel is en mee kan
-            groeien in elke gewenste richting. Met een intuïtieve
+            Breinoptimaal zocht onze expertise voor een moderne oplossing in
+            online betalingsverkeer. We maakten een systeem dat flexibel is en
+            mee kan groeien in elke gewenste richting. Met een intuïtieve
             Stripe-checkout en een schaalbare Sanity-infrastructuur bieden we
-            een veilige en betrouwbare ervaring.
+            een schaalbare en betrouwbare beleving die met de klant meegroeit.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             <div className="w-full h-140 relative">
-              <Image src={image1} alt="Image 1" fill className="object-cover" />
+              <Image
+                src={concept_1}
+                alt="Image 1"
+                fill
+                className="object-cover"
+              />
             </div>
             <div className="w-full h-140 relative">
-              <Image src={image2} alt="Image 2" fill className="object-cover" />
+              <Image
+                src={concept_1}
+                alt="Image 2"
+                fill
+                className="object-cover"
+              />
             </div>
             <div className="w-full h-140 relative">
-              <Image src={image3} alt="Image 3" fill className="object-cover" />
+              <Image
+                src={concept_1}
+                alt="Image 3"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
 
@@ -74,7 +99,7 @@ const BreinoptimaalProject = () => {
             Een Sterke Basis
           </div>
           <div className="text-[#1a1a1a] text-xl text-start mt-6 mb-10 lg:max-w-6xl mx-auto">
-            Breinoptimaal zocht meer dan een standaard webshop: een digitale
+            Breinoptimaal vroeg meer dan een standaard webshop: een digitale
             omgeving die professionaliteit en vertrouwen uitstraalt. Door onze
             aanpak is er een platform ontstaan dat schaalbaar is, eenvoudig in
             beheer en helemaal gericht op conversie. Met een checkout via Stripe
@@ -82,26 +107,41 @@ const BreinoptimaalProject = () => {
             hun bestelling plaatsen.
           </div>
 
-          <div className="my-20 relative border bg-[#1a1a1a]">
+          <div className="my-20 relative bg-[#1a1a1a]">
             <Image
-              src={concept_5}
+              src={health_1}
               alt="Image 4"
               className="w-auto h-auto max-w-full mx-auto"
             />
           </div>
 
-          <div className="mt-20 flex flex-col md:flex-row gap-12 mx-auto">
-            <div className="relative border">
-              <Image src={concept_1} alt="Image 1" className="mx-auto" />
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+            <div className="w-full h-140 relative">
+              <Image
+                src={health_5}
+                alt="Image 1"
+                fill
+                className="object-cover"
+              />
             </div>
-            <div className="relative border bg-[#1a1a1a]">
-              <Image src={concept_2} alt="Image 2" className="mx-auto" />
+            <div className="w-full h-140 relative">
+              <Image
+                src={health_9}
+                alt="Image 2"
+                fill
+                className="object-cover"
+              />
             </div>
-            <div className="relative border">
-              <Image src={concept_3} alt="Image 3" className="mx-auto" />
+            <div className="w-full h-140 relative">
+              <Image src={oats} alt="Image 3" fill className="object-cover" />
             </div>
-            <div className="relative border bg-[#1a1a1a]">
-              <Image src={concept_4} alt="Image 4" className="mx-auto" />
+            <div className="w-full h-140 relative">
+              <Image
+                src={health_2}
+                alt="Image 3"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
 
@@ -134,7 +174,7 @@ const BreinoptimaalProject = () => {
                   <span>
                     <span className="">Sanity:</span> Headless CMS dat het team
                     in staat stelt om producten, teksten en afbeeldingen
-                    eenvoudig te beheren en flexibel uit te rollen, waar ook ter
+                    eenvoudig uit te rollen, waar ook ter
                     wereld.
                   </span>
                 </li>
@@ -158,8 +198,8 @@ const BreinoptimaalProject = () => {
             </div>
           </div>
 
-          <div className="my-20 relative border bg-[#1a1a1a]">
-            <Image src={concept_6} alt="Image 4" className="mx-auto" />
+          <div className="my-20 relative bg-[#1a1a1a]">
+            <Image src={health_4} alt="Image 4" className="mx-auto" />
           </div>
 
           <div className="text-[#1a1a1a] text-center text-6xl lg:text-8xl mt-20">
