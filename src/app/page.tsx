@@ -30,7 +30,6 @@ export default function Home() {
           </h1>
         </div>
       </div>
-
       <section
         id="work"
         className="bg-[#fffffb] flex items-center justify-center"
@@ -49,7 +48,6 @@ export default function Home() {
           <h2 className="text-6xl md:text-8xl font-light text-start mb-10 text-[#1a1a1a]">
             Ons Werk
           </h2>
-
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-28 md:gap-8">
             <ProjectCard
               url="breinoptimaal"
