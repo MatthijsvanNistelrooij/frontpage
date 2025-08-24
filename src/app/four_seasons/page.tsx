@@ -44,7 +44,7 @@ const FourSeasons = () => {
           >
             kracht en schoonheid gecombineerd
           </div>
-          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-black mb-20 lg:max-w-5xl mx-auto">
+          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-black mb-30 lg:max-w-5xl mx-auto">
             Four Seasons, een kapsalon die al 20 jaar actief is in Groningen,
             had een high-end front-end nodig waar gasten moeiteloos een afspraak
             in kunnen plannen. Ons team heeft gewerkt aan een visuele ervaring
