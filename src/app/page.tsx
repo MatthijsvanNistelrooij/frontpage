@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <div className="relative w-full h-[60vh] lg:h-screen">
         <video
-          src="/industir.mp4"
+          src="/stock_small.mp4"
           autoPlay
           muted
           loop
