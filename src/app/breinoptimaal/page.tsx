@@ -73,7 +73,7 @@ const BreinoptimaalProject = () => {
             Een Sterke Basis
           </div>
           <div className="text-black text-xl text-start mt-6 mb-10 lg:max-w-6xl mx-auto">
-            Breinoptimaal wilde meer dan een standaard webshop: een digitale
+            Breinoptimaal zocht meer dan een standaard webshop: een digitale
             omgeving die professionaliteit en vertrouwen uitstraalt. Door onze
             aanpak is er een platform ontstaan dat schaalbaar is, eenvoudig in
             beheer en helemaal gericht op conversie. Met een checkout via Stripe
