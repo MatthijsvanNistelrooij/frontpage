@@ -47,8 +47,8 @@ const FourSeasons = () => {
             <Image
               src={overlayImage}
               alt="Overlay"
-              width={600}
-              height={600}
+              width={400}
+              height={400}
               className="object-contain"
             />
           </div>
