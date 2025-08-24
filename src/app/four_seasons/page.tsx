@@ -241,8 +241,8 @@ const FourSeasons = () => {
             Het resultaat van dit project plaatst de kapsalon in een sterke
             positie: een vernieuwde online aanwezigheid, snelle laadtijden en
             een optimale gebruikerservaring. Dankzij onze oplossingen geniet de
-            klant van een efficiënte en professionele website die precies
-            aansluit bij hun visie, waardoor ze klaar is om uit te blinken in de
+            klant van een efficiënte en professionele website die perfect
+            aansluit bij de visie en daarmee klaar is om uit te blinken in de
             digitale wereld.
           </p>
           <div className="text-center mt-30 mb-10 text-5xl text-[#1a1a1a] leading-16">
