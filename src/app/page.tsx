@@ -42,7 +42,7 @@ export default function Home() {
           >
             Wij zijn een creatief bedrijf dat vernieuwende techniek combineert
             met design en strategie om projecten te realiseren die
-            werken en vertrouwen uitstralen. Of het nu gaat om een merk dat zich
+            werken. Of het nu gaat om een merk dat zich
             duidelijk wil onderscheiden, een website die intuïtief is, of een
             app die echt iets toevoegt – wij vinden de slimme, doordachte
             aanpak. En dat doen we met liefde.😉
