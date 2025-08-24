@@ -74,7 +74,7 @@ export default function Home() {
               hoverImage={four_seasons_logo}
             />
           </div>
-          <div className="text-center mt-40 mb-10 text-4xl md:text-5xl text-black">
+          <div className="text-center mt-42 mb-10 text-4xl md:text-5xl text-black">
             We volgen de data, en laten ons leiden door nieuwsgierigheid.
           </div>
           <div className="flex w-full justify-center text-center">
