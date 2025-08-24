@@ -202,23 +202,22 @@ const FourSeasons = () => {
             />
           </div>
 
-          <div className="text-[#1a1a1a] text-center text-6xl lg:text-8xl mt-20 lg:max-w-6xl mx-auto">
+          <div className="text-[#1a1a1a] text-center text-6xl lg:text-8xl mt-20">
             <div>Een Site Die Geknipt Is</div>
-
-            <div className="flex flex-col md:flex-row justify-between mt-20 gap-10 lg:max-w-6xl mx-auto">
-              <div className="text-start text-9xl md:text-8xl md:text-center lg:text-9xl">
+            <div className="flex flex-col md:flex-row justify-between mt-20 gap-10">
+              <div className="text-start text-9xl md:text-center">
                 90%
                 <div className="text-lg md:text-xl lg:text-2xl font-normal mt-5">
                   Sneller volgens Google PageSpeed
                 </div>
               </div>
-              <div className="text-start text-9xl md:text-8xl md:text-center lg:text-9xl">
-                1.2s
+              <div className="text-start text-9xl md:text-center">
+                1.s
                 <div className="text-lg md:text-xl lg:text-2xl font-normal mt-5">
                   Verbeterde laadtijd
                 </div>
               </div>
-              <div className="text-start text-9xl md:text-8xl md:text-center lg:text-9xl">
+              <div className="text-start text-9xl md:text-center">
                 +50
                 <div className="text-lg md:text-xl lg:text-2xl font-normal mt-5">
                   Afspraken sinds livegang
@@ -242,8 +241,8 @@ const FourSeasons = () => {
             positie: een vernieuwde online aanwezigheid, snelle laadtijden en
             een optimale gebruikerservaring. Dankzij onze oplossingen geniet de
             klant van een efficiënte en professionele website die perfect
-            aansluit bij de visie en klaar is om uit te blinken in de
-            digitale wereld.
+            aansluit bij de visie en klaar is om uit te blinken in de digitale
+            wereld.
           </p>
           <div className="text-center mt-30 mb-10 text-5xl text-[#1a1a1a] leading-16">
             Ook Een Eigen Afspraak Planner?

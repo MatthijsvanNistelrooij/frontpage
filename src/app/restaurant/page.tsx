@@ -22,7 +22,6 @@ import overlayImage from "/public/assets/four_seasons_restaurant/restaurant_four
 
 import { Footer } from "@/components/Footer"
 
-
 const techLogos = [tech_logo1, tech_logo2, tech_logo3, tech_logo4]
 
 const FourSeasonsRestaurant = () => {
@@ -244,23 +243,22 @@ const FourSeasonsRestaurant = () => {
             </div>
           </div>
 
-          <div className="text-[#1a1a1a] text-center text-6xl lg:text-8xl mt-20 mx-auto lg:max-w-6xl">
+          <div className="text-[#1a1a1a] text-center text-6xl lg:text-8xl mt-20">
             <div>Een Site Die Smaakt Naar Meer</div>
-
-            <div className="flex flex-col md:flex-row justify-between mt-20 gap-10 lg:max-w-6xl mx-auto">
-              <div className="text-start text-9xl md:text-8xl md:text-center lg:text-9xl">
+            <div className="flex flex-col md:flex-row justify-between mt-20 gap-10">
+              <div className="text-start text-9xl md:text-center">
                 90%
                 <div className="text-lg md:text-xl lg:text-2xl font-normal mt-5">
                   Sneller volgens Google PageSpeed
                 </div>
               </div>
-              <div className="text-start text-9xl md:text-8xl md:text-center lg:text-9xl">
-                1.2s
+              <div className="text-start text-9xl md:text-center">
+                1.s
                 <div className="text-lg md:text-xl lg:text-2xl font-normal mt-5">
                   Verbeterde laadtijd
                 </div>
               </div>
-              <div className="text-start text-9xl md:text-8xl md:text-center lg:text-9xl">
+              <div className="text-start text-9xl md:text-center">
                 +50
                 <div className="text-lg md:text-xl lg:text-2xl font-normal mt-5">
                   Afspraken sinds livegang
@@ -268,6 +266,7 @@ const FourSeasonsRestaurant = () => {
               </div>
             </div>
           </div>
+
           <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mb-8 mt-20">
             <div className="w-full relative">
               <Image src={image2} alt="Image 2" fill className="object-cover" />
