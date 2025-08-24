@@ -70,7 +70,7 @@ const FourSeasons = () => {
             Een Build-As-We-Go Benadering
           </div>
           <div className="text-black text-xl text-start mt-6 mb-30 lg:max-w-6xl mx-auto">
-            De kapperszaak ontbrak het aan een moderne oplossing voor het
+            De kapperszaak was op zoek naar een moderne manier voor het
             plannen van afspraken. Met dit project brachten we een high-end
             design gecombineerd met functionele oplossingen, waarbij
             elk detail bijdraagt aan een vloeiende en samenhangende
