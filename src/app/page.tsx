@@ -21,7 +21,7 @@ export default function Home() {
           muted
           loop
           playsInline
-          className="absolute top-0 left-0 w-full h-full object-cover"
+          className="absolute top-0 left-0 w-full h-full object-cover opacity-50"
         />
 
         <div className="absolute inset-0 flex items-center justify-center z-10">
@@ -42,10 +42,10 @@ export default function Home() {
           >
             Wij zijn een creatief bedrijf dat graag buiten de lijntjes denkt. We
             combineren design, techniek en strategie om oplossingen te maken die
-            werken. Of het nu gaat om een merk dat zich moet onderscheiden,
-            een website die prettig in gebruik is, of een app die echt iets
-            toevoegt – wij vinden een slimme en verrassende aanpak. En dat doen
-            we met liefde.😉
+            werken. Of het nu gaat om een merk dat zich moet onderscheiden, een
+            website die prettig in gebruik is, of een app die echt iets toevoegt
+            – wij vinden een slimme en verrassende aanpak. En dat doen we met
+            liefde.😉
           </div>
           <h2 className="text-6xl md:text-8xl font-light text-start mb-10 text-black">
             Ons Werk
