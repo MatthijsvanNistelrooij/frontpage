@@ -169,7 +169,7 @@ const FourSeasonsRestaurant = () => {
                 <li className="flex items-start gap-2">
                   <span className="">•</span>
                   <span>
-                    Hoogwaardig design en prototypes in Figma uitgewerkt voor
+                    Hoogwaardig design en prototypes uitgewerkt voor
                     een duidelijke visualisatie van het project
                   </span>
                 </li>
