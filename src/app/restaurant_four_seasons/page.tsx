@@ -47,17 +47,26 @@ const FourSeasonsRestaurant = () => {
           <div className="absolute inset-0 bg-black/50" />
 
           <div className="absolute inset-0 flex items-center justify-center">
-            <Image
-              src={overlayImage}
-              alt="Overlay"
-              width={80}
-              height={80}
-              className="object-contain"
-            />
+            <button
+              onClick={() => {
+                const el = document.getElementById("section")
+                if (el) {
+                  el.scrollIntoView({ behavior: "smooth" })
+                }
+              }}
+            >
+              <Image
+                src={overlayImage}
+                alt="Overlay"
+                width={90}
+                height={90}
+                className="object-contain cursor-pointer"
+              />
+            </button>
           </div>
         </div>
 
-        <div className="container mx-auto px-8 py-12">
+        <div id="section" className="container mx-auto px-8 py-12">
           <div
             className="text-[#1a1a1a] text-center tracking-widest m-10 text-sm mx-auto lg:max-w-6xl"
             style={{ fontFamily: "var(--font-mono)" }}
@@ -169,8 +178,8 @@ const FourSeasonsRestaurant = () => {
                 <li className="flex items-start gap-2">
                   <span className="">•</span>
                   <span>
-                    Hoogwaardig design en prototypes uitgewerkt voor
-                    een duidelijke visualisatie van het project
+                    Hoogwaardig design en prototypes uitgewerkt voor een
+                    duidelijke visualisatie van het project
                   </span>
                 </li>
 

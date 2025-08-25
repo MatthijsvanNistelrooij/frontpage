@@ -7,7 +7,7 @@ import four_seasons_2 from "/public/assets/four_seasons_kapsalon/kapsalon_four_s
 import four_seasons_logo from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_3.png"
 import four_seasons_restaurant from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_logo_2.png"
 import breinoptimaal from "/public/assets/breinoptimaal/health_4.jpg"
-import breinoptimaal_2 from "/public/assets/breinoptimaal/balance.jpg"
+import breinoptimaal_2 from "/public/assets/breinoptimaal/logo_bottle.png"
 
 import { Footer } from "@/components/Footer"
 import Link from "next/link"
@@ -60,12 +60,12 @@ export default function Home() {
             <ProjectCard
               image={four_seasons_2}
               hoverImage={four_seasons}
-              url="four_seasons"
+              url="kapsalon_four_seasons"
               info="We brachten Kapsalon Four Seasons naar het digitale tijdperk met een up-to-date landing & custom afspraakplanner."
               title="Kapsalon Four Seasons"
             />
             <ProjectCard
-              url="restaurant"
+              url="restaurant_four_seasons"
               info="Met een frisse, moderne website zetten we Restaurant Four Seasons op de kaart."
               title="Restaurant Four Seasons"
               image={four_seasons_restaurant}

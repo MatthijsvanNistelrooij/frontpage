@@ -43,17 +43,26 @@ const BreinoptimaalProject = () => {
 
           <div className="absolute inset-0 bg-white/20" />
           <div className="absolute inset-0 flex items-center justify-center">
-            <Image
-              src={overlayImage}
-              alt="Overlay"
-              width={150}
-              height={150}
-              className="object-contain"
-            />
+            <button
+              onClick={() => {
+                const el = document.getElementById("section")
+                if (el) {
+                  el.scrollIntoView({ behavior: "smooth" })
+                }
+              }}
+            >
+              <Image
+                src={overlayImage}
+                alt="Overlay"
+                width={150}
+                height={150}
+                className="object-contain cursor-pointer"
+              />
+            </button>
           </div>
         </div>
 
-        <div className="container mx-auto px-8 py-12">
+        <div id="section" className="container mx-auto px-8 py-12">
           <div
             className="text-[#1a1a1a] text-center tracking-widest m-10 text-sm mx-auto lg:max-w-6xl"
             style={{ fontFamily: "var(--font-mono)" }}
