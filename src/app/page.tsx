@@ -40,8 +40,8 @@ export default function Home() {
             className="text-[#1a1a1a] text-xl md:text-2xl font-medium text-start max-w-md md:max-w-3xl tracking-wider my-20"
             style={{ fontFamily: "var(--font-mono)" }}
           >
-            Wij zijn een innovatief bedrijf dat vernieuwende techniek en design
-            combineert om projecten te realiseren die werken. Of het nu
+            Wij zijn een innovatief bedrijf dat vernieuwende techniek combineert met design
+            om projecten te realiseren die werken. Of het nu
             gaat om een merk dat zich wil onderscheiden, een website die
             intuïtief is, of een app die iets toevoegt – wij leveren altijd een
             slimme, doordachte aanpak. En dat doen we met liefde. 😉
