@@ -242,7 +242,7 @@ const BreinoptimaalProject = () => {
           <div className="text-center mt-30 mb-10 text-5xl text-[#1a1a1a] leading-16">
             Ook Een Webshop Bouwen?
           </div>
-          <div className="flex w-full justify-center text-center my-20">
+          <div className="flex w-full justify-center text-center mb-20">
             <Link
               href={"/contact"}
               style={{ fontFamily: "var(--font-mono)" }}

@@ -72,10 +72,10 @@ export default function Home() {
               hoverImage={four_seasons_logo}
             />
           </div>
-          <div className="text-center mt-42 mb-20 text-4xl md:text-5xl text-[#1a1a1a]">
+          <div className="text-center mt-42 mb-10 text-4xl md:text-5xl text-[#1a1a1a]">
             Data stuurt onze koers, de koers volgt onze data.
           </div>
-          <div className="flex w-full justify-center text-center my-20">
+          <div className="flex w-full justify-center text-center mb-20">
             <Link
               href={"/services"}
               style={{ fontFamily: "var(--font-mono)" }}

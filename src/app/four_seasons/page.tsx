@@ -266,7 +266,7 @@ const FourSeasons = () => {
             Ook Een Eigen Afspraak Planner?
           </div>
 
-          <div className="flex w-full justify-center text-center my-20">
+          <div className="flex w-full justify-center text-center mb-20">
             <Link
               href={"/contact"}
               style={{ fontFamily: "var(--font-mono)" }}
