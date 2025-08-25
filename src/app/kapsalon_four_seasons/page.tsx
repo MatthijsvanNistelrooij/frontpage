@@ -73,10 +73,10 @@ const FourSeasons = () => {
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-30 lg:max-w-5xl mx-auto">
             Four Seasons, een kapsalon die al 20 jaar actief is in Groningen,
-            zocht een high-end front-end waar gasten moeiteloos een afspraak
-            in kunnen plannen. Ons team heeft gewerkt aan een visuele ervaring
-            die zowel indrukwekkend als gebruiksvriendelijk is. Met een bewezen
-            tech stack die zorgt voor snelheid, betrouwbaarheid en optimale
+            zocht een high-end front-end waar gasten moeiteloos een afspraak in
+            kunnen plannen. Ons team heeft gewerkt aan een visuele ervaring die
+            zowel indrukwekkend als gebruiksvriendelijk is. Met een bewezen tech
+            stack die zorgt voor snelheid, betrouwbaarheid en optimale
             prestaties.
           </p>
 
@@ -125,7 +125,7 @@ const FourSeasons = () => {
           <div className="flex flex-col lg:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl text-[1.2rem]">
               <div className="text-start mb-10 text-5xl md:text-6xl text-[#1a1a1a] lg:max-w-6xl mx-auto">
-                Een Tech Stack Die Werkt
+                Een Tech Stack in Stijl
               </div>
               <ul className="space-y-4 text-[#1a1a1a] p-5">
                 <li className="flex items-start gap-2">
