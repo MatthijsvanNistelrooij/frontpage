@@ -67,7 +67,7 @@ const BreinoptimaalProject = () => {
             className="text-[#1a1a1a] text-center tracking-widest m-10 text-sm mx-auto lg:max-w-6xl"
             style={{ fontFamily: "var(--font-mono)" }}
           >
-            focus op resultaat
+            de focus op succes
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-30 mx-auto lg:max-w-6xl">
             Breinoptimaal raadpleegde onze expertise voor een moderne oplossing
@@ -128,7 +128,7 @@ const BreinoptimaalProject = () => {
           <div className="flex flex-col lg:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
             <div className="max-w-xl text-[1.2rem]">
               <div className="text-start mb-10 text-5xl md:text-6xl text-[#1a1a1a]">
-                Onder de Motorkap
+                In de formule
               </div>
 
               <ul className="space-y-4 text-[#1a1a1a] p-5">
@@ -239,7 +239,7 @@ const BreinoptimaalProject = () => {
             className="text-[#1a1a1a] text-center tracking-widest mt-20 mb-10 text-sm lg:max-w-6xl mx-auto"
             style={{ fontFamily: "var(--font-mono)" }}
           >
-            een gezond resultaat
+            recept voor een gezond resultaat
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-20 lg:max-w-6xl mx-auto">
             Met dit project heeft Breinoptimaal een moderne en
