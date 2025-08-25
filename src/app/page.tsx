@@ -7,7 +7,7 @@ import four_seasons_2 from "/public/assets/four_seasons_kapsalon/kapsalon_four_s
 import four_seasons_logo from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_3.png"
 import four_seasons_restaurant from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_logo_2.png"
 import breinoptimaal from "/public/assets/breinoptimaal/health_4.jpg"
-import breinoptimaal2 from "/public/assets/breinoptimaal/breinoptimaal_bottle.png"
+import breinoptimaal_2 from "/public/assets/breinoptimaal/moral_fuel.jpg"
 
 import { Footer } from "@/components/Footer"
 import Link from "next/link"
@@ -40,11 +40,11 @@ export default function Home() {
             className="text-[#1a1a1a] text-xl md:text-2xl font-medium text-start max-w-md md:max-w-3xl tracking-wider my-20"
             style={{ fontFamily: "var(--font-mono)" }}
           >
-            Wij zijn een innovatief bedrijf dat vernieuwende techniek combineert met design
-            om projecten te realiseren die werken. Of het nu
-            gaat om een merk dat zich wil onderscheiden, een website die
-            intuïtief is, of een app die iets toevoegt – wij leveren altijd een
-            slimme, doordachte aanpak. En dat doen we met liefde. 😉
+            Wij zijn een innovatief bedrijf dat vernieuwende techniek combineert
+            met design om projecten te realiseren die werken. Of het nu gaat om
+            een merk dat zich wil onderscheiden, een website die intuïtief is,
+            of een app die iets toevoegt – wij leveren altijd een slimme,
+            doordachte aanpak. En dat doen we met liefde. 😉
           </div>
           <h2 className="text-6xl md:text-8xl font-light text-start mb-10 text-[#1a1a1a]">
             Ons Werk
@@ -55,7 +55,7 @@ export default function Home() {
               info="Een Healthy Webshop, gebouwd op de kracht van Stripe en Sanity, voor Breinoptimaal."
               title="Breinoptimaal"
               image={breinoptimaal}
-              hoverImage={breinoptimaal2}
+              hoverImage={breinoptimaal_2}
             />
             <ProjectCard
               image={four_seasons_2}
