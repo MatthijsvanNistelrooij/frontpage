@@ -57,7 +57,7 @@ const FourSeasons = () => {
                 <Image
                   src={overlayImage}
                   alt="Overlay"
-                  className="object-contain w-full h-auto cursor-pointer"
+                  className="object-contain w-full h-auto cursor-pointer mb-20"
                 />
               </button>
             </div>
