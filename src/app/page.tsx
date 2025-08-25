@@ -4,8 +4,8 @@ import ProjectCard from "@/components/ProjectCard"
 
 import four_seasons from "/public/assets/four_seasons_kapsalon/barber.jpg"
 import four_seasons_2 from "/public/assets/four_seasons_kapsalon/four_season.jpg"
-import four_seasons_logo from "/public/assets/four_seasons_restaurant/four_seasons_Hero.jpg"
 import four_seasons_restaurant from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_logo_2.png"
+import four_seasons_restaurant_2 from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_3.png"
 import breinoptimaal from "/public/assets/breinoptimaal/health_4.jpg"
 import breinoptimaal_2 from "/public/assets/breinoptimaal/health_3.jpg"
 
@@ -94,7 +94,7 @@ export default function Home() {
               info="Met een frisse, moderne website zetten we Restaurant Four Seasons op de kaart."
               title="Restaurant Four Seasons"
               image={four_seasons_restaurant}
-              hoverImage={four_seasons_logo}
+              hoverImage={four_seasons_restaurant_2}
             />
           </div>
           <div className="text-center mt-42 mb-10 text-4xl md:text-5xl text-[#1a1a1a]">

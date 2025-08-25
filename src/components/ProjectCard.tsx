@@ -26,6 +26,7 @@ const ProjectCard = ({
           fill
           className="object-cover transition-opacity duration-300 group-hover:opacity-0"
         />
+
         <Image
           src={hoverImage}
           alt={`${title} hover`}

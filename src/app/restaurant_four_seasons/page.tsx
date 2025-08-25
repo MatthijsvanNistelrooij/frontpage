@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useState } from "react"
 import Image from "next/image"
-import heroImage from "/public/assets/four_seasons_restaurant/four_seasons_Hero.jpg"
+import heroImage from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_3.png"
 import image1 from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_img_1.png"
 import image2 from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_img_2.png"
 import image3 from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_img_3.png"
@@ -40,7 +40,7 @@ const FourSeasonsRestaurant = () => {
             fill
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-black/50" />
+
           <div
             className="absolute inset-0 flex justify-center"
             style={{ marginTop: "-10%" }}
