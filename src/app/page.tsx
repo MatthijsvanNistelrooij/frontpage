@@ -2,21 +2,39 @@
 
 import ProjectCard from "@/components/ProjectCard"
 
-import four_seasons from "/public/assets/four_seasons_kapsalon/four_season.jpg"
-import four_seasons_2 from "/public/assets/four_seasons_kapsalon/kapsalon_four_seasons_2.png"
-import four_seasons_logo from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_3.png"
+import four_seasons from "/public/assets/four_seasons_kapsalon/barber.jpg"
+import four_seasons_2 from "/public/assets/four_seasons_kapsalon/four_season.jpg"
+import four_seasons_logo from "/public/assets/four_seasons_restaurant/four_seasons_Hero.jpg"
 import four_seasons_restaurant from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_logo_2.png"
 import breinoptimaal from "/public/assets/breinoptimaal/health_4.jpg"
-import breinoptimaal_2 from "/public/assets/breinoptimaal/concept_1.jpg"
+import breinoptimaal_2 from "/public/assets/breinoptimaal/health_3.jpg"
 
 import { Footer } from "@/components/Footer"
 import Link from "next/link"
+import { useRef, useState } from "react"
+import { Pause, Play } from "lucide-react"
 
 export default function Home() {
+  const videoRef = useRef<HTMLVideoElement>(null)
+  const [isPaused, setIsPaused] = useState(false)
+
+  const toggleVideo = () => {
+    if (!videoRef.current) return
+
+    if (videoRef.current.paused) {
+      videoRef.current.play()
+      setIsPaused(false)
+    } else {
+      videoRef.current.pause()
+      setIsPaused(true)
+    }
+  }
+
   return (
     <>
-      <div className="relative w-full h-[60vh] lg:h-screen">
+      <div className="relative w-full h-[60vh] lg:h-[95vh]">
         <video
+          ref={videoRef}
           src="/car_track.mp4"
           autoPlay
           muted
@@ -24,6 +42,13 @@ export default function Home() {
           playsInline
           className="absolute top-0 left-0 w-full h-full object-cover opacity-50"
         />
+
+        <button
+          onClick={toggleVideo}
+          className="absolute bottom-10 right-10 z-20 bg-black/50 text-white p-3 rounded-full hover:bg-black/70 transition cursor-pointer"
+        >
+          {isPaused ? <Play /> : <Pause />}
+        </button>
 
         <div className="absolute inset-0 flex items-center justify-center z-10">
           <h1 className="text-white text-5xl px-8 md:text-8xl lg:text-9xl text-center drop-shadow-lg max-w-3xl lg:max-w-5xl mb-10 tracking-wide">

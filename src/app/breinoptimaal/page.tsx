@@ -41,7 +41,7 @@ const BreinoptimaalProject = () => {
             className="object-cover"
           />
 
-          <div className="absolute inset-0 bg-white/20" />
+          {/* <div className="absolute inset-0 bg-white/40" /> */}
           <div className="absolute inset-0 flex items-center justify-center">
             <button
               onClick={() => {
@@ -54,8 +54,8 @@ const BreinoptimaalProject = () => {
               <Image
                 src={overlayImage}
                 alt="Overlay"
-                width={150}
-                height={150}
+                width={120}
+                height={120}
                 className="object-contain cursor-pointer"
               />
             </button>
