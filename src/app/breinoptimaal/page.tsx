@@ -41,14 +41,14 @@ const BreinoptimaalProject = () => {
             className="object-cover"
           />
 
-          {/* <div className="absolute inset-0 bg-white/40" /> */}
-          <div className="absolute inset-0 flex items-center justify-center">
+          <div
+            className="absolute inset-0 flex justify-center"
+            style={{ marginTop: "-10%" }}
+          >
             <button
               onClick={() => {
                 const el = document.getElementById("section")
-                if (el) {
-                  el.scrollIntoView({ behavior: "smooth" })
-                }
+                if (el) el.scrollIntoView({ behavior: "smooth" })
               }}
             >
               <Image
