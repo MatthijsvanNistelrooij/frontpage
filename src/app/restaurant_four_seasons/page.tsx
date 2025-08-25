@@ -54,8 +54,8 @@ const FourSeasonsRestaurant = () => {
               <Image
                 src={overlayImage}
                 alt="Overlay"
-                width={90}
-                height={90}
+                width={70}
+                height={70}
                 className="object-contain cursor-pointer"
               />
             </button>
