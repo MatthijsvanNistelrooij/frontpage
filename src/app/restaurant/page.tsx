@@ -214,7 +214,7 @@ const FourSeasonsRestaurant = () => {
                 </div>
               </div>
               <div className="text-start text-9xl md:text-center">
-                1.s
+                1.2s
                 <div className="text-lg md:text-xl lg:text-2xl font-normal mt-5">
                   Verbeterde laadtijd
                 </div>
