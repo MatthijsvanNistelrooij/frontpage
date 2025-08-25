@@ -8,7 +8,7 @@ import tech_logo1 from "/public/next.svg"
 import tech_logo2 from "/public/assets/tech_logo/vercel.png"
 import tech_logo3 from "/public/assets/tech_logo/sanity.png"
 import tech_logo4 from "/public/assets/tech_logo/stripe.png"
-import concept_1 from "/public/assets/breinoptimaal/moral_fuel.jpg"
+import concept_1 from "/public/assets/breinoptimaal/concept_1.jpg"
 import health_9 from "/public/assets/breinoptimaal/health_9.jpg"
 import health_5 from "/public/assets/breinoptimaal/health_5.jpg"
 import oats from "/public/assets/breinoptimaal/oats.jpg"
@@ -41,7 +41,7 @@ const BreinoptimaalProject = () => {
             className="object-cover"
           />
 
-          <div className="absolute inset-0 bg-white/50" />
+          <div className="absolute inset-0 bg-white/20" />
           <div className="absolute inset-0 flex items-center justify-center">
             <Image
               src={overlayImage}
