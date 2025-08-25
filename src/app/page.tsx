@@ -73,7 +73,7 @@ export default function Home() {
             />
           </div>
           <div className="text-center mt-42 mb-20 text-4xl md:text-5xl text-[#1a1a1a]">
-            Data stuurt onze koers, koers volgt onze data.
+            Data stuurt onze koers, de koers volgt onze data.
           </div>
           <div className="flex w-full justify-center text-center my-20">
             <Link
