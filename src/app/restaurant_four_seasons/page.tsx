@@ -70,8 +70,8 @@ const FourSeasonsRestaurant = () => {
             creatief met gerechten
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-30 mx-auto lg:max-w-6xl">
-            Bij de opening van hun restaurant wist Four Seasons dat een sterke
-            online presentatie essentieel was. Ze benaderden ons om een
+            Bij de opening van het restaurant wist Four Seasons dat een sterke
+            online presentatie essentieel is. Ze benaderden ons om een
             krachtige website te bouwen die hun unieke Midden-Oosterse keuken
             stijlvol en gastvrij online brengt.
           </p>
