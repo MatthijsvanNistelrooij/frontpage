@@ -46,7 +46,7 @@ export const Footer = () => {
 
           <div className="flex flex-col space-y-3">
             <Link href="/#work" className="hover:text-gray-400 transition">
-              Werk
+              Wij
             </Link>
             <Link href="/services" className="hover:text-gray-400 transition">
               Diensten

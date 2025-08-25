@@ -52,7 +52,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-28 md:gap-8">
             <ProjectCard
               url="breinoptimaal"
-              info="Een Healthy Webshop gebouwd op de kracht van Stripe en Sanity voor Breinoptimaal."
+              info="Een Healthy Webshop, gebouwd op de kracht van Stripe en Sanity, voor Breinoptimaal."
               title="Breinoptimaal"
               image={breinoptimaal}
               hoverImage={breinoptimaal2}
@@ -72,10 +72,10 @@ export default function Home() {
               hoverImage={four_seasons_logo}
             />
           </div>
-          <div className="text-center mt-42 mb-10 text-4xl md:text-5xl text-[#1a1a1a]">
+          <div className="text-center mt-42 mb-20 text-4xl md:text-5xl text-[#1a1a1a]">
             We volgen de data, en laten ons leiden door nieuwsgierigheid.
           </div>
-          <div className="flex w-full justify-center text-center">
+          <div className="flex w-full justify-center text-center my-20">
             <Link
               href={"/services"}
               style={{ fontFamily: "var(--font-mono)" }}
@@ -83,7 +83,7 @@ export default function Home() {
                 " text-[#1a1a1a] p-4 px-8 mb-12 border border-[#1a1a1a] hover:text-white hover:bg-[#1a1a1a] cursor-pointer"
               }
             >
-              BEKIJK ONZE DIENSTEN
+              BEKIJK WAT WE DOEN
             </Link>
           </div>
         </div>

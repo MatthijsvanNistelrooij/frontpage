@@ -18,7 +18,7 @@ export const Navbar = () => {
 
         <div className="hidden md:flex space-x-8 text-[#f0f0f0] text-lg">
           <Link href="/#work" className="hover:text-gray-400 transition">
-            Werk
+            Wij
           </Link>
           <Link href="/services" className="hover:text-gray-400 transition">
             Diensten
@@ -44,7 +44,7 @@ export const Navbar = () => {
             className="hover:text-gray-400 transition py-2"
             onClick={() => setMenuOpen(false)}
           >
-            Werk
+            Wij
           </Link>
           <Link
             href="/services"
