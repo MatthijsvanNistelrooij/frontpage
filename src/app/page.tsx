@@ -45,7 +45,7 @@ export default function Home() {
 
         <button
           onClick={toggleVideo}
-          className="absolute bottom-10 right-10 z-20 text-white p-3 rounded-full hover:bg-black/20 transition cursor-pointer"
+          className="absolute bottom-5 md:bottom-10 right-5 md:right-10 z-20 text-white p-3 rounded-full hover:bg-black/20 transition cursor-pointer"
         >
           {isPaused ? <Play /> : <Pause />}
         </button>
