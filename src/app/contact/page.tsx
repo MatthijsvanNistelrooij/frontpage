@@ -34,9 +34,9 @@ const Contact = () => {
   }
   return (
     <div className="bg-[#fffffb]">
-      <div className="container flex flex-col lg:flex-row justify-center mx-auto gap-20 py-28 px-8">
+      <div className="container flex flex-col lg:flex-row justify-center mx-auto gap-20 py-20 pb-34 px-8">
         <div className="container flex flex-col items-center justify-center mx-auto mt-5 md:mt-20">
-          <div className="text-[#1a1a1a] text-5xl sm:text-6xl md:text-8xl text-start">
+          <div className="text-[#1a1a1a] text-5xl sm:text-6xl md:text-8xl text-start break-words">
             Elke Samenwerking als Katalysator.
           </div>
           <div className="text-[#1a1a1a] text-xl text-start mt-6">
