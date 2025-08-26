@@ -94,7 +94,7 @@ const FourSeasons = () => {
           </div>
 
           <div className="text-start mt-30 mb-10 text-5xl md:text-6xl text-[#1a1a1a] lg:max-w-6xl mx-auto">
-            Een Build-As-We-Go Benadering
+           Een Trim & Shave Benadering
           </div>
           <div className="text-[#1a1a1a] text-xl text-start mt-6 mb-30 lg:max-w-6xl mx-auto">
             De kapperszaak zocht een moderne manier om afspraken in te plannen.

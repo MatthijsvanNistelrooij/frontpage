@@ -68,7 +68,7 @@ export default function Home() {
             Wij zijn een innovatief bedrijf dat vernieuwende techniek combineert
             met design om projecten te realiseren die werken. Of het nu gaat om
             een merk dat zich wil onderscheiden, een website die intuïtief is,
-            of een app die iets toevoegt – wij leveren altijd een slimme,
+            of een app die iets toevoegt – wij brengen altijd een slimme,
             doordachte aanpak. En dat doen we met liefde. 😉
           </div>
           <h2 className="text-6xl md:text-8xl font-light text-start mb-10 text-[#1a1a1a]">
