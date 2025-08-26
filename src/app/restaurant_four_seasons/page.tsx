@@ -67,7 +67,7 @@ const FourSeasonsRestaurant = () => {
             className="text-[#1a1a1a] text-center tracking-widest m-10 text-sm mx-auto lg:max-w-6xl"
             style={{ fontFamily: "var(--font-mono)" }}
           >
-            creatief met gerechten
+            digitale smaakmakers
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-30 mx-auto lg:max-w-6xl">
             Bij de opening van het restaurant wist Four Seasons dat een
