@@ -227,9 +227,9 @@ const FourSeasonsRestaurant = () => {
                 </div>
               </div>
               <div className="text-start text-9xl md:text-center">
-                +50
+                #1
                 <div className="text-lg md:text-xl lg:text-2xl font-normal mt-5">
-                  Afspraken sinds livegang
+                  Positie in Google voor onze naam
                 </div>
               </div>
             </div>
