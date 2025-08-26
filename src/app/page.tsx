@@ -91,7 +91,7 @@ export default function Home() {
             />
             <ProjectCard
               url="restaurant_four_seasons"
-              info="Met een frisse, moderne website zetten we Restaurant Four Seasons op de kaart."
+              info="Met een frisse, moderne website staat Restaurant Four Seasons op de kaart."
               title="Restaurant Four Seasons"
               image={four_seasons_restaurant}
               hoverImage={four_seasons_restaurant_2}
