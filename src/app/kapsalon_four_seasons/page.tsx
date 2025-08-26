@@ -36,31 +36,31 @@ const FourSeasons = () => {
   return (
     <>
       <div className="flex flex-col bg-[#fffffb]">
-        <div className="relative w-full min-h-[50vh] max-h-[17vh] md:min-h-[100vh] overflow-hidden">
+        <div className="relative w-full min-h-[50vh] md:min-h-[100vh] overflow-hidden flex items-center justify-center">
           <Image
             src={heroImage}
             alt="Four Seasons Hero"
             fill
             className="object-cover"
           />
+
           <div className="absolute inset-0 bg-black/50" />
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="w-2/4 md:w-2/6">
-              <button
-                onClick={() => {
-                  const el = document.getElementById("section")
-                  if (el) {
-                    el.scrollIntoView({ behavior: "smooth" })
-                  }
-                }}
-              >
-                <Image
-                  src={overlayImage}
-                  alt="Overlay"
-                  className="object-contain w-full h-auto cursor-pointer mb-20"
-                />
-              </button>
-            </div>
+
+          <div className="relative flex items-center justify-center w-2/4 md:w-2/6">
+            <button
+              onClick={() => {
+                const el = document.getElementById("section")
+                if (el) {
+                  el.scrollIntoView({ behavior: "smooth" })
+                }
+              }}
+            >
+              <Image
+                src={overlayImage}
+                alt="Overlay"
+                className="object-contain w-full h-auto cursor-pointer mb-20"
+              />
+            </button>
           </div>
         </div>
 
@@ -94,7 +94,7 @@ const FourSeasons = () => {
           </div>
 
           <div className="text-start mt-30 mb-10 text-5xl md:text-6xl text-[#1a1a1a] lg:max-w-6xl mx-auto">
-           Een Trim & Shave Benadering
+            Een Trim & Shave Benadering
           </div>
           <div className="text-[#1a1a1a] text-xl text-start mt-6 mb-30 lg:max-w-6xl mx-auto">
             De kapperszaak zocht een moderne manier om afspraken in te plannen.
