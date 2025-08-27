@@ -4,6 +4,7 @@ import {
   Lato,
   Fira_Code,
   IBM_Plex_Sans,
+  Roboto
 } from "next/font/google"
 import "./globals.css"
 import { Navbar } from "@/components/Navbar"
@@ -11,6 +12,12 @@ import { Analytics } from "@vercel/analytics/next"
 
 const playfair = Playfair_Display({
   variable: "--font-display",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+})
+
+const roboto = Roboto({
+  variable: "--font-roboto",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 })
@@ -46,7 +53,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${playfair.variable} ${lato.variable} ${fira.variable} ${manrope.variable} antialiased`}
+        className={`${playfair.variable} ${lato.variable} ${roboto.variable} ${fira.variable} ${manrope.variable} antialiased`}
       >
         <Navbar />
         {children}
