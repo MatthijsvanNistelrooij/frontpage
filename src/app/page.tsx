@@ -52,8 +52,8 @@ export default function Home() {
 
         <div className="absolute inset-0 flex items-center justify-center z-10">
           <h1
-            className="text-white text-6xl px-8 md:text-[6rem] lg:text-[6rem] text-center drop-shadow-lg max-w-3xl lg:max-w-5xl mb-10 tracking-wide"
-            style={{ fontFamily: "var(--font-roboto)" }}
+            className="text-white text-6xl px-8 md:text-[6.5rem] lg:text-[6.5rem] text-center drop-shadow-lg max-w-3xl lg:max-w-5xl mb-10 tracking-wide"
+            style={{ fontFamily: "var(--font-cabin)" }}
           >
             A turbo-charged digital powerhouse.
           </h1>

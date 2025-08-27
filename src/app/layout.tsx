@@ -3,8 +3,8 @@ import {
   Playfair_Display,
   Lato,
   Fira_Code,
-  IBM_Plex_Sans,
-  Roboto
+  Cabin,
+  Roboto,
 } from "next/font/google"
 import "./globals.css"
 import { Navbar } from "@/components/Navbar"
@@ -34,10 +34,10 @@ const fira = Fira_Code({
   weight: ["300", "400", "700"],
 })
 
-const manrope = IBM_Plex_Sans({
-  variable: "--font-alt",
+const cabin = Cabin({
+  variable: "--font-cabin",
   subsets: ["latin"],
-  weight: ["200", "300", "400", "500", "600", "700"],
+  weight: ["400", "500", "600", "700"],
 })
 
 export const metadata: Metadata = {
@@ -53,7 +53,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${playfair.variable} ${lato.variable} ${roboto.variable} ${fira.variable} ${manrope.variable} antialiased`}
+        className={`${playfair.variable} ${lato.variable} ${roboto.variable} ${fira.variable} ${cabin.variable} antialiased`}
       >
         <Navbar />
         {children}
