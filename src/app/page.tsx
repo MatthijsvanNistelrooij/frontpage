@@ -51,7 +51,7 @@ export default function Home() {
         </button>
 
         <div className="absolute inset-0 flex items-center justify-center z-10">
-          <h1 className="text-white text-5xl px-8 md:text-8xl lg:text-9xl text-center drop-shadow-lg max-w-3xl lg:max-w-5xl mb-10 tracking-wide">
+          <h1 className="text-white text-5xl px-8 md:text-7xl lg:text-8xl text-center drop-shadow-lg max-w-3xl lg:max-w-5xl mb-10 tracking-wide">
             A turbo-charged digital powerhouse.
           </h1>
         </div>
