@@ -8,7 +8,7 @@ import tech_logo1 from "/public/next.svg"
 import tech_logo2 from "/public/assets/tech_logo/vercel.png"
 import tech_logo3 from "/public/assets/tech_logo/sanity.png"
 import tech_logo4 from "/public/assets/tech_logo/stripe.png"
-import concept_1 from "/public/assets/breinoptimaal/concept_1.jpg"
+import concept_1 from "/public/assets/breinoptimaal/breinoptimaal_bottle.png"
 import health_9 from "/public/assets/breinoptimaal/health_9.jpg"
 import health_5 from "/public/assets/breinoptimaal/health_5.jpg"
 import oats from "/public/assets/breinoptimaal/oats.jpg"
@@ -79,7 +79,7 @@ const BreinoptimaalProject = () => {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="w-full h-140 relative">
+            <div className="w-full h-200 relative">
               <Image
                 src={concept_1}
                 alt="Image 1"
@@ -87,7 +87,7 @@ const BreinoptimaalProject = () => {
                 className="object-cover"
               />
             </div>
-            <div className="w-full h-140 relative">
+            <div className="w-full h-200 relative">
               <Image
                 src={concept_1}
                 alt="Image 2"
@@ -95,7 +95,7 @@ const BreinoptimaalProject = () => {
                 className="object-cover"
               />
             </div>
-            <div className="w-full h-140 relative">
+            <div className="w-full h-200 relative">
               <Image
                 src={concept_1}
                 alt="Image 3"
