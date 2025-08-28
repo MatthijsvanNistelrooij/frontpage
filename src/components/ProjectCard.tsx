@@ -20,10 +20,8 @@ const ProjectCard = ({
   return (
     <Link href={url} className="group text-[#1a1a1a] w-full cursor-pointer">
       <div className="relative overflow-hidden aspect-[3/4] bg-black">
-        {/* Default image */}
         <Image src={image} alt={title} fill className="object-cover" priority />
 
-        {/* Hover image + zwarte overlay effect */}
         <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-100 transition-opacity duration-150" />
 
         <Image
