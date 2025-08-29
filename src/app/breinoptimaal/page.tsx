@@ -40,12 +40,8 @@ const BreinoptimaalProject = () => {
             fill
             className="object-cover"
           />
-          {/* <div className="absolute inset-0 bg-black/50" /> */}
 
-          <div
-            className="absolute inset-0 flex justify-center"
-            style={{ marginTop: "-10%" }}
-          >
+          <div className="absolute inset-0 flex justify-center">
             <button
               onClick={() => {
                 const el = document.getElementById("section")
@@ -244,9 +240,10 @@ const BreinoptimaalProject = () => {
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-20 lg:max-w-6xl mx-auto">
             Met dit project heeft Breinoptimaal een moderne en
-            gebruiksvriendelijke webshop die optimaal is voor de toekomst. Dankzij
-            onze innovatieve oplossingen kan het merk blijven groeien en klanten
-            de beste ervaring bieden – of ze nu shoppen in Amsterdam of Dubai.
+            gebruiksvriendelijke webshop die optimaal is voor de toekomst.
+            Dankzij onze innovatieve oplossingen kan het merk blijven groeien en
+            klanten de beste ervaring bieden – of ze nu shoppen in Amsterdam of
+            Dubai.
           </p>
 
           <div className="text-center mt-30 mb-10 text-5xl text-[#1a1a1a] leading-16">
