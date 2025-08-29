@@ -197,7 +197,7 @@ const BreinoptimaalProject = () => {
                 </div>
               </div>
               <div className="text-start text-9xl md:text-center">
-                +200
+                +20
                 <div className="text-lg md:text-xl lg:text-2xl font-normal mt-5">
                   Bestellingen sinds lancering
                 </div>
