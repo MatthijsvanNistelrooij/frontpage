@@ -40,6 +40,7 @@ const BreinoptimaalProject = () => {
             fill
             className="object-cover"
           />
+          {/* <div className="absolute inset-0 bg-black/50" /> */}
 
           <div
             className="absolute inset-0 flex justify-center"
