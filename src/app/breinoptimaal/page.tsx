@@ -55,8 +55,8 @@ const BreinoptimaalProject = () => {
               <Image
                 src={overlayImage}
                 alt="Overlay"
-                width={160}
-                height={160}
+                width={120}
+                height={120}
                 className="object-contain cursor-pointer"
               />
             </button>
