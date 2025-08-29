@@ -7,7 +7,7 @@ import four_seasons_2 from "/public/assets/four_seasons_kapsalon/four_season.jpg
 import four_seasons_restaurant from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_logo_2.png"
 import four_seasons_restaurant_2 from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_3.png"
 import breinoptimaal from "/public/assets/breinoptimaal/health_4.jpg"
-import breinoptimaal_2 from "/public/assets/breinoptimaal/health_3.jpg"
+import breinoptimaal_2 from "/public/assets/breinoptimaal/breinoptimaal_header.jpg"
 
 import { Footer } from "@/components/Footer"
 import Link from "next/link"

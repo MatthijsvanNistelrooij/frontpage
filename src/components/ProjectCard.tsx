@@ -22,13 +22,13 @@ const ProjectCard = ({
       <div className="relative overflow-hidden aspect-[3/4] bg-black">
         <Image src={image} alt={title} fill className="object-cover" priority />
 
-        <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-100 transition-opacity duration-150" />
+        <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-100 transition-opacity" />
 
         <Image
           src={hoverImage}
           alt={`${title} hover`}
           fill
-          className="object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out"
+          className="object-cover opacity-0 group-hover:opacity-100 transition-opacity"
           priority
         />
       </div>
