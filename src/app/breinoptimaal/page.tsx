@@ -16,7 +16,7 @@ import health_1 from "/public/assets/breinoptimaal/health_1.jpg"
 import health_2 from "/public/assets/breinoptimaal/health_2.jpg"
 import heroImage from "/public/assets/breinoptimaal/breinoptimaal_header.jpg"
 import health_4 from "/public/assets/breinoptimaal/health_4.jpg"
-import overlayImage from "/public/assets/breinoptimaal/logo.webp"
+import overlayImage from "/public/assets/breinoptimaal/vector.png"
 
 const techLogos = [tech_logo1, tech_logo2, tech_logo3, tech_logo4]
 
@@ -41,8 +41,12 @@ const BreinoptimaalProject = () => {
             className="object-cover"
           />
 
-          <div className="absolute inset-0 flex justify-center">
+          <div
+            className="absolute inset-0 flex justify-center"
+            style={{ marginTop: "-4%" }}
+          >
             <button
+              className="inline-flex w-auto h-auto"
               onClick={() => {
                 const el = document.getElementById("section")
                 if (el) el.scrollIntoView({ behavior: "smooth" })
@@ -51,8 +55,8 @@ const BreinoptimaalProject = () => {
               <Image
                 src={overlayImage}
                 alt="Overlay"
-                width={120}
-                height={120}
+                width={160}
+                height={160}
                 className="object-contain cursor-pointer"
               />
             </button>
