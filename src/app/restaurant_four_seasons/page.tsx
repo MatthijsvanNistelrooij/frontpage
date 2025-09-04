@@ -70,11 +70,9 @@ const FourSeasonsRestaurant = () => {
             digitale smaakmakers
           </div>
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-30 mx-auto lg:max-w-6xl">
-            Bij de opening van het restaurant wist Four Seasons dat een
-            overtuigende online presentatie onmisbaar is. Daarom schakelden ze
-            ons in om een dynamisch en onderscheidend platform te creëren, dat
-            niet alleen de rijke Midden-Oosterse keuken stijlvol en gastvrij
-            online brengt, maar ook de warmte en verfijning van hun
+            Restaurant Four Seasons schakelde ons in om een dynamisch platform
+            te creëren dat de rijke Midden-Oosterse keuken stijlvol en gastvrij
+            online presenteert, en tegelijk de warmte en verfijning van hun
             restaurantbeleving tastbaar maakt voor iedere bezoeker.
           </p>
 
