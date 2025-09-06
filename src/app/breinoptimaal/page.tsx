@@ -243,7 +243,7 @@ const BreinoptimaalProject = () => {
           <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-20 lg:max-w-6xl mx-auto">
             Met dit project heeft Breinoptimaal een moderne en
             gebruiksvriendelijke webshop die optimaal is voor de toekomst.
-            Dankzij onze innovatieve oplossingen kan het merk groeien en
+            Dankzij onze innovatieve oplossingen kan het merk blijven groeien en
             klanten de beste ervaring bieden – of ze nu shoppen in Amsterdam of
             Dubai.
           </p>
