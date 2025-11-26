@@ -74,7 +74,7 @@ const Services = () => {
             Duurzaam Versnellen
           </div>
           <div className="text-start mb-10 text-lg text-[#1a1a1a]">
-            Zoals jonge racers hun wagen tunen, willen wij je business sneller
+            Zoals racers hun wagen tunen, willen wij je business sneller
             en efficiënter maken. Als er een kans is om te optimaliseren, zorgen
             wij dat je op het juiste spoor zit.
           </div>
