@@ -1,278 +1,35 @@
-"use client"
-import React, { useEffect, useState } from "react"
+import type { Metadata } from "next"
 import Image from "next/image"
-import heroImage from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_3.png"
+import { Footer } from "@/components/Footer"
+import { CaseStudyMeta } from "@/components/CaseStudyMeta"
+import { CaseStudyNext } from "@/components/CaseStudyNext"
+import hero from "/public/assets/four_seasons_restaurant/four_seasons_Hero.jpg"
 import image1 from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_img_1.png"
 import image2 from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_img_2.png"
 import image3 from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_img_3.png"
-import Link from "next/link"
-import tech_logo1 from "/public/next.svg"
-import tech_logo2 from "/public/assets/tech_logo/vercel.png"
-import tech_logo3 from "/public/assets/tech_logo/appwrite.png"
-import tech_logo4 from "/public/assets/tech_logo/emailjs.png"
-import site_design from "/public/assets/four_seasons_restaurant/site_design.png"
-import food_2 from "/public/assets/four_seasons_restaurant/food_2.jpg"
-import food from "/public/assets/four_seasons_restaurant/food.jpg"
 import welcome from "/public/assets/four_seasons_restaurant/four_seasons_welcome.png"
-import overlayImage from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_logo.png"
+import food from "/public/assets/four_seasons_restaurant/food.jpg"
+import food2 from "/public/assets/four_seasons_restaurant/food_2.jpg"
+import logo from "/public/assets/four_seasons_restaurant/restaurant_four_seasons_logo.png"
+import design from "/public/assets/four_seasons_restaurant/site_design.png"
 
-import { Footer } from "@/components/Footer"
+export const metadata: Metadata = { title: "Restaurant Four Seasons — Case study", description: "Een warme digitale identiteit en reserveringservaring voor Restaurant Four Seasons." }
+const meta = [{ label: "Klant", value: "Restaurant Four Seasons" }, { label: "Sector", value: "Hospitality" }, { label: "Werk", value: "Identity, UX, development" }, { label: "Stack", value: "Next.js, Appwrite, EmailJS" }]
 
-const techLogos = [tech_logo1, tech_logo2, tech_logo3, tech_logo4]
+export default function RestaurantFourSeasons() {
+  return <main id="main-content" className="bg-[#f1e5d1] text-[#38170f]">
+    <header className="grid min-h-[88svh] lg:grid-cols-[0.8fr_1.2fr]"><div className="flex flex-col justify-between px-5 py-12 md:px-8 md:py-16"><div className="flex items-start justify-between"><p className="eyebrow text-[#38170f]/50">Case 03 / Hospitality</p><Image src={logo} alt="Restaurant Four Seasons" className="h-16 w-auto" /></div><div><h1 className="display">Een eerste indruk die naar meer smaakt.</h1><p className="mt-8 max-w-md text-lg leading-8 text-[#38170f]/65">Van nog geen digitale identiteit naar een warme plek waar sfeer, verhaal en reserveren vanzelf samenkomen.</p></div></div><div className="relative min-h-[60svh]"><Image src={hero} alt="Gerechten van Restaurant Four Seasons" fill priority sizes="(min-width: 1024px) 60vw, 100vw" className="object-cover" /></div></header>
+    <section className="px-5 py-8 md:px-8"><div className="mx-auto max-w-[1600px]"><CaseStudyMeta items={meta} /></div></section>
 
-const FourSeasonsRestaurant = () => {
-  const [currentLogo, setCurrentLogo] = useState(0)
+    <section className="px-5 py-20 md:px-8 md:py-32"><div className="mx-auto grid max-w-[1600px] gap-12 lg:grid-cols-[1fr_2fr]"><p className="eyebrow text-[#38170f]/50">01 / Van nul</p><div><h2 className="max-w-5xl text-[clamp(2.8rem,6vw,6.5rem)] font-medium leading-[0.95] tracking-[-0.055em]">De warmte van de keuken, vertaald naar een scherm.</h2><p className="mt-10 max-w-2xl text-lg leading-8 text-[#38170f]/65">Het restaurant had nog geen digitale identiteit. We begonnen bij de echte ervaring: gastvrijheid, Syrische smaken en gerechten om samen te delen. Dat werd de basis voor beeld, ritme, taal en interactie.</p></div></div></section>
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentLogo((prev) => (prev + 1) % techLogos.length)
-    }, 5000)
+    <section className="grid gap-3 px-3 md:grid-cols-3"><div className="relative min-h-[65svh]"><Image src={image1} alt="Restaurantwebsite op mobiel" fill sizes="(min-width: 768px) 33vw, 100vw" className="object-cover" /></div><div className="relative min-h-[65svh]"><Image src={image2} alt="Restaurant Four Seasons digitale uitwerking" fill sizes="(min-width: 768px) 33vw, 100vw" className="object-cover" /></div><div className="relative min-h-[65svh]"><Image src={image3} alt="Restaurant Four Seasons websiteontwerp" fill sizes="(min-width: 768px) 33vw, 100vw" className="object-cover" /></div></section>
 
-    return () => clearInterval(interval)
-  }, [])
-  return (
-    <>
-      <div className="flex flex-col bg-[#fffffb]">
-        <div className="relative w-full min-h-[50vh] max-h-[17vh] md:min-h-[100vh] overflow-hidden">
-          <Image
-            src={heroImage}
-            alt="Four Seasons Hero"
-            fill
-            className="object-cover"
-          />
+    <section className="px-5 py-24 md:px-8 md:py-36"><div className="mx-auto max-w-[1600px]"><p className="eyebrow text-[#38170f]/50">02 / De ervaring</p><div className="mt-8 grid gap-14 lg:grid-cols-2"><h2 className="text-[clamp(3rem,6vw,6rem)] font-medium leading-[0.95] tracking-[-0.055em]">Storytelling die niet in de weg staat van reserveren.</h2><div className="text-lg leading-8 text-[#38170f]/65"><p>De website neemt bezoekers mee in het verhaal, maar houdt praktische informatie altijd dichtbij. Een maatwerk backend ondersteunt reserveringen en communicatie zonder de visuele ervaring zwaar te maken.</p><ul className="mt-8 grid gap-3 border-t border-[#38170f]/20 pt-6 text-sm"><li>— Visuele identiteit en art direction</li><li>— Mobile-first informatiearchitectuur</li><li>— Reserverings- en e-mailflow</li><li>— Schaalbare technische basis</li></ul></div></div></div></section>
 
-          <div
-            className="absolute inset-0 flex justify-center"
-            style={{ marginTop: "-10%" }}
-          >
-            <button
-              onClick={() => {
-                const el = document.getElementById("section")
-                if (el) el.scrollIntoView({ behavior: "smooth" })
-              }}
-            >
-              <Image
-                src={overlayImage}
-                alt="Overlay"
-                width={70}
-                height={70}
-                className="object-contain cursor-pointer"
-              />
-            </button>
-          </div>
-        </div>
-
-        <div id="section" className="container mx-auto px-8 py-12">
-          <div
-            className="text-[#1a1a1a] text-center tracking-widest m-10 text-sm mx-auto lg:max-w-6xl"
-            style={{ fontFamily: "var(--font-mono)" }}
-          >
-            digitale smaakmakers
-          </div>
-          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-30 mx-auto lg:max-w-6xl">
-            Restaurant Four Seasons schakelde ons in om een dynamisch platform
-            te creëren dat de rijke Midden-Oosterse keuken stijlvol en gastvrij
-            online presenteert, en tegelijk de warmte en verfijning van hun
-            restaurantbeleving tastbaar maakt voor iedere bezoeker.
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="w-full h-140 relative">
-              <Image src={image1} alt="Image 1" fill className="object-cover" />
-            </div>
-            <div className="w-full h-140 relative">
-              <Image src={image2} alt="Image 2" fill className="object-cover" />
-            </div>
-            <div className="w-full h-140 relative">
-              <Image src={image3} alt="Image 3" fill className="object-cover" />
-            </div>
-          </div>
-          <div className="text-start mt-20 mb-10 text-5xl md:text-6xl text-[#1a1a1a] mx-auto lg:max-w-6xl">
-            Een Digitale Eerste Indruk
-          </div>
-          <div className="text-[#1a1a1a] text-xl text-start mt-6 mb-30 lg:max-w-6xl mx-auto">
-            Het restaurant had nog geen digitale identiteit en kwam bij ons met
-            de vraag om dit vanaf de grond op te bouwen. Met een focus op
-            storytelling, visuele beleving en gebruiksvriendelijkheid hebben we
-            een website ontworpen die gasten meteen onderdompelt in de sfeer van
-            de Syrische en Midden-Oosterse keuken.
-          </div>
-
-          <div className="my-10 relative bg-[#1a1a1a]">
-            <Image
-              src={food}
-              alt="Image 4"
-              className="w-auto h-auto max-w-full mx-auto"
-            />
-          </div>
-
-          <div className="flex flex-col lg:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
-            <div className="max-w-xl text-[1.2rem]">
-              <div className="text-start mb-10 text-5xl md:text-6xl text-[#1a1a1a] lg:max-w-6xl mx-auto">
-                Een Kijkje in de Keuken
-              </div>
-
-              <ul className="space-y-4 text-[#1a1a1a] p-5">
-                <li className="flex items-start gap-2">
-                  <span className="list-disc">•</span>
-                  <span>
-                    <span className="">Next.js:</span> Modern
-                    JavaScript-framework voor het bouwen van snelle en
-                    gebruiksvriendelijke websites
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="list-disc">•</span>
-                  <span>
-                    <span className="">Vercel:</span> Betrouwbaar en schaalbaar
-                    platform voor hosting en deployen van Next.js-applicaties
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="list-disc">•</span>
-                  <span>
-                    <span className="">Appwrite:</span> Open-source Headless
-                    backend voor authenticatie, database en opslag
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="list-disc">•</span>
-                  <span>
-                    <span className="">EmailJS:</span> Flexibel systeem voor het
-                    versturen van op maat gemaakte e-mails
-                  </span>
-                </li>
-              </ul>
-            </div>
-            <div className="flex-1 flex justify-center items-center">
-              <Image
-                src={techLogos[currentLogo]}
-                alt="tech_logo"
-                className="transition-opacity duration-700 w-48 md:w-64 lg:w-96 xl:w-[400px] h-auto"
-              />
-            </div>
-          </div>
-
-          <div className="mb-8 mt-20">
-            <div className="w-full h-140 relative">
-              <Image
-                src={welcome}
-                alt="Image 2"
-                fill
-                className="object-cover"
-              />
-            </div>
-          </div>
-
-          <div className="flex flex-col md:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
-            <div className="max-w-xl text-[1.2rem]">
-              <div className="text-start mb-10 text-5xl md:text-6xl text-[#1a1a1a] lg:max-w-6xl mx-auto">
-                Onze Diensten
-              </div>
-
-              <ul className="space-y-4 text-[#1a1a1a] p-5">
-                <li className="flex items-start gap-2">
-                  <span className="">•</span>
-                  <span>
-                    Hoogwaardig design en prototypes uitgewerkt voor een
-                    duidelijke visualisatie van het project
-                  </span>
-                </li>
-
-                <li className="flex items-start gap-2">
-                  <span className="">•</span>
-                  <span>
-                    Uitgebreide QA-tests uitgevoerd om een vlekkeloze
-                    gebruikerservaring te garanderen
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="">•</span>
-                  <span>
-                    Efficiënt projectmanagement toegepast om deadlines te halen
-                    en verwachtingen te overtreffen
-                  </span>
-                </li>
-              </ul>
-            </div>
-            <Image
-              src={site_design}
-              alt="tech_logo"
-              width={200}
-              height={200}
-              className="transition-opacity duration-700"
-            />
-          </div>
-          <div className="mb-8 mt-20">
-            <div className="w-full h-180 relative">
-              <Image src={image2} alt="Image 2" fill className="object-cover" />
-            </div>
-          </div>
-
-          <div className="text-[#1a1a1a] text-center text-6xl lg:text-8xl my-40">
-            <div>Een Site Die Smaakt Naar Meer</div>
-            <div className="flex flex-col md:flex-row justify-between mt-40 gap-10">
-              <div className="text-start text-9xl md:text-center">
-                90%
-                <div className="text-lg md:text-xl lg:text-2xl font-normal mt-5">
-                  Sneller volgens Google PageSpeed
-                </div>
-              </div>
-              <div className="text-start text-9xl md:text-center">
-                1.2s
-                <div className="text-lg md:text-xl lg:text-2xl font-normal mt-5">
-                  Verbeterde laadtijd
-                </div>
-              </div>
-              <div className="text-start text-9xl md:text-center">
-                #1
-                <div className="text-lg md:text-xl lg:text-2xl font-normal mt-5">
-                  Positie in Google voor onze naam
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="mb-8 mt-20">
-            <div className="w-full h-180 relative">
-              <Image src={food_2} alt="Image 2" fill className="object-cover" />
-            </div>
-          </div>
-          <div
-            className="text-[#1a1a1a] text-center tracking-widest mt-30 mb-10 text-sm mx-auto lg:max-w-6xl"
-            style={{ fontFamily: "var(--font-mono)" }}
-          >
-            de smaak van succes
-          </div>
-          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-20 lg:max-w-5xl mx-auto">
-            Met dit project heeft Restaurant Four Seasons een krachtige digitale
-            start. Een moderne website die snelheid en gebruiksvriendelijkheid
-            combineert. Het online visitekaartje dat nieuwsgierigheid wekt en
-            gasten uitnodigt om te reserveren. Dankzij onze oplossingen beschikt
-            het restaurant over een professionele en schaalbare basis die
-            meegroeit met hun ambities, en die de unieke sfeer van hun
-            Midden-Oosterse keuken perfect vertaalt naar de digitale wereld.
-          </p>
-          <div className="text-center mt-30 mb-10 text-5xl text-[#1a1a1a] leading-16 mx-auto lg:max-w-6xl">
-            Ook Een Restaurant Beginnen?
-          </div>
-
-          <div className="flex w-full justify-center text-center mb-20">
-            <Link
-              href={"/contact"}
-              style={{ fontFamily: "var(--font-mono)" }}
-              className={
-                " text-[#1a1a1a] p-4 px-8 mb-12 border border-[#1a1a1a] hover:text-white hover:bg-[#1a1a1a] cursor-pointer"
-              }
-            >
-              NEEM CONTACT OP
-            </Link>
-          </div>
-        </div>
-        <Footer />
-      </div>
-    </>
-  )
+    <div className="relative mx-3 min-h-[80svh]"><Image src={food} alt="Midden-Oosterse gerechten op tafel" fill sizes="100vw" className="object-cover" /></div>
+    <section className="bg-[#5f2015] px-5 py-24 text-[#f1e5d1] md:px-8 md:py-32"><div className="mx-auto max-w-[1600px]"><p className="eyebrow text-white/45">03 / Resultaat</p><h2 className="mt-8 max-w-6xl text-[clamp(3rem,7vw,7rem)] font-medium leading-[0.93] tracking-[-0.06em]">Een professioneel online visitekaartje dat nieuwsgierigheid omzet in een reservering.</h2><div className="mt-16 grid gap-8 border-t border-white/20 pt-8 md:grid-cols-3"><div><strong className="text-5xl font-medium">90</strong><p className="mt-3 text-white/55">PageSpeed-score bij oplevering</p></div><div><strong className="text-5xl font-medium">1.2s</strong><p className="mt-3 text-white/55">Gemeten laadtijd</p></div><div><strong className="text-5xl font-medium">#1</strong><p className="mt-3 text-white/55">Google-positie op eigen naam</p></div></div></div></section>
+    <section className="grid gap-3 bg-[#5f2015] p-3 lg:grid-cols-[1.2fr_0.8fr]"><div className="relative min-h-[75svh]"><Image src={welcome} alt="Welkom bij Restaurant Four Seasons" fill sizes="(min-width: 1024px) 60vw, 100vw" className="object-cover" /></div><div className="grid gap-3"><div className="relative min-h-[42svh]"><Image src={food2} alt="Gerecht van Restaurant Four Seasons" fill sizes="(min-width: 1024px) 40vw, 100vw" className="object-cover" /></div><div className="flex min-h-[30svh] items-center justify-center bg-[#f1e5d1] p-12"><Image src={design} alt="Schets van het websiteontwerp" className="max-h-56 w-auto object-contain" /></div></div></section>
+    <CaseStudyNext href="/breinoptimaal" label="Breinoptimaal" eyebrow="Terug naar het begin" /><Footer />
+  </main>
 }
-
-export default FourSeasonsRestaurant

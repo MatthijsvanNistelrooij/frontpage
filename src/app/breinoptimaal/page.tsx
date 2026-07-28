@@ -1,270 +1,34 @@
-"use client"
-import React, { useEffect, useState } from "react"
+import type { Metadata } from "next"
 import Image from "next/image"
-import Link from "next/link"
 import { Footer } from "@/components/Footer"
-
-import tech_logo1 from "/public/next.svg"
-import tech_logo2 from "/public/assets/tech_logo/vercel.png"
-import tech_logo3 from "/public/assets/tech_logo/sanity.png"
-import tech_logo4 from "/public/assets/tech_logo/stripe.png"
-import concept_1 from "/public/assets/breinoptimaal/breinoptimaal_base.jpg"
-import health_9 from "/public/assets/breinoptimaal/health_9.jpg"
-import health_5 from "/public/assets/breinoptimaal/health_5.jpg"
+import { CaseStudyMeta } from "@/components/CaseStudyMeta"
+import { CaseStudyNext } from "@/components/CaseStudyNext"
+import hero from "/public/assets/breinoptimaal/breinoptimaal_header.jpg"
+import base from "/public/assets/breinoptimaal/breinoptimaal_base.jpg"
+import health1 from "/public/assets/breinoptimaal/health_1.jpg"
+import health4 from "/public/assets/breinoptimaal/health_4.jpg"
+import health5 from "/public/assets/breinoptimaal/health_5.jpg"
+import health9 from "/public/assets/breinoptimaal/health_9.jpg"
 import oats from "/public/assets/breinoptimaal/oats.jpg"
-import health_1 from "/public/assets/breinoptimaal/health_1.jpg"
-import health_2 from "/public/assets/breinoptimaal/health_2.jpg"
-import heroImage from "/public/assets/breinoptimaal/breinoptimaal_header.jpg"
-import health_4 from "/public/assets/breinoptimaal/health_4.jpg"
-import overlayImage from "/public/assets/breinoptimaal/vector.png"
+import bottle from "/public/assets/breinoptimaal/breinoptimaal_bottle.png"
 
-const techLogos = [tech_logo1, tech_logo2, tech_logo3, tech_logo4]
+export const metadata: Metadata = { title: "Breinoptimaal — Case study", description: "Merkbeleving en schaalbare e-commerce voor Breinoptimaal." }
+const meta = [{ label: "Klant", value: "Breinoptimaal" }, { label: "Sector", value: "Health & commerce" }, { label: "Werk", value: "UX, design, development" }, { label: "Stack", value: "Next.js, Sanity, Stripe" }]
 
-const BreinoptimaalProject = () => {
-  const [currentLogo, setCurrentLogo] = useState(0)
+export default function Breinoptimaal() {
+  return <main id="main-content" className="bg-[#e9eee7] text-[#14261d]">
+    <header className="px-5 pb-10 pt-16 md:px-8 md:pb-16 md:pt-24"><div className="mx-auto max-w-[1600px]"><p className="eyebrow text-[#14261d]/50">Case 01 / Breinoptimaal</p><div className="mt-10 grid items-end gap-10 lg:grid-cols-[2fr_1fr]"><h1 className="display">Rust in het merk. Snelheid in de shop.</h1><p className="max-w-md text-lg leading-8 text-[#14261d]/65">Een digitaal fundament voor een gezondheidsmerk met internationale ambitie—helder in gebruik, flexibel in beheer en gebouwd om te verkopen.</p></div><div className="mt-16"><CaseStudyMeta items={meta} /></div></div></header>
+    <div className="relative min-h-[72svh]"><Image src={hero} alt="Breinoptimaal-producten in een lichte wellnessomgeving" fill priority sizes="100vw" className="object-cover" /></div>
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentLogo((prev) => (prev + 1) % techLogos.length)
-    }, 5000)
+    <section className="px-5 py-20 md:px-8 md:py-32"><div className="mx-auto grid max-w-[1600px] gap-12 lg:grid-cols-[1fr_2fr]"><p className="eyebrow">01 / De vraag</p><div><h2 className="max-w-5xl text-[clamp(2.7rem,6vw,6rem)] font-medium leading-[0.95] tracking-[-0.055em]">Van product naar geloofwaardig gezondheidsmerk.</h2><p className="mt-10 max-w-2xl text-lg leading-8 text-[#14261d]/65">Breinoptimaal had meer nodig dan een standaard webshop. Het platform moest vertrouwen wekken, complexe productinformatie begrijpelijk maken en tegelijk eenvoudig blijven voor het team dat de content beheert.</p></div></div></section>
 
-    return () => clearInterval(interval)
-  }, [])
-  return (
-    <>
-      <div className="flex flex-col bg-[#fffffb]">
-        <div className="relative w-full min-h-[50vh] max-h-[17vh] md:min-h-[100vh] overflow-hidden">
-          <Image
-            src={heroImage}
-            alt="Four Seasons Hero"
-            fill
-            className="object-cover"
-          />
+    <section className="grid gap-3 px-3 md:grid-cols-[1.35fr_0.65fr]"><div className="relative min-h-[70svh]"><Image src={base} alt="Breinoptimaal-verpakking in natuurlijke setting" fill sizes="(min-width: 768px) 68vw, 100vw" className="object-cover" /></div><div className="relative min-h-[55svh] bg-[#cfd9cc]"><Image src={bottle} alt="Fles Breinoptimaal supplement" fill sizes="(min-width: 768px) 32vw, 100vw" className="object-contain p-12" /></div></section>
 
-          <div
-            className="absolute inset-0 flex justify-center"
-            style={{ marginTop: "-4%" }}
-          >
-            <button
-              className="inline-flex w-auto h-auto"
-              onClick={() => {
-                const el = document.getElementById("section")
-                if (el) el.scrollIntoView({ behavior: "smooth" })
-              }}
-            >
-              <Image
-                src={overlayImage}
-                alt="Overlay"
-                width={120}
-                height={120}
-                className="object-contain cursor-pointer"
-              />
-            </button>
-          </div>
-        </div>
+    <section className="px-5 py-24 md:px-8 md:py-36"><div className="mx-auto max-w-[1600px]"><p className="eyebrow">02 / Het systeem</p><div className="mt-8 grid gap-14 lg:grid-cols-2"><h2 className="text-[clamp(3rem,6vw,6.5rem)] font-medium leading-[0.95] tracking-[-0.055em]">Content die het team zelf in beweging houdt.</h2><div className="grid content-start gap-8 text-lg leading-8 text-[#14261d]/65"><p>We brachten merkverhaal, productbewijs en checkout samen in één rustige klantreis. Sanity geeft het team controle over producten en verhalen; Stripe maakt afrekenen direct en betrouwbaar.</p><ul className="grid gap-3 border-t border-[#14261d]/20 pt-6 text-sm"><li>— Modulair contentmodel in Sanity</li><li>— Veilige, korte checkout met Stripe</li><li>— Responsive product- en verhaalpagina’s</li><li>— Technische basis voor verdere groei</li></ul></div></div></div></section>
 
-        <div id="section" className="container mx-auto px-8 py-12">
-          <div
-            className="text-[#1a1a1a] text-center tracking-widest m-10 text-sm mx-auto lg:max-w-6xl"
-            style={{ fontFamily: "var(--font-mono)" }}
-          >
-            de focus op succes
-          </div>
-          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-30 mx-auto lg:max-w-6xl">
-            Breinoptimaal zocht een moderne oplossing voor online
-            betalingsverkeer. Met een intuïtieve Stripe-checkout en een
-            schaalbare Sanity-backend bouwden we een robuuste en betrouwbare
-            set-up die mee kan groeien in elke richting.
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="w-full h-180 relative">
-              <Image
-                src={concept_1}
-                alt="Image 1"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="w-full h-180 relative">
-              <Image
-                src={concept_1}
-                alt="Image 2"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="w-full h-180 relative">
-              <Image
-                src={concept_1}
-                alt="Image 3"
-                fill
-                className="object-cover"
-              />
-            </div>
-          </div>
-
-          <div className="text-start mt-20 mb-10 text-5xl md:text-6xl text-[#1a1a1a] mx-auto lg:max-w-6xl">
-            Een Sterke Basis
-          </div>
-          <div className="text-[#1a1a1a] text-xl text-start mt-6 mb-10 lg:max-w-6xl mx-auto">
-            Breinoptimaal vroeg meer dan een standaard webshop: een digitale
-            omgeving die professionaliteit en vertrouwen uitstraalt. Door onze
-            aanpak is er een platform ontstaan dat schaalbaar is, eenvoudig in
-            beheer en helemaal gericht op conversie. Met een checkout via Stripe
-            en naadloze integratie met betaalproviders kunnen klanten moeiteloos
-            hun bestelling plaatsen.
-          </div>
-
-          <div className="my-20 relative bg-[#1a1a1a]">
-            <Image
-              src={health_1}
-              alt="Image 4"
-              className="w-auto h-auto max-w-full mx-auto"
-            />
-          </div>
-
-          <div className="flex flex-col lg:flex-row mt-20 items-start gap-10 lg:max-w-6xl mx-auto">
-            <div className="max-w-xl text-[1.2rem]">
-              <div className="text-start mb-10 text-5xl md:text-6xl text-[#1a1a1a]">
-                In De Formule
-              </div>
-
-              <ul className="space-y-4 text-[#1a1a1a] p-5">
-                <li className="flex items-start gap-2">
-                  <span className="list-disc">•</span>
-                  <span>
-                    <span className="">Next.js:</span> Modern
-                    JavaScript-framework dat zorgt voor hoge performance,
-                    SEO-optimalisatie en een snelle, interactieve
-                    webshopervaring.
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="list-disc">•</span>
-                  <span>
-                    <span className="">Vercel:</span> Robuust platform voor het
-                    hosten en deployen van de website, met automatische
-                    optimalisaties voor snelheid en schaalbaarheid.
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="list-disc">•</span>
-                  <span>
-                    <span className="">Sanity:</span> Headless CMS dat het team
-                    in staat stelt om producten, teksten en afbeeldingen
-                    eenvoudig uit te rollen, waar ook ter wereld.
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="list-disc">•</span>
-                  <span>
-                    <span className="">Stripe:</span> Betrouwbare en veilige
-                    betaaloplossing waarmee klanten eenvoudig online kunnen
-                    afrekenen.
-                  </span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="flex-1 flex justify-center items-center">
-              <Image
-                src={techLogos[currentLogo]}
-                alt="tech_logo"
-                className="transition-opacity duration-700 w-48 md:w-64 lg:w-96 xl:w-[400px] h-auto"
-              />
-            </div>
-          </div>
-
-          <div className="my-20 relative bg-[#1a1a1a]">
-            <Image src={health_4} alt="Image 4" className="mx-auto" />
-          </div>
-
-          <div className="text-[#1a1a1a] text-center text-6xl lg:text-8xl mt-30">
-            <div>Klaar Voor de Start</div>
-            <div className="flex flex-col md:flex-row justify-between mt-20 gap-10">
-              <div className="text-start text-9xl md:text-center">
-                100%
-                <div className="text-lg md:text-xl lg:text-2xl font-normal mt-5">
-                  Veilige checkout met Stripe
-                </div>
-              </div>
-              <div className="text-start text-9xl md:text-center">
-                1s
-                <div className="text-lg md:text-xl lg:text-2xl font-normal mt-5">
-                  Gemiddelde laadtijd
-                </div>
-              </div>
-              <div className="text-start text-9xl md:text-center">
-                +20
-                <div className="text-lg md:text-xl lg:text-2xl font-normal mt-5">
-                  Bestellingen sinds lancering
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8 mt-30">
-            <div className="w-full h-140 relative">
-              <Image
-                src={health_5}
-                alt="Image 1"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="w-full h-140 relative">
-              <Image
-                src={health_9}
-                alt="Image 2"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="w-full h-140 relative">
-              <Image src={oats} alt="Image 3" fill className="object-cover" />
-            </div>
-            <div className="w-full h-140 relative">
-              <Image
-                src={health_2}
-                alt="Image 3"
-                fill
-                className="object-cover"
-              />
-            </div>
-          </div>
-
-          <div
-            className="text-[#1a1a1a] text-center tracking-widest mt-20 mb-10 text-sm lg:max-w-6xl mx-auto"
-            style={{ fontFamily: "var(--font-mono)" }}
-          >
-            het recept voor een gezond resultaat
-          </div>
-          <p className="text-xl text-center md:text-3xl font-light tracking-wider leading-12 text-[#1a1a1a] mb-20 lg:max-w-6xl mx-auto">
-            Met dit project heeft Breinoptimaal een moderne en
-            gebruiksvriendelijke webshop die optimaal is voor de toekomst.
-            Dankzij onze innovatieve oplossingen kan het merk blijven groeien en
-            klanten de beste ervaring bieden – of ze nu shoppen in Amsterdam of
-            Dubai.
-          </p>
-
-          <div className="text-center mt-30 mb-10 text-5xl text-[#1a1a1a] leading-16">
-            Ook Een Webshop Bouwen?
-          </div>
-          <div className="flex w-full justify-center text-center mb-20">
-            <Link
-              href={"/contact"}
-              style={{ fontFamily: "var(--font-mono)" }}
-              className=" text-[#1a1a1a] p-4 px-8 mb-12 border border-[#1a1a1a] hover:text-white hover:bg-[#1a1a1a] cursor-pointer"
-            >
-              NEEM CONTACT OP
-            </Link>
-          </div>
-        </div>
-        <Footer />
-      </div>
-    </>
-  )
+    <div className="relative mx-3 min-h-[78svh]"><Image src={health1} alt="Lifestylefotografie voor Breinoptimaal" fill sizes="100vw" className="object-cover" /></div>
+    <section className="bg-[#14261d] px-5 py-24 text-[#e9eee7] md:px-8 md:py-32"><div className="mx-auto max-w-[1600px]"><p className="eyebrow text-white/45">03 / Resultaat</p><h2 className="mt-8 max-w-6xl text-[clamp(3rem,7vw,7rem)] font-medium leading-[0.93] tracking-[-0.06em]">Een gezonde basis die niet opnieuw gebouwd hoeft te worden zodra het merk groeit.</h2><div className="mt-16 grid gap-8 border-t border-white/20 pt-8 md:grid-cols-3"><div><strong className="text-5xl font-medium">100%</strong><p className="mt-3 text-white/55">Veilige Stripe-checkout</p></div><div><strong className="text-5xl font-medium">±1s</strong><p className="mt-3 text-white/55">Gemeten gemiddelde laadtijd</p></div><div><strong className="text-5xl font-medium">20+</strong><p className="mt-3 text-white/55">Eerste bestellingen na lancering</p></div></div></div></section>
+    <section className="grid grid-cols-2 gap-3 bg-[#14261d] p-3 md:grid-cols-4">{[[health5,"Gezonde ingrediënten"],[health9,"Lifestylebeeld"],[oats,"Haver en natuurlijke voeding"],[health4,"Breinoptimaal campagnebeeld"]].map(([src, alt]) => <div key={alt as string} className="relative aspect-[3/4]"><Image src={src} alt={alt as string} fill sizes="(min-width: 768px) 25vw, 50vw" className="object-cover" /></div>)}</section>
+    <CaseStudyNext href="/kapsalon_four_seasons" label="Kapsalon Four Seasons" /><Footer />
+  </main>
 }
-
-export default BreinoptimaalProject

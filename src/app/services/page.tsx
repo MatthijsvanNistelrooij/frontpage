@@ -1,126 +1,18 @@
-import React from "react"
+import type { Metadata } from "next"
 import Image from "next/image"
-import heroImage from "/public/assets/service.jpg"
-import { Footer } from "@/components/Footer"
 import Link from "next/link"
+import { Footer } from "@/components/Footer"
+import hero from "/public/assets/service.jpg"
 
-const Services = () => {
-  return (
-    <div className="flex flex-col bg-[#fffffb]">
-      <div className="relative w-full min-h-[60vh] overflow-hidden">
-        <Image
-          src={heroImage}
-          alt="Four Seasons Hero"
-          fill
-          className="object-cover opacity-90"
-        />
-        <div className="absolute inset-0 flex items-center justify-center bg-black/30">
-          <h1
-            className="text-white text-5xl md:text-8xl text-center max-w-xl md:max-w-5xl px-8"
-            style={{ fontFamily: "var(--font-cabin)" }}
-          >
-            Design dat spreekt, techniek die werkt.
-          </h1>
-        </div>
-      </div>
+export const metadata: Metadata = { title: "Diensten", description: "Van digitale richting tot ontwerp, development en doorontwikkeling." }
+const services = [
+  { n: "01", title: "Richting & ontwerp", text: "We brengen doelen, doelgroep en inhoud terug tot een scherpe digitale richting. Daarna maken we die tastbaar in structuur, prototypes en een onderscheidend visueel systeem.", tags: "Strategie · UX · UI design · Prototyping · Art direction" },
+  { n: "02", title: "Websites & systemen", text: "We vertalen het ontwerp naar een snel, toegankelijk en beheersbaar product. Van merkwebsite tot webshop of maatwerk reserveringssysteem.", tags: "Next.js · Headless CMS · E-commerce · Integraties · QA" },
+  { n: "03", title: "Groei & verbetering", text: "Na livegang begint het echte werk. We onderzoeken waar bezoekers afhaken, verbeteren performance en bouwen gericht verder op wat aantoonbaar werkt.", tags: "Analytics · SEO · Performance · Conversie · Doorontwikkeling" },
+]
 
-      <div className="container mx-auto px-8 py-12">
-        <div
-          className="text-[#1a1a1a] text-center tracking-widest m-10 text-sm"
-          style={{ fontFamily: "var(--font-mono)" }}
-        >
-          Het Is Wat We Doen
-        </div>
-        <p className="text-xl text-center md:text-3xl font-extralight tracking-wider leading-12 text-[#1a1a1a] mb-20">
-          Onze focus ligt op duurzame groei: slimme oplossingen die meegroeien
-          met je bedrijf. We combineren strategie, design en technologie om
-          producten te creëren die niet alleen vandaag werken, maar ook klaar
-          zijn voor de uitdagingen van morgen.
-        </p>
-
-        <hr />
-        <div className="md:max-w-3xl flex flex-col mx-auto justify-center">
-          <div className="text-start mt-20 mb-10 text-5xl text-[#1a1a1a]">
-            Digitale Beleving
-          </div>
-          <div className="text-start mb-10 text-lg text-gray-900">
-            Wij zijn gedreven Digital Natives die elke pixel tot in detail
-            verfijnen om een naadloze oplossingen te creëren. Met creativiteit
-            en visie zetten we zakelijke uitdagingen om in kansen die impact
-            maken.
-          </div>
-          <div className="text-gray-900">
-            Full Stack Development • Front End Development • Content Planning •
-            UX Wireframing • UI Design • Prototyping • QA Testing
-          </div>
-          <hr className="border-t border-gray-300 my-10" />
-
-          <div className="text-start mt-20 mb-10 text-5xl text-[#1a1a1a] break-words">
-            Merkontwikkeling
-          </div>
-          <div className="text-start mb-10 text-lg text-[#1a1a1a]">
-            Wij bouwen merken verder uit of creëren nieuwe merken vanaf nul. Met
-            diensten die zorgen voor een samenhangende merkbeleving die het
-            publiek raakt en bijblijft.
-          </div>
-          <div className="text-[#1a1a1a]">
-            Brand Identity • Visual Systems • Voice & Tone • Messaging
-            Frameworks • Brand Strategy • Brand Extension • Art Direction •
-            Design
-          </div>
-          <hr className="border-t border-gray-300 my-10" />
-
-          <div className="text-start mt-20 mb-10 text-5xl text-[#1a1a1a]">
-            Duurzaam Versnellen
-          </div>
-          <div className="text-start mb-10 text-lg text-[#1a1a1a]">
-            Zoals racers hun wagen tunen, willen wij je business sneller
-            en efficiënter maken. Als er een kans is om te optimaliseren, zorgen
-            wij dat je op het juiste spoor zit.
-          </div>
-          <div className="text-gray-900">
-            Conversion Optimization • Ecosystem Audit • Shopify E-commerce •
-            Data Analytics • A/B Testing • Performance Tracking • Solutions
-            Architecture • CI/CD Pipelines • Data Migrations • Shopify
-            Fulfillment • SEO Strategy & Optimization
-          </div>
-          <hr className="border-t border-gray-300 my-10" />
-
-          <div className="text-start mt-20 mb-10 text-5xl text-[#1a1a1a]">
-            Marketing
-          </div>
-          <div className="text-start mb-10 text-lg text-[#1a1a1a]">
-            Succesvolle marketing houdt merken relevant en authentiek. Wij
-            creëren strategieën die jouw doelgroep bereiken op de kanalen die
-            bij hen passen.
-          </div>
-          <div className="text-[#1a1a1a]">
-            Social Media Strategy • Social Media Management • Email Marketing •
-            Paid Media Management • Digital Strategy • Ad Strategy • Content
-            Creation • Community Management
-          </div>
-          <hr className="border-t border-gray-300 my-10" />
-        </div>
-
-        <div className="text-center mt-20 mb-10 text-5xl text-[#1a1a1a]">
-          Het Bewijs is Hier.
-        </div>
-
-        <div className="flex w-full justify-center text-center">
-          <Link
-            href={"/#work"}
-            style={{ fontFamily: "var(--font-mono)" }}
-            className={
-              " text-[#1a1a1a] p-4 px-8 mb-10 border border-[#1a1a1a] hover:text-white hover:bg-[#1a1a1a] cursor-pointer"
-            }
-          >
-            BEKIJK ONS WERK
-          </Link>
-        </div>
-      </div>
-      <Footer />
-    </div>
-  )
+export default function Services() {
+  return <main id="main-content" className="bg-[#f4f2ea]"><section className="grid min-h-[72svh] lg:grid-cols-2"><div className="flex flex-col justify-between px-5 py-12 md:px-8 md:py-16"><p className="eyebrow">Diensten / Van richting naar resultaat</p><h1 className="display mt-20">Scherp bedacht. Zorgvuldig gebouwd.</h1><p className="mt-10 max-w-lg text-lg leading-8 text-black/65">Geen eindeloze lijst losse diensten, maar een helder traject waarin strategie, ontwerp en techniek elkaar versterken.</p></div><div className="relative min-h-[50vh] overflow-hidden"><Image src={hero} alt="Detail van een racewagen op snelheid" fill priority sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" /></div></section>
+  <section className="px-5 py-20 md:px-8 md:py-32"><div className="mx-auto max-w-[1600px]">{services.map(service => <article key={service.n} className="grid gap-5 border-t border-black/20 py-10 md:grid-cols-[1fr_2fr_1fr]"><p className="eyebrow">{service.n}</p><div><h2 className="text-4xl tracking-[-0.04em] md:text-6xl">{service.title}</h2><p className="mt-6 max-w-2xl text-lg leading-8 text-black/65">{service.text}</p></div><p className="text-sm leading-7 text-black/55">{service.tags}</p></article>)}</div></section>
+  <section className="bg-[#171714] px-5 py-20 text-white md:px-8"><div className="mx-auto max-w-[1600px] grid gap-10 md:grid-cols-2"><p className="eyebrow text-white/50">Werkwijze</p><div><h2 className="text-5xl leading-none tracking-[-0.05em] md:text-7xl">Kort op de bal, open over keuzes.</h2><p className="mt-8 max-w-xl text-lg leading-8 text-white/65">Je werkt rechtstreeks met degene die ontwerpt en bouwt. We starten klein, delen werk vroeg en nemen beslissingen op basis van doelen—niet op smaak alleen.</p><Link href="/contact" className="mt-10 inline-block border-b border-[#ff4d00] pb-2 text-[#ff4d00]">Bespreek een project ↗</Link></div></div></section><Footer /></main>
 }
-
-export default Services

@@ -1,106 +1,103 @@
 "use client"
-import React, { useRef, useState } from "react"
+
+import { useRef, useState } from "react"
 import emailjs from "@emailjs/browser"
 import { Footer } from "@/components/Footer"
 
-const Contact = () => {
-  const form = useRef<HTMLFormElement | null>(null)
-  const [loading, setLoading] = useState(false)
-  const [success, setSuccess] = useState(false)
-
-  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    setLoading(true)
-
+export default function Contact() {
+  const form = useRef<HTMLFormElement>(null)
+  const [status, setStatus] = useState<
+    "idle" | "loading" | "success" | "error"
+  >("idle")
+  const send = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault()
     if (!form.current) return
-
-    emailjs
-      .sendForm(
+    setStatus("loading")
+    try {
+      await emailjs.sendForm(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
         form.current,
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
       )
-      .then(() => {
-        setLoading(false)
-        setSuccess(true)
-        form.current?.reset()
-        setTimeout(() => setSuccess(false), 4000)
-      })
-      .catch((err) => {
-        setLoading(false)
-        console.error(err)
-      })
+      form.current.reset()
+      setStatus("success")
+    } catch {
+      setStatus("error")
+    }
   }
+  const field =
+    "w-full border-0 border-b border-black/30 bg-transparent px-0 py-4 text-lg outline-none placeholder:text-black/35 focus:border-[#ff4d00]"
   return (
-    <div className="bg-[#fffffb]">
-      <div className="container flex flex-col lg:flex-row justify-center mx-auto gap-20 py-20 pb-34 px-8">
-        <div className="container flex flex-col items-center justify-start mx-auto mt-5 md:mt-20">
-          <div className="text-[#1a1a1a] text-5xl sm:text-6xl md:text-8xl text-start break-words">
-            Elke Samenwerking als Katalysator.
-          </div>
-          <div className="text-[#1a1a1a] text-xl text-start mt-6">
-            Ben je geïnteresseerd in samenwerken? Of wil je gewoon eens een idee
-            bespreken? Neem contact op en laten we kijken hoe we samen iets
-            moois kunnen maken.
-          </div>
+    <main id="main-content" className="bg-[#f4f2ea]">
+      <section className="mx-auto grid min-h-[calc(100svh-4rem)] max-w-[1600px] gap-16 px-5 py-16 md:px-8 md:py-24 lg:grid-cols-2">
+        <div>
+          <p className="eyebrow">Contact / Groningen</p>
+          <h1 className="display mt-12">Vertel. Ik luister.</h1>
+          <p className="mt-10 max-w-md text-lg leading-8 text-black/65">
+            Een nieuw idee, een website die niet meer past, of een systeem dat
+            slimmer kan? Deel de context. Je krijgt een eerlijk antwoord over
+            wat de beste volgende stap is.
+          </p>
         </div>
-        <section className="w-full md:my-20">
-          <form
-            ref={form}
-            onSubmit={sendEmail}
-            className="space-y-5"
-            style={{ fontFamily: "var(--font-roboto-slab)" }}
+        <form
+          ref={form}
+          onSubmit={send}
+          className="self-center"
+          aria-describedby="form-status"
+        >
+          <label className="eyebrow" htmlFor="name">
+            Naam
+          </label>
+          <input
+            id="name"
+            name="from_name"
+            required
+            autoComplete="name"
+            placeholder="Hoe heet je?"
+            className={field}
+          />
+          <label className="eyebrow mt-8 block" htmlFor="email">
+            E-mail
+          </label>
+          <input
+            id="email"
+            name="from_email"
+            type="email"
+            required
+            autoComplete="email"
+            placeholder="Waar kan ik je bereiken?"
+            className={field}
+          />
+          <label className="eyebrow mt-8 block" htmlFor="message">
+            Waar gaat het over?
+          </label>
+          <textarea
+            id="message"
+            name="message"
+            rows={5}
+            required
+            placeholder="Vertel iets over de uitdaging, planning en ambitie."
+            className={field}
+          />
+          <button
+            disabled={status === "loading"}
+            className="mt-10 w-full bg-[#171714] px-6 py-5 text-white transition hover:bg-[#ff4d00] disabled:opacity-50"
           >
-            <div>
-              <input
-                type="text"
-                name="from_name"
-                required
-                placeholder="NAAM"
-                className="w-full border border-[#1a1a1a] text-[#1a1a1a] px-2 py-2"
-              />
-            </div>
-            <div>
-              <input
-                type="email"
-                name="from_email"
-                required
-                placeholder="EMAIL"
-                className="w-full border border-[#1a1a1a] text-[#1a1a1a] px-2 py-2"
-              />
-            </div>
-
-            <div>
-              <textarea
-                name="message"
-                rows={5}
-                required
-                placeholder="JE BERICHT"
-                className="w-full border border-[#1a1a1a] text-[#1a1a1a] px-2 py-2"
-              />
-            </div>
-            <div className="flex w-full justify-end">
-              <button
-                type="submit"
-                disabled={loading}
-                className="bg-[#1a1a1a] flex gap-2 w-full hover:bg-[#333333] justify-center text-center px-8 py-4 hover:text-white text-white transition cursor-pointer font-light"
-                style={{ fontFamily: "var(--font-mono)" }}
-              >
-                NEEM CONTACT OP
-              </button>
-            </div>
-            {success && (
-              <p className="text-green-600 text-sm mt-2">
-                Bericht succesvol verzonden!
-              </p>
-            )}
-          </form>
-        </section>
-      </div>
+            {status === "loading" ? "Wordt verzonden…" : "Verstuur bericht ↗"}
+          </button>
+          <p
+            id="form-status"
+            aria-live="polite"
+            className="mt-4 min-h-6 text-sm"
+          >
+            {status === "success" && "Dank je. Je bericht is verstuurd."}
+            {status === "error" &&
+              "Versturen lukte niet. Mail rechtstreeks of probeer het opnieuw."}
+          </p>
+        </form>
+      </section>
       <Footer />
-    </div>
+    </main>
   )
 }
-
-export default Contact

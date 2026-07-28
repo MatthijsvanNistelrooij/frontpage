@@ -1,67 +1,22 @@
 "use client"
 
-import { useState } from "react"
-import Image from "next/image"
-import logo from "../../public/logo.png"
+import { useEffect, useState } from "react"
 import Link from "next/link"
-import { HiMenu, HiX } from "react-icons/hi" // hamburger icons
+import { usePathname } from "next/navigation"
+
+const links = [{ href: "/#work", label: "Werk" }, { href: "/services", label: "Diensten" }, { href: "/contact", label: "Contact" }]
 
 export const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false)
-
-  return (
-    <nav className="bg-[#1a1a1a] sticky top-0 left-0 w-full text-[#f0f0f0] z-30">
-      <div className="container mx-auto flex justify-between items-center px-8 py-3">
-        <Link href={"/"} className="cursor-pointer">
-          <Image src={logo} alt="logo" width={40} height={40} />
-        </Link>
-
-        <div className="hidden md:flex space-x-8 text-[#f0f0f0] text-lg">
-          <Link href="/#work" className="hover:text-gray-400 transition">
-            Wij
-          </Link>
-          <Link href="/services" className="hover:text-gray-400 transition">
-            Diensten
-          </Link>
-          <Link href="/contact" className="hover:text-gray-400 transition">
-            Contact
-          </Link>
-        </div>
-
-        <div className="md:hidden">
-          <button
-            onClick={() => setMenuOpen(!menuOpen)}
-            className="text-[#f0f0f0] text-2xl"
-          >
-            {menuOpen ? <HiX /> : <HiMenu />}
-          </button>
-        </div>
-      </div>
-      {menuOpen && (
-        <div className="absolute top-full pl-8 pb-8 left-0 text-white w-full bg-[#1a1a1a] flex flex-col items-start md:hidden py-4 space-y-2">
-          <Link
-            href="/#work"
-            className="hover:text-gray-400 transition py-2"
-            onClick={() => setMenuOpen(false)}
-          >
-            Wij
-          </Link>
-          <Link
-            href="/services"
-            className="hover:text-gray-400 transition py-2"
-            onClick={() => setMenuOpen(false)}
-          >
-            Diensten
-          </Link>
-          <Link
-            href="/contact"
-            className="hover:text-gray-400 transition py-2"
-            onClick={() => setMenuOpen(false)}
-          >
-            Contact
-          </Link>
-        </div>
-      )}
+  const [open, setOpen] = useState(false)
+  const pathname = usePathname()
+  useEffect(() => setOpen(false), [pathname])
+  useEffect(() => { const close = (event: KeyboardEvent) => event.key === "Escape" && setOpen(false); window.addEventListener("keydown", close); return () => window.removeEventListener("keydown", close) }, [])
+  return <header className="sticky top-0 z-40 border-b border-white/15 bg-[#171714]/95 text-white backdrop-blur">
+    <nav aria-label="Hoofdnavigatie" className="mx-auto flex h-16 max-w-[1600px] items-center justify-between px-5 md:px-8">
+      <Link href="/" className="flex items-center gap-3 text-sm font-semibold tracking-tight"><span className="h-2.5 w-2.5 rounded-full bg-[#ff4d00]" aria-hidden="true" />MATTHIJS</Link>
+      <div className="hidden items-center gap-8 md:flex">{links.map(link => <Link key={link.href} href={link.href} className="text-sm text-white/75 transition hover:text-white">{link.label}</Link>)}<span className="eyebrow text-white/45">Groningen · NL</span></div>
+      <button type="button" className="eyebrow md:hidden" aria-expanded={open} aria-controls="mobile-menu" aria-label={open ? "Menu sluiten" : "Menu openen"} onClick={() => setOpen(!open)}>{open ? "Sluit" : "Menu"}</button>
     </nav>
-  )
+    {open && <div id="mobile-menu" className="border-t border-white/15 bg-[#171714] px-5 py-6 md:hidden">{links.map(link => <Link key={link.href} href={link.href} className="block border-b border-white/15 py-4 text-3xl">{link.label}</Link>)}</div>}
+  </header>
 }

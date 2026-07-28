@@ -1,24 +1,22 @@
 @import "tailwindcss";
 
-body {
-  background: #1a1a1a;
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+:root {
+  --ink: #171714;
+  --paper: #f4f2ea;
+  --signal: #ff4d00;
+  --font-sans: Arial, Helvetica, sans-serif;
+  --font-mono: "Courier New", Courier, monospace;
 }
 
-::selection {
-  background: #ffcc00;
-  color: #000;
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--ink); color: var(--ink); font-family: var(--font-sans); }
+a, button { -webkit-tap-highlight-color: transparent; }
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px solid var(--signal); outline-offset: 4px; }
+::selection { background: var(--signal); color: white; }
+.display { font-size: clamp(3.6rem, 9vw, 9.5rem); font-weight: 500; letter-spacing: -0.07em; line-height: 0.88; }
+.eyebrow { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
 }
-::-moz-selection {
-  background: #ffcc00;
-  color: #000;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-/* * { 
-  outline: 1px solid red
-} */
