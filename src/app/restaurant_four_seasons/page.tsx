@@ -22,7 +22,7 @@ const meta = [
   { label: "Klant", value: "Restaurant Four Seasons" },
   { label: "Sector", value: "Hospitality" },
   { label: "Werk", value: "Identity, UX, development" },
-  { label: "Stack", value: "Next.js, Appwrite, EmailJS" },
+  { label: "Stack", value: "Next.js, Supabase, EmailJS" },
 ]
 
 export default function RestaurantFourSeasons() {

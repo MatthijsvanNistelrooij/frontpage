@@ -24,7 +24,7 @@ const meta = [
 ]
 
 export default function Breinoptimaal() {
-  return (
+  return ( 
     <main id="main-content" className="bg-[#e9eee7] text-[#14261d]">
       <header className="px-5 pb-10 pt-16 md:px-8 md:pb-16 md:pt-24">
         <div className="mx-auto max-w-[1600px]">
