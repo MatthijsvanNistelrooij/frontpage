@@ -18,7 +18,6 @@ export const metadata: Metadata = {
 }
 const meta = [
   { label: "Klant", value: "Kapsalon Four Seasons" },
-  { label: "Locatie", value: "Groningen" },
   { label: "Werk", value: "UX, design, development" },
   { label: "Stack", value: "Next.js, Supabase, Twilio" },
 ]

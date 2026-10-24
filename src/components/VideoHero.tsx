@@ -39,7 +39,7 @@ export function VideoHero() {
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/65" />
       <div className="relative mx-auto flex min-h-[calc(100svh-4rem)] max-w-[1600px] flex-col justify-between px-5 py-8 md:px-8 md:py-12">
-        <p className="eyebrow text-white/70">Design & development / Groningen</p>
+        <p className="eyebrow text-white/70">Design & development</p>
         <div>
           <h1 className="display max-w-7xl">
             Websites en<br />digitale projecten.
@@ -47,7 +47,7 @@ export function VideoHero() {
           <div className="mt-8 flex items-end justify-between gap-5">
             <div>
               <p className="max-w-md text-base leading-7 text-white/85">
-                Wij ontwerpen en bouwen websites vanuit Groningen.
+                Wij ontwerpen en bouwen websites.
               </p>
               <div className="mt-5">
                 <Link href="#work" className="inline-flex min-h-12 items-center gap-3 text-sm text-white/80 underline decoration-white/30 underline-offset-8 hover:text-white hover:decoration-white">

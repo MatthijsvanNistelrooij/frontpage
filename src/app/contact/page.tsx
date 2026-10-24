@@ -32,7 +32,7 @@ export default function Contact() {
     <main id="main-content" className="bg-[#f4f2ea]">
       <section className="mx-auto grid min-h-[calc(100svh-4rem)] max-w-[1600px] gap-16 px-5 py-16 md:px-8 md:py-24 lg:grid-cols-2">
         <div>
-          <p className="eyebrow">Contact / Groningen</p>
+          <p className="eyebrow">Contact</p>
           <h1 className="display mt-12">Hallo.</h1>
           <p className="mt-10 max-w-md text-lg leading-8 text-black/65">
             Heb je een vraag of wil je iets bespreken? Je kunt ons via

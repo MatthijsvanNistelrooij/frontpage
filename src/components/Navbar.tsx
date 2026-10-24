@@ -47,7 +47,6 @@ export const Navbar = () => {
               {link.label}
             </Link>
           ))}
-          <span className="eyebrow text-white/45">Groningen · NL</span>
         </div>
         <button
           type="button"

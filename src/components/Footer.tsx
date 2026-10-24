@@ -18,8 +18,6 @@ export const Footer = () => (
       <div className="grid gap-8 pt-8 text-sm text-white/65 md:grid-cols-3">
         <p>
           Digital design & development
-          <br />
-          Groningen, Nederland
         </p>
         <div className="flex gap-5 md:justify-center">
           <a

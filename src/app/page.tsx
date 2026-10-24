@@ -58,7 +58,7 @@ export default function Home() {
               discipline="Website & afspraken"
               url="kapsalon_four_seasons"
               title="Kapsalon Four Seasons"
-              info="Een website met online afspraakplanner voor een kapsalon in Groningen."
+              info="Een website met online afspraakplanner voor de kapsalon."
               image={barber}
               hoverImage={barberHover}
             />
