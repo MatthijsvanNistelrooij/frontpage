@@ -7,26 +7,26 @@ import hero from "/public/assets/service.jpg"
 export const metadata: Metadata = {
   title: "Diensten",
   description:
-    "Van digitale richting tot ontwerp, development en doorontwikkeling.",
+    "Ontwerp, development en onderhoud van websites en webshops.",
 }
 const services = [
   {
     n: "01",
-    title: "Richting & ontwerp",
-    text: "We brengen doelen, doelgroep en inhoud terug tot een scherpe digitale richting. Daarna maken we die tastbaar in structuur, prototypes en een onderscheidend visueel systeem.",
-    tags: "Strategie · UX · UI design · Prototyping · Art direction",
+    title: "Ontwerp",
+    text: "We bespreken wat de website nodig heeft. Wij werken de structuur en het ontwerp uit, met ruimte om samen te kijken en bij te stellen.",
+    tags: "Structuur · UX · UI design · Prototypes",
   },
   {
     n: "02",
     title: "Websites & systemen",
-    text: "We vertalen het ontwerp naar een snel, toegankelijk en beheersbaar product. Van merkwebsite tot webshop of maatwerk reserveringssysteem.",
-    tags: "Next.js · Headless CMS · E-commerce · Integraties · QA",
+    text: "Wij bouwen websites, webshops en afspraakplanners. Daarbij besteden we aandacht aan hoe de website werkt voor bezoekers en hoe je de inhoud zelf kunt bijhouden.",
+    tags: "Websites · Webshops · CMS · Koppelingen",
   },
   {
     n: "03",
-    title: "Groei & verbetering",
-    text: "Na livegang begint het echte werk. We onderzoeken waar bezoekers afhaken, verbeteren performance en bouwen gericht verder op wat aantoonbaar werkt.",
-    tags: "Analytics · SEO · Performance · Conversie · Doorontwikkeling",
+    title: "Onderhoud",
+    text: "Na oplevering kunnen wij helpen met updates, aanpassingen en nieuwe onderdelen. Soms gaat het om een kleine wijziging, soms om wat meer uitzoekwerk.",
+    tags: "Updates · Aanpassingen · Doorontwikkeling",
   },
 ]
 
@@ -35,11 +35,11 @@ export default function Services() {
     <main id="main-content" className="bg-[#f4f2ea]">
       <section className="grid min-h-[72svh] lg:grid-cols-2">
         <div className="flex flex-col justify-between px-5 py-12 md:px-8 md:py-16">
-          <p className="eyebrow">Diensten / Van richting naar resultaat</p>
-          <h1 className="display mt-20">Scherp bedacht. Zorgvuldig gebouwd.</h1>
+          <p className="eyebrow">Diensten</p>
+          <h1 className="display mt-20">Ontwerp en development.</h1>
           <p className="mt-10 max-w-lg text-lg leading-8 text-black/65">
-            Geen eindeloze lijst losse diensten, maar een helder traject waarin
-            strategie, ontwerp en techniek elkaar versterken.
+            Wij werken aan nieuwe websites en aan bestaande projecten.
+            Dit zijn de onderdelen waarbij wij kunnen helpen.
           </p>
         </div>
         <div className="relative min-h-[50vh] overflow-hidden">
@@ -79,18 +79,18 @@ export default function Services() {
           <p className="eyebrow text-white/50">Werkwijze</p>
           <div>
             <h2 className="text-5xl leading-none tracking-[-0.05em] md:text-7xl">
-              Kort op de bal, open over keuzes.
+              Samen aan een project werken.
             </h2>
             <p className="mt-8 max-w-xl text-lg leading-8 text-white/65">
-              Je werkt rechtstreeks met degene die ontwerpt en bouwt. We starten
-              klein, delen werk vroeg en nemen beslissingen op basis van
-              doelen—niet op smaak alleen.
+              We beginnen met een gesprek over je idee. Daarna bespreken we
+              wat er nodig is en wat haalbaar is. Tijdens het werk laten wij
+              tussentijds zien hoe het ervoor staat.
             </p>
             <Link
               href="/contact"
               className="mt-10 inline-block border-b border-[#ff4d00] pb-2 text-[#ff4d00]"
             >
-              Bespreek een project ↗
+              Neem contact op ↗
             </Link>
           </div>
         </div>

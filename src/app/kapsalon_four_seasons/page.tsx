@@ -14,7 +14,7 @@ import logo from "/public/assets/four_seasons_kapsalon/four_seasons_logo.png"
 export const metadata: Metadata = {
   title: "Kapsalon Four Seasons — Case study",
   description:
-    "Een karaktervolle website en maatwerk afspraakplanner voor Kapsalon Four Seasons.",
+    "Een website en online afspraakplanner voor Kapsalon Four Seasons.",
 }
 const meta = [
   { label: "Klant", value: "Kapsalon Four Seasons" },
@@ -47,11 +47,11 @@ export default function KapsalonFourSeasons() {
           </div>
           <div>
             <h1 className="display max-w-7xl">
-              Twintig jaar vakmanschap. Eén nieuwe voordeur.
+              Een website voor Kapsalon Four Seasons.
             </h1>
             <p className="mt-8 max-w-xl text-lg leading-8 text-white/65">
-              Een directe website en afspraakplanner die net zo soepel werkt als
-              de zaak zelf.
+              Informatie over de kapsalon en een planner waarmee klanten
+              online een afspraak kunnen maken.
             </p>
           </div>
         </div>
@@ -67,7 +67,7 @@ export default function KapsalonFourSeasons() {
           <p className="eyebrow text-white/45">01 / De uitdaging</p>
           <div>
             <h2 className="max-w-5xl text-[clamp(2.8rem,6vw,6.5rem)] font-medium leading-[0.95] tracking-[-0.055em]">
-              Minder regelen aan de telefoon. Meer aandacht in de stoel.
+              Online een afspraak maken.
             </h2>
             <p className="mt-10 max-w-2xl text-lg leading-8 text-white/60">
               Afspraken kwamen via verschillende kanalen binnen. De nieuwe
@@ -99,15 +99,14 @@ export default function KapsalonFourSeasons() {
             <div>
               <p className="eyebrow text-white/45">02 / De benadering</p>
               <h2 className="mt-8 text-[clamp(3rem,6vw,6rem)] font-medium leading-[0.95] tracking-[-0.055em]">
-                Kort, duidelijk en gebouwd rondom de agenda.
+                De agenda als uitgangspunt.
               </h2>
             </div>
             <div className="self-end text-lg leading-8 text-white/60">
               <p>
-                We beperkten het aantal stappen, maakten beschikbaarheid direct
-                zichtbaar en automatiseerden bevestigingen. De robuuste
-                zwart-wit art direction sluit aan bij de ruimte en het
-                vakmanschap.
+                Klanten zien welke momenten beschikbaar zijn en krijgen na het
+                boeken een bevestiging. Het zwart-witte ontwerp sluit aan bij
+                de uitstraling van de kapsalon.
               </p>
               <ul className="mt-8 grid gap-3 border-t border-white/20 pt-6 text-sm">
                 <li>— Beschikbaarheid en blokkades in realtime</li>
@@ -145,16 +144,16 @@ export default function KapsalonFourSeasons() {
           <p className="eyebrow text-black/45">03 / Resultaat</p>
           <div className="mt-8 grid gap-12 lg:grid-cols-[2fr_1fr]">
             <h2 className="text-[clamp(3rem,7vw,7rem)] font-medium leading-[0.93] tracking-[-0.06em]">
-              Een digitale collega die ook na sluitingstijd afspraken aanneemt.
+              Afspraken maken, ook buiten openingstijden.
             </h2>
             <div className="grid content-end gap-8">
               <div>
-                <strong className="text-5xl font-medium">50+</strong>
-                <p className="mt-2 text-black/55">Afspraken kort na livegang</p>
+                <h3 className="text-xl">Online boeken</h3>
+                <p className="mt-2 text-black/65">Beschikbare momenten in de agenda</p>
               </div>
               <div>
-                <strong className="text-5xl font-medium">24/7</strong>
-                <p className="mt-2 text-black/55">Online beschikbaarheid</p>
+                <h3 className="text-xl">Bevestigingen</h3>
+                <p className="mt-2 text-black/65">Automatisch na het maken van een afspraak</p>
               </div>
             </div>
           </div>

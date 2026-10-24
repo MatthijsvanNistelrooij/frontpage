@@ -16,7 +16,7 @@ import design from "/public/assets/four_seasons_restaurant/site_design.png"
 export const metadata: Metadata = {
   title: "Restaurant Four Seasons — Case study",
   description:
-    "Een warme digitale identiteit en reserveringservaring voor Restaurant Four Seasons.",
+    "Ontwerp en development van de website voor Restaurant Four Seasons.",
 }
 const meta = [
   { label: "Klant", value: "Restaurant Four Seasons" },
@@ -39,10 +39,10 @@ export default function RestaurantFourSeasons() {
             />
           </div>
           <div>
-            <h1 className="display">Een eerste indruk die naar meer smaakt.</h1>
+            <h1 className="display">Een website voor Restaurant Four Seasons.</h1>
             <p className="mt-8 max-w-md text-lg leading-8 text-[#38170f]/65">
-              Van nog geen digitale identiteit naar een warme plek waar sfeer,
-              verhaal en reserveren vanzelf samenkomen.
+              Een plek voor informatie over het restaurant, de gerechten
+              en het reserveren van een tafel.
             </p>
           </div>
         </div>
@@ -65,16 +65,15 @@ export default function RestaurantFourSeasons() {
 
       <section className="px-5 py-20 md:px-8 md:py-32">
         <div className="mx-auto grid max-w-[1600px] gap-12 lg:grid-cols-[1fr_2fr]">
-          <p className="eyebrow text-[#38170f]/50">01 / Van nul</p>
+          <p className="eyebrow text-[#38170f]/50">01 / Het ontwerp</p>
           <div>
             <h2 className="max-w-5xl text-[clamp(2.8rem,6vw,6.5rem)] font-medium leading-[0.95] tracking-[-0.055em]">
-              De warmte van de keuken, vertaald naar een scherm.
+              Een beeld van het restaurant.
             </h2>
             <p className="mt-10 max-w-2xl text-lg leading-8 text-[#38170f]/65">
-              Het restaurant had nog geen digitale identiteit. We begonnen bij
-              de echte ervaring: gastvrijheid, Syrische smaken en gerechten om
-              samen te delen. Dat werd de basis voor beeld, ritme, taal en
-              interactie.
+              De Syrische keuken en de sfeer van het restaurant vormden het
+              vertrekpunt. Foto’s van de gerechten en warme kleuren komen
+              terug in het ontwerp.
             </p>
           </div>
         </div>
@@ -115,7 +114,7 @@ export default function RestaurantFourSeasons() {
           <p className="eyebrow text-[#38170f]/50">02 / De ervaring</p>
           <div className="mt-8 grid gap-14 lg:grid-cols-2">
             <h2 className="text-[clamp(3rem,6vw,6rem)] font-medium leading-[0.95] tracking-[-0.055em]">
-              Storytelling die niet in de weg staat van reserveren.
+              Informatie en reserveren.
             </h2>
             <div className="text-lg leading-8 text-[#38170f]/65">
               <p>
@@ -148,23 +147,22 @@ export default function RestaurantFourSeasons() {
         <div className="mx-auto max-w-[1600px]">
           <p className="eyebrow text-white/45">03 / Resultaat</p>
           <h2 className="mt-8 max-w-6xl text-[clamp(3rem,7vw,7rem)] font-medium leading-[0.93] tracking-[-0.06em]">
-            Een professioneel online visitekaartje dat nieuwsgierigheid omzet in
-            een reservering.
+            Het restaurant online, met de mogelijkheid om te reserveren.
           </h2>
           <div className="mt-16 grid gap-8 border-t border-white/20 pt-8 md:grid-cols-3">
             <div>
-              <strong className="text-5xl font-medium">90</strong>
-              <p className="mt-3 text-white/55">
-                PageSpeed-score bij oplevering
+              <h3 className="text-xl">Het restaurant</h3>
+              <p className="mt-3 text-white/65">
+                Sfeer, gerechten en praktische informatie
               </p>
             </div>
             <div>
-              <strong className="text-5xl font-medium">1.2s</strong>
-              <p className="mt-3 text-white/55">Gemeten laadtijd</p>
+              <h3 className="text-xl">Reserveren</h3>
+              <p className="mt-3 text-white/65">Een tafel boeken via de website</p>
             </div>
             <div>
-              <strong className="text-5xl font-medium">#1</strong>
-              <p className="mt-3 text-white/55">Google-positie op eigen naam</p>
+              <h3 className="text-xl">Contact</h3>
+              <p className="mt-3 text-white/65">Communicatie via e-mail</p>
             </div>
           </div>
         </div>

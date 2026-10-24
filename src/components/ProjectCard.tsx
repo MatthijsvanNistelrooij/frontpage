@@ -22,27 +22,27 @@ export default function ProjectCard({
 }: Props) {
   return (
     <Link href={`/${url}`} className="group block text-[#171714]">
-      <div className="relative aspect-[4/5] overflow-hidden bg-black">
+      <div className="relative aspect-[4/5] overflow-hidden rounded-sm bg-[#e6e3d9]">
         <Image
           src={image}
           alt=""
           fill
-          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-          className="object-cover transition duration-700 group-hover:scale-[1.02]"
+          sizes="(min-width: 1600px) 496px, (min-width: 1280px) 33vw, (min-width: 768px) 50vw, 100vw"
+          className="object-cover transition duration-700 group-hover:scale-[1.02] group-focus-visible:scale-[1.02]"
         />
         <Image
           src={hoverImage}
           alt=""
           fill
-          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-          className="object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+          sizes="(min-width: 1600px) 496px, (min-width: 1280px) 33vw, (min-width: 768px) 50vw, 100vw"
+          className="project-preview object-cover opacity-0 transition-opacity duration-500 group-focus-visible:opacity-100"
         />
       </div>
       <div className="mt-4 flex justify-between border-t border-black/20 pt-3">
         <span className="eyebrow">
           {number} / {discipline}
         </span>
-        <span className="transition group-hover:-translate-y-1 group-hover:translate-x-1">
+        <span aria-hidden="true" className="transition group-hover:-translate-y-1 group-hover:translate-x-1 group-focus-visible:-translate-y-1 group-focus-visible:translate-x-1">
           ↗
         </span>
       </div>

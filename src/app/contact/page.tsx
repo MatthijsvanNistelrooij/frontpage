@@ -33,11 +33,10 @@ export default function Contact() {
       <section className="mx-auto grid min-h-[calc(100svh-4rem)] max-w-[1600px] gap-16 px-5 py-16 md:px-8 md:py-24 lg:grid-cols-2">
         <div>
           <p className="eyebrow">Contact / Groningen</p>
-          <h1 className="display mt-12">Vertel. Ik luister.</h1>
+          <h1 className="display mt-12">Hallo.</h1>
           <p className="mt-10 max-w-md text-lg leading-8 text-black/65">
-            Een nieuw idee, een website die niet meer past, of een systeem dat
-            slimmer kan? Deel de context. Je krijgt een eerlijk antwoord over
-            wat de beste volgende stap is.
+            Heb je een vraag of wil je iets bespreken? Je kunt ons via
+            dit formulier een bericht sturen.
           </p>
         </div>
         <form
@@ -66,7 +65,7 @@ export default function Contact() {
             type="email"
             required
             autoComplete="email"
-            placeholder="Waar kan ik je bereiken?"
+            placeholder="Waar kunnen we je bereiken?"
             className={field}
           />
           <label className="eyebrow mt-8 block" htmlFor="message">
@@ -77,7 +76,7 @@ export default function Contact() {
             name="message"
             rows={5}
             required
-            placeholder="Vertel iets over de uitdaging, planning en ambitie."
+            placeholder="Waar wil je het over hebben?"
             className={field}
           />
           <button

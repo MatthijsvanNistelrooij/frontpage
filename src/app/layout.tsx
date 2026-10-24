@@ -5,14 +5,14 @@ import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   title: {
-    default: "Matthijs — Digital design & development",
-    template: "%s — Matthijs",
+    default: "Design & development — Groningen",
+    template: "%s — Design & development",
   },
   description:
-    "Onafhankelijke digitale studio voor onderscheidende websites, slimme systemen en meetbare online groei.",
+    "Wij ontwerpen en bouwen websites en webshops vanuit Groningen. Bekijk ons werk en onze diensten.",
   openGraph: {
-    title: "Matthijs — Digital design & development",
-    description: "Strategie, design en development in één compacte studio.",
+    title: "Design & development — Groningen",
+    description: "Ontwerp en development van websites en webshops vanuit Groningen.",
     locale: "nl_NL",
     type: "website",
   },

@@ -19,6 +19,7 @@ body {
   background: var(--ink);
   color: var(--ink);
   font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
 }
 a,
 button {
@@ -46,6 +47,19 @@ textarea:focus-visible {
   font-size: 0.72rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+}
+@media (hover: hover) and (pointer: fine) {
+  .group:hover .project-preview {
+    opacity: 1;
+  }
+}
+@media (max-width: 767px) {
+  .display {
+    font-size: clamp(3rem, 12vw, 5.5rem);
+    letter-spacing: -0.06em;
+    line-height: 0.95;
+    overflow-wrap: anywhere;
+  }
 }
 @media (prefers-reduced-motion: reduce) {
   html {

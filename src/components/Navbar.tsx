@@ -34,14 +34,15 @@ export const Navbar = () => {
             className="h-2.5 w-2.5 rounded-full bg-[#ff4d00]"
             aria-hidden="true"
           />
-          MATTHIJS
+          DESIGN & DEVELOPMENT
         </Link>
         <div className="hidden items-center gap-8 md:flex">
           {links.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm text-white/75 transition hover:text-white"
+              aria-current={pathname === link.href ? "page" : undefined}
+              className={`text-sm underline-offset-8 transition hover:text-white hover:underline ${pathname === link.href ? "text-white underline decoration-[#ff7940]" : "text-white/75"}`}
             >
               {link.label}
             </Link>
@@ -50,7 +51,7 @@ export const Navbar = () => {
         </div>
         <button
           type="button"
-          className="eyebrow md:hidden"
+          className="eyebrow min-h-11 min-w-11 md:hidden"
           aria-expanded={open}
           aria-controls="mobile-menu"
           aria-label={open ? "Menu sluiten" : "Menu openen"}
@@ -68,6 +69,8 @@ export const Navbar = () => {
             <Link
               key={link.href}
               href={link.href}
+              onClick={() => setOpen(false)}
+              aria-current={pathname === link.href ? "page" : undefined}
               className="block border-b border-white/15 py-4 text-3xl"
             >
               {link.label}

@@ -14,7 +14,7 @@ import bottle from "/public/assets/breinoptimaal/breinoptimaal_bottle.png"
 
 export const metadata: Metadata = {
   title: "Breinoptimaal — Case study",
-  description: "Merkbeleving en schaalbare e-commerce voor Breinoptimaal.",
+  description: "Ontwerp en development van de Breinoptimaal-webshop.",
 }
 const meta = [
   { label: "Klant", value: "Breinoptimaal" },
@@ -30,11 +30,10 @@ export default function Breinoptimaal() {
         <div className="mx-auto max-w-[1600px]">
           <p className="eyebrow text-[#14261d]/50">Case 01 / Breinoptimaal</p>
           <div className="mt-10 grid items-end gap-10 lg:grid-cols-[2fr_1fr]">
-            <h1 className="display">Rust in het merk. Snelheid in de shop.</h1>
+            <h1 className="display">Een webshop voor Breinoptimaal.</h1>
             <p className="max-w-md text-lg leading-8 text-[#14261d]/65">
-              Een digitaal fundament voor een gezondheidsmerk met internationale
-              ambitie—helder in gebruik, flexibel in beheer en gebouwd om te
-              verkopen.
+              Ontwerp en bouw van een webshop voor voedingssupplementen,
+              met productinformatie, contentbeheer en online betalen.
             </p>
           </div>
           <div className="mt-16">
@@ -58,13 +57,12 @@ export default function Breinoptimaal() {
           <p className="eyebrow">01 / De vraag</p>
           <div>
             <h2 className="max-w-5xl text-[clamp(2.7rem,6vw,6rem)] font-medium leading-[0.95] tracking-[-0.055em]">
-              Van product naar geloofwaardig gezondheidsmerk.
+              Producten en informatie bij elkaar.
             </h2>
             <p className="mt-10 max-w-2xl text-lg leading-8 text-[#14261d]/65">
-              Breinoptimaal had meer nodig dan een standaard webshop. Het
-              platform moest vertrouwen wekken, complexe productinformatie
-              begrijpelijk maken en tegelijk eenvoudig blijven voor het team dat
-              de content beheert.
+              De webshop brengt productinformatie en bestellen samen.
+              Daarbij was het belangrijk dat bezoekers hun weg kunnen vinden
+              en dat de inhoud eenvoudig bij te houden is.
             </p>
           </div>
         </div>
@@ -96,13 +94,12 @@ export default function Breinoptimaal() {
           <p className="eyebrow">02 / Het systeem</p>
           <div className="mt-8 grid gap-14 lg:grid-cols-2">
             <h2 className="text-[clamp(3rem,6vw,6.5rem)] font-medium leading-[0.95] tracking-[-0.055em]">
-              Content die het team zelf in beweging houdt.
+              Zelf de inhoud bijhouden.
             </h2>
             <div className="grid content-start gap-8 text-lg leading-8 text-[#14261d]/65">
               <p>
-                We brachten merkverhaal, productbewijs en checkout samen in één
-                rustige klantreis. Sanity geeft het team controle over producten
-                en verhalen; Stripe maakt afrekenen direct en betrouwbaar.
+                Producten en artikelen zijn te beheren in Sanity.
+                Voor het afrekenen is de webshop gekoppeld aan Stripe.
               </p>
               <ul className="grid gap-3 border-t border-[#14261d]/20 pt-6 text-sm">
                 <li>— Modulair contentmodel in Sanity</li>
@@ -128,22 +125,21 @@ export default function Breinoptimaal() {
         <div className="mx-auto max-w-[1600px]">
           <p className="eyebrow text-white/45">03 / Resultaat</p>
           <h2 className="mt-8 max-w-6xl text-[clamp(3rem,7vw,7rem)] font-medium leading-[0.93] tracking-[-0.06em]">
-            Een gezonde basis die niet opnieuw gebouwd hoeft te worden zodra het
-            merk groeit.
+            Een webshop met ruimte voor nieuwe producten.
           </h2>
           <div className="mt-16 grid gap-8 border-t border-white/20 pt-8 md:grid-cols-3">
             <div>
-              <strong className="text-5xl font-medium">100%</strong>
-              <p className="mt-3 text-white/55">Veilige Stripe-checkout</p>
+              <h3 className="text-xl">Online betalen</h3>
+              <p className="mt-3 text-white/65">Via Stripe</p>
             </div>
             <div>
-              <strong className="text-5xl font-medium">±1s</strong>
-              <p className="mt-3 text-white/55">Gemeten gemiddelde laadtijd</p>
+              <h3 className="text-xl">Contentbeheer</h3>
+              <p className="mt-3 text-white/65">Producten en artikelen in Sanity</p>
             </div>
             <div>
-              <strong className="text-5xl font-medium">20+</strong>
-              <p className="mt-3 text-white/55">
-                Eerste bestellingen na lancering
+              <h3 className="text-xl">Responsive ontwerp</h3>
+              <p className="mt-3 text-white/65">
+                Voor mobiel en desktop
               </p>
             </div>
           </div>

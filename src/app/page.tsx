@@ -15,21 +15,19 @@ export default function Home() {
       <VideoHero />
       <section className="bg-[#f4f2ea] px-5 py-20 md:px-8 md:py-32">
         <div className="mx-auto max-w-[1600px] grid gap-12 lg:grid-cols-[1fr_2fr]">
-          <p className="eyebrow">01 / Richting</p>
+          <p className="eyebrow">Over ons</p>
           <div>
             <h2 className="max-w-5xl text-[clamp(2.5rem,5vw,5.5rem)] font-medium leading-[0.98] tracking-[-0.055em]">
-              Wij ontwerpen systemen die merken herkenbaar maken en bedrijven
-              vooruit helpen.
+              Wij werken graag aan ontwerp en techniek.
             </h2>
             <div className="mt-12 grid gap-8 border-t border-black/20 pt-6 text-sm leading-6 text-black/65 md:grid-cols-2">
               <p>
-                Wij zijn een onafhankelijke digitale studio in Groningen.
-                Strategie, ontwerp en techniek zitten aan dezelfde tafel—zodat
-                goede ideeën niet verloren gaan tussen disciplines.
+                Ons werk loopt uiteen van websites en webshops tot
+                afspraakplanners. Wij verzorgen het ontwerp en de bouw.
               </p>
               <p>
-                We werken direct, bouwen zorgvuldig en meten wat beter kan.
-                Klein in bezetting, groot in verantwoordelijkheid.
+                Wij houden van rustige ontwerpen en dingen die prettig werken.
+                Hieronder vind je een aantal projecten waar wij aan hebben gewerkt.
               </p>
             </div>
           </div>
@@ -40,76 +38,70 @@ export default function Home() {
         className="scroll-mt-20 bg-[#f4f2ea] px-5 pb-24 md:px-8 md:pb-36"
       >
         <div className="mx-auto max-w-[1600px]">
-          <div className="mb-10 flex items-end justify-between border-b border-black/20 pb-5">
+          <div className="mb-10 flex flex-wrap items-end justify-between gap-5 border-b border-black/20 pb-5">
             <h2 className="text-5xl font-medium tracking-[-0.05em] md:text-7xl">
-              Geselecteerd werk
+              Werk
             </h2>
-            <span className="eyebrow">2024—2026</span>
           </div>
           <div className="grid gap-x-6 gap-y-20 md:grid-cols-2 xl:grid-cols-3">
             <ProjectCard
               number="01"
-              discipline="Commerce"
+              discipline="Webshop"
               url="breinoptimaal"
               title="Breinoptimaal"
-              info="Een schaalbare webshop waarin merk, content en checkout als één geheel werken."
+              info="Ontwerp en bouw van een webshop voor voedingssupplementen."
               image={brein}
               hoverImage={breinHover}
             />
             <ProjectCard
               number="02"
-              discipline="Booking"
+              discipline="Website & afspraken"
               url="kapsalon_four_seasons"
               title="Kapsalon Four Seasons"
-              info="Een karaktervolle website en afspraakplanner voor een Gronings begrip."
+              info="Een website met online afspraakplanner voor een kapsalon in Groningen."
               image={barber}
               hoverImage={barberHover}
             />
             <ProjectCard
               number="03"
-              discipline="Hospitality"
+              discipline="Restaurantwebsite"
               url="restaurant_four_seasons"
               title="Restaurant Four Seasons"
-              info="Een warme digitale identiteit die van eerste bezoek naar reservering leidt."
+              info="Een website met informatie over het restaurant en online reserveren."
               image={restaurant}
               hoverImage={restaurantHover}
             />
           </div>
         </div>
       </section>
-      <section className="bg-[#ff4d00] px-5 py-20 text-white md:px-8 md:py-28">
+      <section className="border-t border-black/15 bg-[#f4f2ea] px-5 py-20 text-[#171714] md:px-8 md:py-28">
         <div className="mx-auto grid max-w-[1600px] gap-12 md:grid-cols-3">
           <div>
-            <p className="eyebrow">01 / Ontwerpen</p>
-            <h3 className="mt-5 text-3xl tracking-tight">Een eigen gezicht</h3>
-            <p className="mt-4 max-w-sm text-white/75">
-              Positionering, UX en visueel ontwerp dat niet uit een template
-              lijkt te komen.
+            <h3 className="text-3xl tracking-tight">Ontwerp</h3>
+            <p className="mt-4 max-w-sm leading-7 text-black/65">
+              Structuur, indeling en de visuele uitwerking van een website.
             </p>
           </div>
           <div>
-            <p className="eyebrow">02 / Bouwen</p>
-            <h3 className="mt-5 text-3xl tracking-tight">Snel en solide</h3>
-            <p className="mt-4 max-w-sm text-white/75">
-              Moderne websites en systemen met aandacht voor beheer,
+            <h3 className="text-3xl tracking-tight">Development</h3>
+            <p className="mt-4 max-w-sm leading-7 text-black/65">
+              Websites en webshops, met aandacht voor beheer,
               toegankelijkheid en snelheid.
             </p>
           </div>
           <div>
-            <p className="eyebrow">03 / Verbeteren</p>
-            <h3 className="mt-5 text-3xl tracking-tight">Meten wat werkt</h3>
-            <p className="mt-4 max-w-sm text-white/75">
-              Doorontwikkelen op basis van gedrag, performance en echte
-              bedrijfsdoelen.
+            <h3 className="text-3xl tracking-tight">Onderhoud</h3>
+            <p className="mt-4 max-w-sm leading-7 text-black/65">
+              Aanpassingen, updates en verdere ontwikkeling van bestaande websites.
             </p>
           </div>
         </div>
         <div className="mx-auto mt-16 max-w-[1600px]">
           <Link
             href="/services"
-            className="inline-block border-b border-white pb-1"
+            className="inline-block border-b border-current pb-1 transition hover:opacity-70"
           >
-            Bekijk de aanpak ↗
+            Meer over ons werk ↗
           </Link>
         </div>
       </section>
